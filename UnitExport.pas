@@ -142,7 +142,7 @@ procedure TExport.FormCreate(Sender: TObject);
 
         LogFolder := IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)) + 'Logs\';
         If not directoryExists(LogFolder) Then CreateDir(LogFolder);
-        FILE_LOGFILE := IncludeTrailingPathDelimiter(LogFolder + '[' + Application.Title  + '] ' + formatdatetime('dd-mm-yyyy', now) +  '.log';
+        FILE_LOGFILE := LogFolder + '[' + Application.Title  + '] ' + formatdatetime('dd-mm-yyyy', now) +  '.log';
         LogLine(0, 'Demmarrage version : ' + APP_VERSION + _CR);
         If DEBUG
           Then LogLine(1, 'mode debug');

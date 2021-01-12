@@ -44,13 +44,22 @@ object FormConfiguration: TFormConfiguration
       OnClick = CancelConfig
       Kind = bkCancel
     end
+    object BitBtn1: TBitBtn
+      Left = 88
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'BitBtn1'
+      TabOrder = 2
+      OnClick = BitBtn1Click
+    end
   end
   object PageControlConfiguration: TPageControl
     Left = 0
     Top = 0
     Width = 855
     Height = 473
-    ActivePage = TabSheetImportCsv
+    ActivePage = TabSheetCsv
     Align = alClient
     TabOrder = 1
     OnChange = PageControlConfigurationChange
@@ -456,7 +465,10 @@ object FormConfiguration: TFormConfiguration
         Width = 847
         Height = 445
         Align = alClient
+        FixedCols = 0
         TabOrder = 0
+        OnDblClick = StringGridCsvDblClick
+        OnSelectCell = StringGridCsvSelectCell
         RowHeights = (
           24
           24

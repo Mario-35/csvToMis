@@ -51,6 +51,7 @@ type
     CheckBoxZipAfterImport: TCheckBox;
     TabSheetCsv: TTabSheet;
     StringGridCsv: TStringGrid;
+    BitBtn1: TBitBtn;
 
 
 
@@ -94,6 +95,11 @@ type
     procedure SpeedButton1Click(Sender: TObject);
     procedure SpeedButton2Click(Sender: TObject);
     procedure SpeedButton3Click(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
+    function testFormat(input: string): string;
+    procedure StringGridCsvDblClick(Sender: TObject);
+    procedure StringGridCsvSelectCell(Sender: TObject; ACol, ARow: Integer;
+      var CanSelect: Boolean);
   private
     procedure LogLine(Indent: Integer; AMessage: string);
     function readEnTry(Entry: string; DefaultValue: string): string; Overload;
@@ -107,6 +113,7 @@ Const
     WM_ICONTRAY =  WM_USER + 1;
 
 var
+_COL, _ROW : Integer;
   FormConfiguration: TFormConfiguration;
 
 implementation
@@ -163,6 +170,9 @@ procedure TFormConfiguration.loadFile(fileName: string);
 Begin
    if AnsiUpperCase(ExtractFileExt(fileName)) = '.CSV' Then
       LoadCSV(fileName);
+
+   if AnsiUpperCase(ExtractFileExt(fileName)) = '.INI' Then
+      CONFIG.LoadFromFile(fileName);
 
 End ;
 
@@ -245,6 +255,7 @@ procedure TFormConfiguration.ReadConfig;
   procedure TFormConfiguration.SaveConfig(Sender: TObject);
   Begin
     LogLine(0, _CONFIG_SAVE);
+    SaveStringGrid();
     CONFIG.SaveToFile(FILE_CONFIG);
   End;
 
@@ -617,19 +628,37 @@ end;
 
 procedure TFormConfiguration.resizeCsv;
 var
-   i, j, W, WMax: integer;
+   i, j, k, W, WMax: integer;
 
 begin
-  WMax := 0;
-  for j := 0 to StringGridCsv.ColCount - 1 do
-  begin
-    for i := 0 to (StringGridCsv.RowCount - 1) do begin
-      W := StringGridCsv.Canvas.TextWidth(StringGridCsv.Cells[j, i]);
-      if W > WMax then
-        WMax := W;
+
+  with StringGridCsv do
+  Begin
+      i := ColCount - 2;
+      if StringGridCsv.Cells[i,0] = 'Test' Then
+      begin
+        for k := 1 to RowCount - 1 do
+         If trim(Cells[i, k]) = ''
+          Then Cells[i, k] := testFormat(Cells[3, k]) ;
+      end;
+
+    WMax := 0;
+    for j := 0 to ColCount - 1 do
+    begin
+      for i := 0 to (StringGridCsv.RowCount - 1) do begin
+        W := StringGridCsv.Canvas.TextWidth(StringGridCsv.Cells[j, i]);
+        if W > WMax then
+          WMax := W;
+        end;
+      ColWidths[j] := WMax + 5;
     end;
-    StringGridCsv.ColWidths[j] := WMax + 5;
-  end;
+  End;
+
+
+
+
+
+
 end;
 
 procedure TFormConfiguration.SaveStringGrid();
@@ -681,6 +710,61 @@ begin
   resizeCsv();
 end;
 
+
+function TFormConfiguration.testFormat(input: string): string;
+const 
+  Char_Accents      = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ';
+
+var
+  position, i: integer;
+
+Begin
+ For i := 1 to Length(Char_Accents) do
+ begin
+  position := AnsiPos(Char_Accents[i], input);
+  if position > 0
+    Then begin
+      result := Copy(input, 0, position-1);
+      exit;
+    end;
+ end;
+  position := AnsiPos(' ', input);
+  if position > 0
+    Then result := Copy(input, 0, position-1);
+
+end;
+
+procedure TFormConfiguration.BitBtn1Click(Sender: TObject);
+var i,k : integer;
+begin
+  with StringGridCsv do
+  Begin
+      i := ColCount - 2;
+      if StringGridCsv.Cells[i,0] = 'Test' Then
+      begin
+        for k := 1 to RowCount - 1 do
+        Begin
+          Cells[i, k] := testFormat(Cells[3, k]) ;
+        End;
+      end;
+  End;
+end;
+
+procedure TFormConfiguration.StringGridCsvDblClick(Sender: TObject);
+
+var
+  value : string;
+
+begin
+  StringGridCsv.Cells[_COL, _ROW] := inputbox('Test program', 'Please type your town', StringGridCsv.Cells[_COL, _ROW]);
+end;
+
+procedure TFormConfiguration.StringGridCsvSelectCell(Sender: TObject; ACol,
+  ARow: Integer; var CanSelect: Boolean);
+begin
+_COL := ACol;
+_ROW := ARow;
+end;
 
 End.
 
