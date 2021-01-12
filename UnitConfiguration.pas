@@ -172,7 +172,10 @@ Begin
       LoadCSV(fileName);
 
    if AnsiUpperCase(ExtractFileExt(fileName)) = '.INI' Then
+   begin
       CONFIG.LoadFromFile(fileName);
+      FormCreate(Self);
+   end;
 
 End ;
 
@@ -688,6 +691,7 @@ var
   Data: TStringList;
 
 begin
+  if CONFIG.Values['csv'] = '' then exit;
   Data := TStringList.Create;
   data.Text := StringReplace(CONFIG.Values['csv'], ';', #13#10, [rfReplaceAll]);
   with StringGridCsv do
