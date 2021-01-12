@@ -12,7 +12,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ExtCtrls, Buttons, Grids, ValEdit, ComCtrls, strUtils,
   Menus, Spin, Mask, Types, ZipForge, UnitVariables, CheckLst, SHLOBJ,
-   DB, DBGrids, DBTables, FileCtrl;
+   DB, DBGrids, DBTables, FileCtrl, ShellAPI;
 
 type
   TFormConfiguration = class(TForm)
@@ -49,6 +49,13 @@ type
     Label2: TLabel;
     EditFolderArchive: TEdit;
     CheckBoxZipAfterImport: TCheckBox;
+    TabSheetCsv: TTabSheet;
+    StringGridCsv: TStringGrid;
+
+
+
+    procedure WMDropFiles(var Msg: TWMDropFiles); message WM_DROPFILES;
+    procedure loadFile(fileName: string);
 
     procedure FormCreate(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -75,6 +82,11 @@ type
     procedure EditExit(Sender: TObject);
     function SelectDirectory(var Foldr: string; Title: string): Boolean;
     procedure UpdateValueList(Sender: TObject);
+
+    procedure LoadCSV(Filename: string);
+    procedure SaveStringGrid;
+    procedure LoadStringGrid;
+    procedure resizeCsv;
 
 // ********************************************************************************************************************
 // *                                            Actions et traitements                                                *
@@ -104,8 +116,61 @@ uses UnitExport, UnitListSelect, RegisTry, IniFiles;
 {$R *.dfm}
 
 
+
+
+
+procedure TFormConfiguration.WMDropFiles(var Msg: TWMDropFiles);
+var
+  DropH: HDROP;               // drop handle
+  DroppedFileCount: Integer;  // number of files dropped
+  FileNameLength: Integer;    // length of a dropped file name
+  FileName: string;           // a dropped file name
+
+  DropPoint: TPoint;          // point where files dropped
+
+begin
+  inherited;
+  // Store drop handle from the message
+  DropH := Msg.Drop;
+  try
+    // Get count of files dropped
+    DroppedFileCount := DragQueryFile(DropH, $FFFFFFFF, nil, 0);
+    // Get name of each file dropped and process it
+    if (DroppedFileCount = 1) Then
+    begin
+      // get length of file name
+      FileNameLength := DragQueryFile(DropH, 0, nil, 0);
+      // create string large enough to store file
+      SetLength(FileName, FileNameLength);
+      // get the file name
+      DragQueryFile(DropH, 0, PChar(FileName), FileNameLength + 1);
+      // process file name (application specific)
+      loadFile(PChar(FileName));
+    end;
+    // Optional: Get point at which files were dropped
+    DragQueryPoint(DropH, DropPoint);
+    // ... do something with drop point here
+  finally
+    // Tidy up - release the drop handle
+    // don't use DropH again after this
+    DragFinish(DropH);
+  end;
+  // Note we handled message
+  Msg.Result := 0;
+end;
+
+procedure TFormConfiguration.loadFile(fileName: string);
+Begin
+   if AnsiUpperCase(ExtractFileExt(fileName)) = '.CSV' Then
+      LoadCSV(fileName);
+
+End ;
+
 procedure TFormConfiguration.FormCreate(Sender: TObject);
   Begin
+
+     DragAcceptFiles(Self.Handle, True);
+
     PageControlConfiguration.ActivePageIndex := 0;
     ReadConfig;
 
@@ -120,6 +185,8 @@ procedure TFormConfiguration.FormCreate(Sender: TObject);
     If directoryExists(CONFIG.Values['ArchiveFolder'])
       Then EditFolderArchive.Text := CONFIG.Values['ArchiveFolder'];
 
+    LoadStringGrid();
+
     RefreshConfig;
 
   End;
@@ -133,6 +200,7 @@ procedure TFormConfiguration.FormShow(Sender: TObject);
 procedure TFormConfiguration.FormClose(Sender: TObject; var Action: TCloseAction);
   begin
     RefreshConfig;
+    DragAcceptFiles(Self.Handle, False);
   end;
 
 
@@ -499,6 +567,120 @@ begin
   CONFIG.Values[TSpeedButton(Sender).Hint] := Foldr;
   RefreshConfig;
 end;
+
+
+
+
+
+procedure TFormConfiguration.LoadCSV(Filename: string);
+var
+   i, j, Position, count, edt1 : integer;
+   temp, entete, tempField : string;
+   FieldDel: char;
+   Data, Ligne: TStringList;
+   strArray  : Array of String;
+   strA      : String;
+begin
+  Data := TStringList.Create;
+  Ligne := TStringList.create;
+  FieldDel := ';';
+  Data.LoadFromFile(Filename);
+  StringGridCsv.RowCount := Data.Count;
+  Ligne.text := StringReplace(Data[0], FieldDel, #13#10, [rfReplaceAll]);
+  StringGridCsv.ColCount := Ligne.Count;
+  for i := 0 to Ligne.Count - 1 do StringGridCsv.Cells[i,0] :=  Ligne[i];
+
+  for j := 1 to Data.Count - 1 do
+  Begin
+    Ligne.text := StringReplace(Data[j], FieldDel, #13#10, [rfReplaceAll]);
+    for i := 0 to Ligne.Count - 1 do
+        StringGridCsv.Cells[i,j] :=  Ligne[i];
+  End;
+
+  if StringGridCsv.Cells[StringGridCsv.ColCount - 1 ,0] <> 'Calcul' Then
+  Begin
+    StringGridCsv.ColCount := StringGridCsv.ColCount + 2;
+    StringGridCsv.Cells[StringGridCsv.ColCount - 1,0] := 'Calcul';
+    StringGridCsv.Cells[StringGridCsv.ColCount - 2,0] := 'Test';
+  End;
+  resizeCsv();
+
+
+
+    Data.Free;
+    Ligne.Free;
+    SaveStringGrid();
+
+end;
+
+
+
+procedure TFormConfiguration.resizeCsv;
+var
+   i, j, W, WMax: integer;
+
+begin
+  WMax := 0;
+  for j := 0 to StringGridCsv.ColCount - 1 do
+  begin
+    for i := 0 to (StringGridCsv.RowCount - 1) do begin
+      W := StringGridCsv.Canvas.TextWidth(StringGridCsv.Cells[j, i]);
+      if W > WMax then
+        WMax := W;
+    end;
+    StringGridCsv.ColWidths[j] := WMax + 5;
+  end;
+end;
+
+procedure TFormConfiguration.SaveStringGrid();
+var
+  i, k: Integer;
+  Data: TStringList;
+
+begin
+  Data := TStringList.Create;
+  with StringGridCsv do
+  begin
+    // Write number of Columns/Rows
+    Data.Add(intToStr(ColCount));
+    Data.Add(intToStr(RowCount));
+    // loop through cells
+    for i := 0 to ColCount - 1 do
+      for k := 0 to RowCount - 1 do
+        Data.Add(Cells[i, k]);
+  end;
+  CONFIG.Values['csv'] := StringReplace(Data.Text, #13#10, ';', [rfReplaceAll]);
+  Data.Free;
+end;
+
+procedure TFormConfiguration.LoadStringGrid();
+var
+  i, k, index: Integer;
+  Data: TStringList;
+
+begin
+  Data := TStringList.Create;
+  data.Text := StringReplace(CONFIG.Values['csv'], ';', #13#10, [rfReplaceAll]);
+  with StringGridCsv do
+  begin
+    ColCount := strToInt(data[0]);
+    RowCount := strToInt(data[1]);
+    // Write number of Columns/Rows
+    Data.Add(intToStr(ColCount));
+    Data.Add(intToStr(RowCount));
+    // loop through cells
+    index := 2;
+    for i := 0 to ColCount - 1 do
+      for k := 0 to RowCount - 1 do
+      Begin
+        Cells[i, k] := data[index];
+        inc(index);
+      End;
+  end;
+  Data.Free;
+  resizeCsv();
+end;
+
 
 End.
 

@@ -110,7 +110,8 @@ uses UnitConfiguration, Registry, IniFiles, UnitSplashScreen,
 procedure TExport.FormCreate(Sender: TObject);
     var
       i : integer;
-        Item: TMenuItem;
+      Item: TMenuItem;
+      LogFolder: string;
 
     Begin
        // DEBUG := True;
@@ -139,7 +140,9 @@ procedure TExport.FormCreate(Sender: TObject);
 
         StatusBarMain.Panels[0].Text := 'ver : ' + APP_VERSION;
 
-        FILE_LOGFILE := IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)) + 'Logs\' + '[' + Application.Title  + '] ' + formatdatetime('dd-mm-yyyy', now) +  '.log';
+        LogFolder := IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)) + 'Logs\';
+        If not directoryExists(LogFolder) Then CreateDir(LogFolder);
+        FILE_LOGFILE := IncludeTrailingPathDelimiter(LogFolder + '[' + Application.Title  + '] ' + formatdatetime('dd-mm-yyyy', now) +  '.log';
         LogLine(0, 'Demmarrage version : ' + APP_VERSION + _CR);
         If DEBUG
           Then LogLine(1, 'mode debug');
@@ -516,7 +519,7 @@ procedure TExport.ToolButtonStartMaualClick(Sender: TObject);
         Try
           Application.CreateForm(TFormSelectFiles, FormSelectFiles);
           FormSelectFiles.Caption := _FILES_SELECT;
-          FindFilePattern(FormSelectFiles.CheckListBoxLog.Items, CONFIG.Values['CsvFolder'], '.csv', True);
+          FindFilePattern(FormSelectFiles.CheckListBoxLog.Items, CONFIG.Values['CsvFolder'], '.CSV', True);
           If (FormSelectFiles.CheckListBoxLog.Items.Count > 0) Then
           Begin
             Try
@@ -583,6 +586,14 @@ const
     _OUTENTETE = '<STATION>%s</STATION><SENSOR>%s</SENSOR><DATEFORMAT>YYYYMMDD</DATEFORMAT>';
 
 Begin
+
+
+
+
+
+
+
+
   Result := False;
   Filename := trim(Filename);
   _FILEIN := TStringList.Create;

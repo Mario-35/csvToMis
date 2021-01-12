@@ -1,0 +1,19 @@
+Domaine Hydras;Point de mesure;Code capteur hydras;Nom du capteur;N° de colonne fichier csv Diver Office
+Kerbernez;F5b;0102;101_Niveau de nappe (Diver);
+Kerbernez;F5b;0213;0201_Température de la nappe (Diver);
+Kerbernez;F5b;0224;Conductivité électrique (Orphéus+Diver);
+Kerbernez;F5b;0113;0113_Pression (Diver);
+Kerbernez;F2;0101;Niveau Nappe (Diver);
+Kerbernez;F2;0201;Température EAU (Diver);
+Kerbernez;F2;0224;Conductivité électrique (Diver);
+Kerbernez;F2;0113;0113_Pression (Diver);
+Kerbernez;E4;X102;0102_Niveau Cours d'eau (Diver);
+Kerbernez;E4;0201;Température EAU (Diver);
+Kerbernez;E4;0224;Conductivité électrique (Diver);
+Kerbernez;E4;0113;0113_Pression (Diver);
+Kerbernez;E3;X102;0102_Niveau Cours d'eau (Diver);
+Kerbernez;E3;0201;Température EAU (Diver);
+Kerbernez;E3;0224;Conductivité électrique (Diver);
+Kerbernez;E3;0113;0113_Pression (Diver);
+Kerbernez;MET;0410;Pression barométrique (BaroDiver);
+Kerbernez;MET;0400;Température de l'air (BaroDiver);

@@ -1,10 +1,10 @@
 object FormConfiguration: TFormConfiguration
-  Left = 467
-  Top = 95
+  Left = 739
+  Top = 225
   BorderStyle = bsToolWindow
   Caption = 'Configuration'
-  ClientHeight = 361
-  ClientWidth = 428
+  ClientHeight = 514
+  ClientWidth = 855
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -21,8 +21,8 @@ object FormConfiguration: TFormConfiguration
   TextHeight = 13
   object PanelBas: TPanel
     Left = 0
-    Top = 320
-    Width = 428
+    Top = 473
+    Width = 855
     Height = 41
     Align = alBottom
     TabOrder = 0
@@ -48,8 +48,8 @@ object FormConfiguration: TFormConfiguration
   object PageControlConfiguration: TPageControl
     Left = 0
     Top = 0
-    Width = 428
-    Height = 320
+    Width = 855
+    Height = 473
     ActivePage = TabSheetImportCsv
     Align = alClient
     TabOrder = 1
@@ -60,7 +60,7 @@ object FormConfiguration: TFormConfiguration
       object Splitter1: TSplitter
         Left = 0
         Top = 0
-        Height = 292
+        Height = 445
       end
       object PanelParamImport: TPanel
         Left = 10
@@ -249,7 +249,7 @@ object FormConfiguration: TFormConfiguration
             object Label1: TLabel
               Left = 0
               Top = 0
-              Width = 324
+              Width = 392
               Height = 24
               Align = alTop
               Alignment = taCenter
@@ -438,13 +438,31 @@ object FormConfiguration: TFormConfiguration
       object ValueListEditorTemp: TValueListEditor
         Left = 0
         Top = 0
-        Width = 596
-        Height = 477
+        Width = 847
+        Height = 445
         Align = alClient
         TabOrder = 0
         ColWidths = (
           150
-          440)
+          691)
+      end
+    end
+    object TabSheetCsv: TTabSheet
+      Caption = 'TabSheetCsv'
+      ImageIndex = 2
+      object StringGridCsv: TStringGrid
+        Left = 0
+        Top = 0
+        Width = 847
+        Height = 445
+        Align = alClient
+        TabOrder = 0
+        RowHeights = (
+          24
+          24
+          24
+          24
+          24)
       end
     end
   end
