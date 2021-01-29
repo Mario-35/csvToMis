@@ -1,0 +1,200 @@
+[09:30:53]  Demmarrage version : 1.0.0.0
+[09:30:53]  lecture de la configuration
+[09:30:53]  Rafraichissement de la configuration
+[09:31:43]  Demmarrage version : 1.0.0.0
+[09:31:43]  lecture de la configuration
+[09:31:43]  Rafraichissement de la configuration
+[09:32:34]  lecture de la configuration
+[09:32:34]  Rafraichissement de la configuration
+[09:32:37]  Sortie de programme
+[09:32:49]  Demmarrage version : 1.0.0.0
+[09:32:49]  lecture de la configuration
+[09:32:49]  Rafraichissement de la configuration
+[09:33:30]  Rafraichissement de la configuration
+[09:33:46]  Rafraichissement de la configuration
+[09:34:25]  Rafraichissement de la configuration
+[09:34:44]  Rafraichissement de la configuration
+[09:34:51]  sauvegarde de la configuration
+[09:34:51]  Rafraichissement de la configuration
+[09:35:03]  sauvegarde de la configuration
+[09:35:03]  Rafraichissement de la configuration
+[09:41:59]  lecture de la configuration
+[09:41:59]  Rafraichissement de la configuration
+[09:42:44] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[09:42:44] 		 Fichier csv non correct
+[09:42:44] 	 Creation du fichier ZIP : C:\tests\archive\import [29-01-2021-09-42-44].zip
+[09:42:44] 	 Archive basedir \
+[09:42:44] 	 Fermeture du fichier ZIP
+[10:03:10]  Demmarrage version : 1.0.0.0
+[10:03:10]  lecture de la configuration
+[10:03:10]  Rafraichissement de la configuration
+[10:03:16]  Rafraichissement de la configuration
+[10:03:17]  Sortie de programme
+[10:04:51]  Demmarrage version : 1.0.0.0
+[10:04:51]  lecture de la configuration
+[10:04:51]  Rafraichissement de la configuration
+[10:09:21]  Rafraichissement de la configuration
+[10:09:21]  Sortie de programme
+[10:09:54]  Demmarrage version : 1.0.0.0
+[10:09:54]  lecture de la configuration
+[10:09:54]  Rafraichissement de la configuration
+[10:09:58]  Sortie de programme
+[13:22:37]  Demmarrage version : 1.0.0.0
+[13:22:37]  lecture de la configuration
+[13:22:37]  Rafraichissement de la configuration
+[13:22:42] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[13:22:42] 		 Fichier csv non correct
+[13:22:42] 	 Creation du fichier ZIP : C:\tests\archive\import [29-01-2021-13-22-42].zip
+[13:22:42] 	 Archive basedir \
+[13:22:42] 	 Fermeture du fichier ZIP
+[13:22:48]  Sortie de programme
+[13:24:06]  Demmarrage version : 1.0.0.0
+[13:24:06]  lecture de la configuration
+[13:24:06]  Rafraichissement de la configuration
+[13:24:17] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[13:24:17] 		 Fichier csv non correct
+[13:24:30] 	 Creation du fichier ZIP : C:\tests\archive\import [29-01-2021-13-24-30].zip
+[13:24:30] 	 Archive basedir \
+[13:24:30] 	 Fermeture du fichier ZIP
+[13:24:33]  Sortie de programme
+[13:26:24]  Demmarrage version : 1.0.0.0
+[13:26:24]  lecture de la configuration
+[13:26:24]  Rafraichissement de la configuration
+[13:26:29] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[13:26:30] 		 station : température[°c]
+[13:27:11]  Sortie de programme
+[13:30:17]  Demmarrage version : 1.0.0.0
+[13:30:17]  lecture de la configuration
+[13:30:17]  Rafraichissement de la configuration
+[13:30:32]  sauvegarde de la configuration
+[13:30:32]  Rafraichissement de la configuration
+[13:30:33]  Sortie de programme
+[13:30:35]  Demmarrage version : 1.0.0.0
+[13:30:35]  lecture de la configuration
+[13:30:35]  Rafraichissement de la configuration
+[13:30:40]  Rafraichissement de la configuration
+[13:30:46]  Rafraichissement de la configuration
+[13:30:51] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[13:30:52] 		 station : température[°c]
+[14:20:37]  Demmarrage version : 1.0.0.0
+[14:20:37]  lecture de la configuration
+[14:20:37]  Rafraichissement de la configuration
+[14:20:44] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:20:47] 		 station : température[°c]
+[14:21:07]  Sortie de programme
+[14:24:06]  Demmarrage version : 1.0.0.0
+[14:24:07]  lecture de la configuration
+[14:24:07]  Rafraichissement de la configuration
+[14:24:13] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:25:44]  Demmarrage version : 1.0.0.0
+[14:25:44]  lecture de la configuration
+[14:25:44]  Rafraichissement de la configuration
+[14:29:32]  lecture de la configuration
+[14:29:32]  Rafraichissement de la configuration
+[14:29:33]  Sortie de programme
+[14:36:40]  Demmarrage version : 1.0.0.0
+[14:36:40]  lecture de la configuration
+[14:36:40]  Rafraichissement de la configuration
+[14:36:45] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:36:49] 		 station : charge hydraulique[cm]
+[14:38:17]  Demmarrage version : 1.0.0.0
+[14:38:17]  lecture de la configuration
+[14:38:17]  Rafraichissement de la configuration
+[14:38:22] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:38:27] 		 station : charge hydraulique[cm]
+[14:39:03]  Demmarrage version : 1.0.0.0
+[14:39:03]  lecture de la configuration
+[14:39:03]  Rafraichissement de la configuration
+[14:39:32]  Demmarrage version : 1.0.0.0
+[14:39:32]  lecture de la configuration
+[14:39:32]  Rafraichissement de la configuration
+[14:39:36] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:39:37] 		 station : charge hydraulique[cm]
+[14:45:23]  Demmarrage version : 1.0.0.0
+[14:45:23]  lecture de la configuration
+[14:45:23]  Rafraichissement de la configuration
+[14:46:51] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:46:54] 		 station : charge hydraulique[cm]
+[14:47:44]  Demmarrage version : 1.0.0.0
+[14:47:44]  lecture de la configuration
+[14:47:44]  Rafraichissement de la configuration
+[14:47:50] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:47:52] 		 station : charge hydraulique[cm]
+[14:48:08]  Demmarrage version : 1.0.0.0
+[14:48:08]  lecture de la configuration
+[14:48:08]  Rafraichissement de la configuration
+[14:48:22]  Rafraichissement de la configuration
+[14:48:23]  Sortie de programme
+[14:49:41]  Demmarrage version : 1.0.0.0
+[14:49:41]  lecture de la configuration
+[14:49:41]  Rafraichissement de la configuration
+[14:49:48]  lecture de la configuration
+[14:49:48]  Rafraichissement de la configuration
+[14:49:52] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[14:49:54] 		 station : charge hydraulique[cm]
+[15:00:59]  Demmarrage version : 1.0.0.0
+[15:00:59]  lecture de la configuration
+[15:00:59]  Rafraichissement de la configuration
+[15:01:01]  Sortie de programme
+[15:01:34]  Demmarrage version : 1.0.0.0
+[15:01:34]  lecture de la configuration
+[15:01:34]  Rafraichissement de la configuration
+[15:01:36]  Sortie de programme
+[15:02:18]  Demmarrage version : 1.0.0.0
+[15:02:18]  lecture de la configuration
+[15:02:18]  Rafraichissement de la configuration
+[15:02:22] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[15:02:24] 		 station : charge hydraulique[cm]
+[16:31:21]  Demmarrage version : 1.0.0.0
+[16:31:21]  lecture de la configuration
+[16:31:21]  Rafraichissement de la configuration
+[17:16:06]  lecture de la configuration
+[17:16:06]  Rafraichissement de la configuration
+[17:16:08]  Sortie de programme
+[17:16:16]  Demmarrage version : 1.0.0.0
+[17:16:16]  lecture de la configuration
+[17:16:16]  Rafraichissement de la configuration
+[17:16:23] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[17:16:23] 		 station : Charge hydraulique[cm]
+[17:21:41]  Demmarrage version : 1.0.0.0
+[17:21:41]  lecture de la configuration
+[17:21:41]  Rafraichissement de la configuration
+[17:21:53] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[17:21:53] 		 station : Charge hydraulique[cm]
+[17:22:39]  Demmarrage version : 1.0.0.0
+[17:22:39]  lecture de la configuration
+[17:22:39]  Rafraichissement de la configuration
+[17:49:32]  Demmarrage version : 1.0.0.0
+[17:49:32]  lecture de la configuration
+[17:49:32]  Rafraichissement de la configuration
+[17:49:37] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[17:49:37] 		 station : Charge hydraulique[cm]
+[17:50:29]  Demmarrage version : 1.0.0.0
+[17:50:29]  lecture de la configuration
+[17:50:29]  Rafraichissement de la configuration
+[17:50:34] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[17:50:34] 		 station : Charge hydraulique[cm]
+[17:54:25]  Demmarrage version : 1.0.0.0
+[17:54:25]  lecture de la configuration
+[17:54:25]  Rafraichissement de la configuration
+[17:54:33] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[17:54:33] 		 station : Charge hydraulique[cm]
+[17:58:25]  Demmarrage version : 1.0.0.0
+[17:58:26]  lecture de la configuration
+[17:58:26]  Rafraichissement de la configuration
+[17:58:32] 	 Traitement du fichier csv : C:\tests\csv\e3_201119143917_P4492.CSV
+[17:58:32] 		 station : Charge hydraulique[cm]
+[17:58:41] 		 station : Température[°C]
+[17:58:44] 		 station : 2:Cond. spéc.[ms/cm]
+[17:58:46] 	 Traitement du fichier fini
+[17:58:46] 	 Creation du fichier ZIP : C:\tests\archive\import [29-01-2021-17-58-46].zip
+[17:58:46] 	 Archive basedir \
+[17:58:46] 		 Deplacement du fichier C:\tests\csv\e3_201119143917_P4492.CSV
+[17:58:46] 	 Fermeture du fichier ZIP
+[18:03:40]  Demmarrage version : 1.0.0.0
+[18:03:40]  lecture de la configuration
+[18:03:40]  Rafraichissement de la configuration
+[18:03:49] 	 Creation du fichier ZIP : C:\tests\archive\import [29-01-2021-18-03-49].zip
+[18:03:49] 	 Archive basedir \
+[18:03:49] 	 Fermeture du fichier ZIP
+[18:03:51]  Sortie de programme

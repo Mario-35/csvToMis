@@ -577,23 +577,16 @@ function TExport.exportToMis(Filename: String): boolean;
 var
     myFile : TextFile;
     _FILEIN, _FILEOUT, _TEMP, _ENTETE : TStringList;
-    i,j : integer;
-    ligne, station : String;
+    i,j, k, trouve : integer;
+    ligne, station, sensor, test : String;
 
 const
     _OUTLINE = '%s;%s;%s';
     //_OUTLINE = '%s;%s;%n';
+    _TEST ='date/time';
     _OUTENTETE = '<STATION>%s</STATION><SENSOR>%s</SENSOR><DATEFORMAT>YYYYMMDD</DATEFORMAT>';
 
 Begin
-
-
-
-
-
-
-
-
   Result := False;
   Filename := trim(Filename);
   _FILEIN := TStringList.Create;
@@ -601,34 +594,59 @@ Begin
   _ENTETE := TStringList.Create;
   _TEMP := TStringList.Create;
 
+  // Demmarage fichier
   LogLine(1,  format(_FILE_CSV_PROCESS, [Filename]));
 
+  // si fichier existe pas on sort
   If Not FileExists(Filename) Then
   Begin
     LogLine(2,  format(_FILE_NOT_EXIST, [Filename]));
     exit;
   End;
 
+  // recupere le nom de la station dans le nom du fichier
   _ENTETE.Text := AnsiReplaceText(extractFileName(Filename), '_', #13+#10);
   station := _ENTETE[0];
-  _FILEIN.LoadFromFile(Filename);
-  _FILEIN[0] := AnsiLowerCase(_FILEIN[0]);
 
-  If Not AnsiStartsStr('date;heure;', _FILEIN[0]) Then
+   // chargement du fichier
+  _FILEIN.LoadFromFile(Filename);
+
+  // supprime entete indesirable
+  While Not AnsiStartsStr(_TEST, AnsiLowerCase(_FILEIN[0])) Do _FILEIN.Delete(0);
+
+  // verifie (si fin de fichier ...)
+  If Not AnsiStartsStr(_TEST, AnsiLowerCase(_FILEIN[0])) Then
   Begin
     LogLine(2 , 'Fichier csv non correct');
     exit;
   End;
 
+  // creation d'un tableau avec l'entete
   _ENTETE.Text := AnsiReplaceText(_FILEIN[0], ';', #13+#10);
 
-  For i := 2 to _ENTETE.Count - 1 Do
+  // boucle sur les colonnes sauf la date de la premiere colone
+
+  For i := 1 to _ENTETE.Count - 1 Do
   Begin
     LogLine(2 , 'station : ' + _ENTETE[i]);
-    _FILEOUT.Add(format(_OUTENTETE, [station, _ENTETE[i]]));
+    test := AnsiUpperCase(FormConfiguration.testFormat(_ENTETE[i]));
+
+    // cherche la colonne de correspondance
+    for k := 1 to FormConfiguration.StringGridCsv.RowCount - 1 Do
+       if FormConfiguration.StringGridCsv.Cells[1,k] = station
+        Then if AnsiStartsStr(FormConfiguration.StringGridCsv.Cells[2,k], test)
+          Then trouve := k;
+
+    station := FormConfiguration.StringGridCsv.Cells[3,trouve];
+    sensor :=  FormConfiguration.StringGridCsv.Cells[4,trouve];
+
+    showmessage(format(_OUTENTETE, [station, sensor]));
+
+    _FILEOUT.Add(format(_OUTENTETE, [station, sensor]));
     For j := 1 to _FILEIN.Count - 1 Do
     Begin
       _TEMP.Text := AnsiReplaceText(_FILEIN[j], ';', #13+#10);
+      showmessage(_TEMP.Text);
       _FILEOUT.Add(format(_OUTLINE, [AnsiReplaceText(_TEMP[0],'/',''), AnsiReplaceText(_TEMP[1],':',''),AnsiReplaceText(_TEMP[i],',','.')]));
     End;
   End;
