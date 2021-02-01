@@ -97,9 +97,6 @@ type
     procedure SpeedButton3Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
     function testFormat(input: string): string;
-    procedure StringGridCsvDblClick(Sender: TObject);
-    procedure StringGridCsvSelectCell(Sender: TObject; ACol, ARow: Integer;
-      var CanSelect: Boolean);
   private
     procedure LogLine(Indent: Integer; AMessage: string);
     function readEnTry(Entry: string; DefaultValue: string): string; Overload;
@@ -176,7 +173,7 @@ Begin
       CONFIG.LoadFromFile(fileName);
       FormCreate(Self);
    end;
-
+      ShowMessage('Ok');
 End ;
 
 procedure TFormConfiguration.FormCreate(Sender: TObject);
@@ -754,21 +751,9 @@ begin
   End;
 end;
 
-procedure TFormConfiguration.StringGridCsvDblClick(Sender: TObject);
 
-var
-  value : string;
 
-begin
-  StringGridCsv.Cells[_COL, _ROW] := inputbox('Test program', 'Please type your town', StringGridCsv.Cells[_COL, _ROW]);
-end;
 
-procedure TFormConfiguration.StringGridCsvSelectCell(Sender: TObject; ACol,
-  ARow: Integer; var CanSelect: Boolean);
-begin
-_COL := ACol;
-_ROW := ARow;
-end;
 
 End.
 

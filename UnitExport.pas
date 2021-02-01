@@ -11,7 +11,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ExtCtrls, ValEdit, StrUtils, ZipForge,
-  Buttons, ZAbstractConnection, ZConnection, Menus, ComCtrls, DBCtrls, UnitVariables,  ShellAPI,
+  Buttons, Menus, ComCtrls, DBCtrls, UnitVariables,  ShellAPI,
   CheckLst, FolderMon, ImgList, ToolWin;
 
 Const
@@ -576,9 +576,11 @@ procedure TExport.ToolButtonStartMaualClick(Sender: TObject);
 function TExport.exportToMis(Filename: String): boolean;
 var
     myFile : TextFile;
+    calcul, resultat : double;
+    operation : char;
     _FILEIN, _FILEOUT, _TEMP, _ENTETE : TStringList;
-    i,j, k, trouve : integer;
-    ligne, station, sensor, test : String;
+    i,j, k, trouve, position : integer;
+    ligne, station, sensor, test, _DATE, _HEURE, _VALEUR : String;
 
 const
     _OUTLINE = '%s;%s;%s';
@@ -639,20 +641,51 @@ Begin
 
     station := FormConfiguration.StringGridCsv.Cells[3,trouve];
     sensor :=  FormConfiguration.StringGridCsv.Cells[4,trouve];
+    if Length(FormConfiguration.StringGridCsv.Cells[6,trouve]) > 0 Then
+    Begin
+        test := copy(FormConfiguration.StringGridCsv.Cells[6,trouve],0,1);
+          if test = '+' Then operation := '+';
+          if test = '-' Then operation := '-';
+          if test = '*' Then operation := '*';
+          if test = '/' Then operation := '/';
+      calcul :=  strtofloat(copy(FormConfiguration.StringGridCsv.Cells[6,trouve], 2, 20));
+    End else  operation := '!';
 
-    showmessage(format(_OUTENTETE, [station, sensor]));
+
 
     _FILEOUT.Add(format(_OUTENTETE, [station, sensor]));
     For j := 1 to _FILEIN.Count - 1 Do
     Begin
+
       _TEMP.Text := AnsiReplaceText(_FILEIN[j], ';', #13+#10);
+
       if (_TEMP.count - 1 >= i)
-       Then _FILEOUT.Add(format(_OUTLINE, [AnsiReplaceText(_TEMP[0],'/',''), AnsiReplaceText(_TEMP[1],':',''),AnsiReplaceText(_TEMP[i],',','.')]))
-       Else if AnsiStartsStr(_FILEIN[j], 'END OF DATA FILE')
+       Then begin
+
+        position := ansiPos(' ',_TEMP[0]);
+      if position > 1 Then
+      Begin
+        _DATE := trim(AnsiReplaceText(copy(_TEMP[0],0,position),'/',''));
+        _HEURE := trim(AnsiReplaceText(copy(_TEMP[0], position, 10),':',''));
+        if  operation = '!' Then _VALEUR := _TEMP[i]
+        Else Begin
+          Case operation of
+            '+' : resultat := StrToFloat(_TEMP[i]) + calcul;
+            '-' : resultat := StrToFloat(_TEMP[i]) - calcul;
+            '*' : resultat := StrToFloat(_TEMP[i]) * calcul;
+            '/' : resultat := StrToFloat(_TEMP[i]) / calcul;
+          end;
+          _VALEUR := floatToStr(resultat);
+       End;
+
+    End;
+
+
+       _FILEOUT.Add(format(_OUTLINE, [_DATE, _HEURE ,AnsiReplaceText(_VALEUR,',','.')]))
+       end Else if AnsiStartsStr(_FILEIN[j], 'END OF DATA FILE')
         Then break;
     End;
   End;
-
   _FILEOUT.SaveToFile(IncludeTrailingPathDelimiter(CONFIG.Values['MisFolder'])+AnsiReplaceText(ExtractFileName(Filename),'.csv','.mis'));
   _FILEIN.Free;
   _FILEOUT.Free;

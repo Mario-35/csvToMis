@@ -467,8 +467,6 @@ object FormConfiguration: TFormConfiguration
         Align = alClient
         FixedCols = 0
         TabOrder = 0
-        OnDblClick = StringGridCsvDblClick
-        OnSelectCell = StringGridCsvSelectCell
         RowHeights = (
           24
           24
