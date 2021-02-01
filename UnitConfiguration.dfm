@@ -1,6 +1,6 @@
 object FormConfiguration: TFormConfiguration
-  Left = 739
-  Top = 225
+  Left = 740
+  Top = 227
   BorderStyle = bsToolWindow
   Caption = 'Configuration'
   ClientHeight = 514
@@ -80,7 +80,7 @@ object FormConfiguration: TFormConfiguration
         object LabelParamImports: TLabel
           Left = 1
           Top = 1
-          Width = 398
+          Width = 255
           Height = 24
           Align = alTop
           Alignment = taCenter
@@ -221,7 +221,7 @@ object FormConfiguration: TFormConfiguration
             object LabelCsv: TLabel
               Left = 0
               Top = 0
-              Width = 392
+              Width = 266
               Height = 24
               Align = alTop
               Alignment = taCenter
@@ -258,7 +258,7 @@ object FormConfiguration: TFormConfiguration
             object Label1: TLabel
               Left = 0
               Top = 0
-              Width = 392
+              Width = 324
               Height = 24
               Align = alTop
               Alignment = taCenter
@@ -406,7 +406,7 @@ object FormConfiguration: TFormConfiguration
             object Label2: TLabel
               Left = 1
               Top = 1
-              Width = 390
+              Width = 326
               Height = 24
               Align = alTop
               Alignment = taCenter

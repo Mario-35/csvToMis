@@ -646,8 +646,10 @@ Begin
     For j := 1 to _FILEIN.Count - 1 Do
     Begin
       _TEMP.Text := AnsiReplaceText(_FILEIN[j], ';', #13+#10);
-      showmessage(_TEMP.Text);
-      _FILEOUT.Add(format(_OUTLINE, [AnsiReplaceText(_TEMP[0],'/',''), AnsiReplaceText(_TEMP[1],':',''),AnsiReplaceText(_TEMP[i],',','.')]));
+      if (_TEMP.count - 1 >= i)
+       Then _FILEOUT.Add(format(_OUTLINE, [AnsiReplaceText(_TEMP[0],'/',''), AnsiReplaceText(_TEMP[1],':',''),AnsiReplaceText(_TEMP[i],',','.')]))
+       Else if AnsiStartsStr(_FILEIN[j], 'END OF DATA FILE')
+        Then break;
     End;
   End;
 

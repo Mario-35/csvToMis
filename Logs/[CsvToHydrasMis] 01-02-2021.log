@@ -1,0 +1,176 @@
+[14:53:20]  Demmarrage version : 1.0.0.0
+[14:53:20]  lecture de la configuration
+[14:53:20]  Rafraichissement de la configuration
+[14:55:07]  Rafraichissement de la configuration
+[14:55:37]  sauvegarde de la configuration
+[14:55:37]  Rafraichissement de la configuration
+[14:55:43] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-02-2021-14-55-43].zip
+[14:55:43] 	 Archive basedir \
+[14:55:43] 	 Fermeture du fichier ZIP
+[14:55:46]  Sortie de programme
+[14:55:52]  Demmarrage version : 1.0.0.0
+[14:55:52]  lecture de la configuration
+[14:55:52]  Rafraichissement de la configuration
+[14:56:28]  lecture de la configuration
+[14:56:28]  Rafraichissement de la configuration
+[14:56:34] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[14:56:34] 		 station : Charge hydraulique[cm]
+[14:56:50] 		 station : Température[°C]
+[14:56:55] 		 station : 2:Cond. spéc.[ms/cm]
+[14:56:55] 	 Traitement du fichier fini
+[14:56:55] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-02-2021-14-56-55].zip
+[14:56:55] 	 Archive basedir \
+[14:56:55] 		 Deplacement du fichier C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[14:56:55] 	 Fermeture du fichier ZIP
+[14:57:02]  Sortie de programme
+[15:04:12]  Demmarrage version : 1.0.0.0
+[15:04:12]  lecture de la configuration
+[15:04:12]  Rafraichissement de la configuration
+[15:05:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:05:29] 		 station : Charge hydraulique[cm]
+[15:06:50]  Demmarrage version : 1.0.0.0
+[15:06:50]  lecture de la configuration
+[15:06:50]  Rafraichissement de la configuration
+[15:06:55] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:06:55] 		 station : Charge hydraulique[cm]
+[15:19:02]  Demmarrage version : 1.0.0.0
+[15:19:02]  lecture de la configuration
+[15:19:02]  Rafraichissement de la configuration
+[15:19:32]  Demmarrage version : 1.0.0.0
+[15:19:32]  lecture de la configuration
+[15:19:32]  Rafraichissement de la configuration
+[15:19:35]  Sortie de programme
+[15:20:55]  Demmarrage version : 1.0.0.0
+[15:20:55]  lecture de la configuration
+[15:20:55]  Rafraichissement de la configuration
+[15:20:59] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:20:59] 		 station : Charge hydraulique[cm]
+[15:22:55]  Demmarrage version : 1.0.0.0
+[15:22:55]  lecture de la configuration
+[15:22:55]  Rafraichissement de la configuration
+[15:23:10] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:23:10] 		 station : Charge hydraulique[cm]
+[15:23:48]  Demmarrage version : 1.0.0.0
+[15:23:48]  lecture de la configuration
+[15:23:48]  Rafraichissement de la configuration
+[15:23:51] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:23:51] 		 station : Charge hydraulique[cm]
+[15:25:27]  Demmarrage version : 1.0.0.0
+[15:25:27]  lecture de la configuration
+[15:25:27]  Rafraichissement de la configuration
+[15:25:31] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:25:31] 		 station : Charge hydraulique[cm]
+[15:26:21]  Demmarrage version : 1.0.0.0
+[15:26:21]  lecture de la configuration
+[15:26:21]  Rafraichissement de la configuration
+[15:26:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:26:25] 		 station : Charge hydraulique[cm]
+[15:28:30]  Demmarrage version : 1.0.0.0
+[15:28:30]  lecture de la configuration
+[15:28:30]  Rafraichissement de la configuration
+[15:28:37] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:28:37] 		 station : Charge hydraulique[cm]
+[15:33:49]  Demmarrage version : 1.0.0.0
+[15:33:49]  lecture de la configuration
+[15:33:49]  Rafraichissement de la configuration
+[15:33:51]  Sortie de programme
+[15:34:19]  Demmarrage version : 1.0.0.0
+[15:34:19]  lecture de la configuration
+[15:34:19]  Rafraichissement de la configuration
+[15:34:21]  Sortie de programme
+[15:34:50]  Demmarrage version : 1.0.0.0
+[15:34:50]  lecture de la configuration
+[15:34:50]  Rafraichissement de la configuration
+[15:35:00]  Demmarrage version : 1.0.0.0
+[15:35:00]  lecture de la configuration
+[15:35:00]  Rafraichissement de la configuration
+[15:35:04] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:35:04] 		 station : Charge hydraulique[cm]
+[15:35:05] 		 station : Température[°C]
+[15:35:05] 		 station : 2:Cond. spéc.[ms/cm]
+[15:35:07] 	 Traitement du fichier fini
+[15:35:07] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-02-2021-15-35-07].zip
+[15:35:07] 	 Archive basedir \
+[15:35:07] 		 Deplacement du fichier C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:35:07] 	 Fermeture du fichier ZIP
+[15:37:14]  Rafraichissement de la configuration
+[15:37:15]  Sortie de programme
+[15:39:38]  Demmarrage version : 1.0.0.0
+[15:39:38]  lecture de la configuration
+[15:39:38]  Rafraichissement de la configuration
+[15:39:58] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:39:58] 		 station : Charge hydraulique[cm]
+[15:40:02] 		 station : Température[°C]
+[15:40:15]  Demmarrage version : 1.0.0.0
+[15:40:15]  lecture de la configuration
+[15:40:15]  Rafraichissement de la configuration
+[15:40:18] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:40:18] 		 station : Charge hydraulique[cm]
+[15:40:27]  Demmarrage version : 1.0.0.0
+[15:40:27]  lecture de la configuration
+[15:40:27]  Rafraichissement de la configuration
+[15:40:30] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[15:40:30] 		 station : Charge hydraulique[cm]
+[15:40:41]  Demmarrage version : 1.0.0.0
+[15:40:41]  lecture de la configuration
+[15:40:41]  Rafraichissement de la configuration
+[15:40:51] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-02-2021-15-40-51].zip
+[15:40:51] 	 Archive basedir \
+[15:40:51] 	 Fermeture du fichier ZIP
+[16:02:08]  Demmarrage version : 1.0.0.0
+[16:02:08]  lecture de la configuration
+[16:02:08]  Rafraichissement de la configuration
+[16:02:10]  Sortie de programme
+[16:05:56]  Demmarrage version : 1.0.0.0
+[16:05:56]  lecture de la configuration
+[16:05:56]  Rafraichissement de la configuration
+[16:05:58]  Sortie de programme
+[16:10:15]  Demmarrage version : 1.0.0.0
+[16:10:15]  lecture de la configuration
+[16:10:15]  Rafraichissement de la configuration
+[16:10:18] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:10:18] 		 station : Charge hydraulique[cm]
+[16:10:54]  Demmarrage version : 1.0.0.0
+[16:10:54]  lecture de la configuration
+[16:10:54]  Rafraichissement de la configuration
+[16:10:59] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:10:59] 		 station : Charge hydraulique[cm]
+[16:13:21]  Demmarrage version : 1.0.0.0
+[16:13:21]  lecture de la configuration
+[16:13:21]  Rafraichissement de la configuration
+[16:13:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:13:25] 		 station : Charge hydraulique[cm]
+[16:14:22]  Demmarrage version : 1.0.0.0
+[16:14:22]  lecture de la configuration
+[16:14:22]  Rafraichissement de la configuration
+[16:14:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:14:25] 		 station : Charge hydraulique[cm]
+[16:16:13]  Demmarrage version : 1.0.0.0
+[16:16:13]  lecture de la configuration
+[16:16:13]  Rafraichissement de la configuration
+[16:16:20] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:16:20] 		 station : Charge hydraulique[cm]
+[16:16:20] 		 station : Température[°C]
+[16:16:20] 		 station : 2:Cond. spéc.[ms/cm]
+[16:16:22] 	 Traitement du fichier fini
+[16:16:22] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-02-2021-16-16-22].zip
+[16:16:22] 	 Archive basedir \
+[16:16:22] 		 Deplacement du fichier C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:16:22] 	 Fermeture du fichier ZIP
+[16:17:32]  Demmarrage version : 1.0.0.0
+[16:17:32]  lecture de la configuration
+[16:17:32]  Rafraichissement de la configuration
+[16:17:56] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:17:56] 		 station : Charge hydraulique[cm]
+[16:18:13]  Demmarrage version : 1.0.0.0
+[16:18:13]  lecture de la configuration
+[16:18:13]  Rafraichissement de la configuration
+[16:18:18] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:18:18] 		 station : Charge hydraulique[cm]
+[16:18:18] 		 station : Température[°C]
+[16:18:18] 		 station : 2:Cond. spéc.[ms/cm]
+[16:18:19] 	 Traitement du fichier fini
+[16:18:20] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-02-2021-16-18-20].zip
+[16:18:20] 	 Archive basedir \
+[16:18:20] 		 Deplacement du fichier C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[16:18:20] 	 Fermeture du fichier ZIP
