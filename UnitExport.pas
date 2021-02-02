@@ -1,5 +1,5 @@
 // ********************************************
-// *  Unité Main export                       *
+// *  Unitï¿½ Main export                       *
 // *  @Inrae 2020                             *
 // *  by mario Adam mario.adam@inrae.fr       *
 // ********************************************
@@ -26,7 +26,6 @@ type
     HideForm: TMenuItem;
     ShowForm: TMenuItem;
     Quitter: TMenuItem;
-    TimerStart: TTimer;
     BitBtnStop: TBitBtn;
     ImageOnOff: TImageList;
     PopupMenuLogs: TPopupMenu;
@@ -44,54 +43,28 @@ type
     ToolButton5: TToolButton;
     LabelMonitoring: TLabel;
     RichEditLogs: TRichEdit;
-    ListBoxFilesQueue: TListBox;
     Actuel1: TMenuItem;
 
     procedure RefreshStatus(newState: TProcessType);
-    procedure HideFormClick(Sender: TObject);
-    procedure ShowFormClick(Sender: TObject);
-
-    procedure Exit1MeasureItem(Sender: TObject; ACanvas: TCanvas; var Width, Height: Integer);
-    procedure ShowFormDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRect; Selected: Boolean);
-    procedure HideFormDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRect; Selected: Boolean);
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure QuitterClick(Sender: TObject);
-    procedure QuitterDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRect; Selected: Boolean);
     procedure BitBtnStopClick(Sender: TObject);
 
-    procedure StartMonitoring;
     procedure ToolButtonConfigClick(Sender: TObject);
     procedure ToolButtonExitClick(Sender: TObject);
     procedure ToolButtonAboutClick(Sender: TObject);
     procedure ToolButtonStartMaualClick(Sender: TObject);
 
-    procedure Lancer;
     function exportToMis(Filename: String): boolean;
     function ZipFiles(lst: TStrings) : Boolean;
-    procedure TimerStartTimer(Sender: TObject);
 
+    procedure Actuel1Click(Sender: TObject);
   private
     TrayIconData: TNotifyIconData;
     ligne: string;
-    procedure HandlePopupItem(Sender: TObject);
-
-// ********************************************************************************************************************
-// *                                                      Folder Monitoring                                           *
-// ********************************************************************************************************************
-    procedure HandleFolderChange(ASender: TFolderMon; AFolderItem: TFolderItemInfo);
-    procedure HandleFolderMonActivated(ASender: TObject);
-    procedure HandleFolderMonDeactivated(ASender: TObject);
-    procedure DirectoryWatch1Change(Sender: TObject);
-
-    procedure CleanQueueFiles;
   public
-    procedure AddInQueueFiles(FileName : String);
-    procedure WmICONTRAY(var Msg: TMessage); message WM_ICONTRAY;
-    Procedure MinimizeClick(Sender:TObject);
-    procedure DrawBar(ACanvas: TCanvas);
     procedure LogLine(Indent: Integer; AMessage: string);
-    procedure UpdateQueueFiles;
 
   end;
 
@@ -136,7 +109,6 @@ procedure TExport.FormCreate(Sender: TObject);
             StrPCopy(szTip, Application.Title);
           End;
         Shell_NotifyIcon(NIM_ADD, @TrayIconData);
-        Application.OnMinimize:= MinimizeClick;
 
         StatusBarMain.Panels[0].Text := 'ver : ' + APP_VERSION;
 
@@ -153,12 +125,12 @@ procedure TExport.FormCreate(Sender: TObject);
         BitBtnStop.Left := Round(Export.Width / 2) - Round(BitBtnStop.Width / 2);
         BitBtnStop.top := Export.Height - Round(Export.Height / 4);
 
-        FindFilePattern(TEMP_LIST, IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)), '.log', True);
+        FindFilePattern(TEMP_LIST, IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)) + 'Logs\', '.log', True);
         For i := 0 To TEMP_LIST.Count - 1
           Do Begin
             Item := TMenuItem.Create(PopupMenuLogs);
             Item.Caption := extractFileName(TEMP_LIST[i]);
-            Item.OnClick := HandlePopupItem;
+            Item.OnClick := Actuel1Click;
             PopupMenuLogs.Items.Add(Item);
           End;
         Self.PopupMenu := PopupMenuLogs;
@@ -212,119 +184,6 @@ procedure TExport.LogLine(Indent: Integer; AMessage: string);
     end;
 
 
-// ********************************************************************************************************************
-// *                                                         Systray                                                  *
-// ********************************************************************************************************************
-
-procedure TExport.DrawBar(ACanvas: TCanvas);
-  // Dessine dans la notification
-  var
-    lf : TLogFont;
-    tf : TFont;
-    Begin
-        With ACanvas do
-        Begin
-            Brush.Color := clGray;
-            FillRect(Rect(0,0,20,92));
-            Font.Name := 'Tahoma';
-            Font.Size := 7;
-            Font.Style := Font.Style - [fsBold];
-            Font.Color := clWhite;
-            tf := TFont.Create;
-            Try
-                tf.Assign(Font);
-                GetObject(tf.Handle, sizeof(lf), @lf);
-                lf.lfEscapement := 900;
-                lf.lfHeight := Font.Height - 2;
-                tf.Handle := CreateFontIndirect(lf);
-                Font.Assign(tf);
-            Finally
-                tf.Free;
-            End;
-                TextOut(2, 58, 'HydrasExport');
-        End;
-    End;
-
-
-
-procedure TExport.Exit1MeasureItem(Sender: TObject; ACanvas: TCanvas; var Width, Height: Integer);
-  begin
-    Width := 190;
-  end;
-
-Procedure TExport.MinimizeClick(Sender:TObject);
-begin
-  Self.Hide;
-end;
-
-procedure TExport.HideFormClick(Sender: TObject);
-begin
-  Self.Hide;
-end;
-
-procedure TExport.ShowFormClick(Sender: TObject);
-begin
-  Self.Show;
-end;
-
-procedure TExport.WmICONTRAY(var Msg: TMessage);
-    Var
-     p : TPoint;
-
-    Begin
-        Case Msg.lParam Of
-            WM_LBUTTONDOWN:
-                Begin
-                    self.Show;
-                end;
-            WM_RBUTTONDOWN:
-                begin
-                    SetForegroundWindow(Handle);
-                    GetCursorPos(p);
-                    Mnu.Popup(p.x, p.y);
-                    PostMessage(Handle, WM_NULL, 0, 0);
-                end;
-        end;
-    end;
-
-procedure TExport.ShowFormDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRect; Selected: Boolean);
-    Begin
-        If Selected Then
-            ACanvas.Brush.Color := clHighlight
-        Else
-            ACanvas.Brush.Color := clMenu;
-
-        ARect.Left := 25;
-        ACanvas.FillRect(ARect);
-        DrawText(ACanvas.Handle, PChar('Show Form'), -1, ARect, DT_LEFT or DT_VCENTER or DT_SINGLELINE or DT_NOCLIP);
-    End;
-
-procedure TExport.HideFormDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRect; Selected: Boolean);
-    Begin
-        If Selected Then
-            ACanvas.Brush.Color := clHighlight
-        Else
-            ACanvas.Brush.Color := clMenu;
-
-        ARect.Left := 25;
-        ACanvas.FillRect(ARect);
-
-        DrawText(ACanvas.Handle, PChar('Hide Form'), -1, ARect, DT_LEFT or DT_VCENTER or DT_SINGLELINE or DT_NOCLIP);
-    End;
-
-procedure TExport.QuitterDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRect; Selected: Boolean);
-    Begin
-        If Selected Then
-            ACanvas.Brush.Color := clHighlight
-        Else
-            ACanvas.Brush.Color := clMenu;
-
-        ARect.Left := 25;
-        ACanvas.FillRect(ARect);
-        DrawText(ACanvas.Handle, PChar('Exit'), -1, ARect, DT_LEFT or DT_VCENTER or DT_SINGLELINE or DT_NOCLIP);
-        DrawBar(ACanvas);
-    End;
-
 
   procedure TExport.RefreshStatus(newState: TProcessType);
     Begin
@@ -337,7 +196,7 @@ procedure TExport.QuitterDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRec
           BitBtnStop.SetFocus;
         End;
         tpStart : Begin
-          StatusBarMain.Panels[1].Text := 'Démarrage';
+          StatusBarMain.Panels[1].Text := 'Dï¿½marrage';
           BitBtnStop.Visible := True;
           BitBtnStop.SetFocus;
         End;
@@ -349,17 +208,11 @@ procedure TExport.QuitterDrawItem(Sender: TObject; ACanvas: TCanvas; ARect: TRec
         tpWait : StatusBarMain.Panels[1].Text := 'Traitement en Attente';
         tpPause : StatusBarMain.Panels[1].Text := 'Traitement en pause';
         tpStop : Begin
-          StatusBarMain.Panels[1].Text := 'Traitement stoppé';
+          StatusBarMain.Panels[1].Text := 'Traitement stoppï¿½';
         End;
         tpError : StatusBarMain.Panels[1].Text := 'Erreur';
-        tpDone :  StatusBarMain.Panels[1].Text := 'Terminé';
+        tpDone :  StatusBarMain.Panels[1].Text := 'Terminï¿½';
         tpZip :  StatusBarMain.Panels[1].Text := 'Zip fichier(s)';
-        tpMonitor : Begin
-          if FOLDER_MONITORING.Folder = ''
-            Then StartMonitoring
-            Else FOLDER_MONITORING.Activate;
-          StatusBarMain.Panels[1].Text := 'Ecoute en cours';
-        End;
     End;
 
     Application.ProcessMessages;
@@ -373,108 +226,6 @@ begin
         RefreshStatus(tpStop);
       End Else LogLine(0, 'Annulation do l''arret de traitement');
 end;
-// ********************************************************************************************************************
-// *                                                      Folder Monitoring                                           *
-// ********************************************************************************************************************
-
-procedure TExport.UpdateQueueFiles;
-  Begin
-      ListBoxFilesQueue.Visible := (ListBoxFilesQueue.Items.Count > 0);
-      ListBoxFilesQueue.Height :=   ListBoxFilesQueue.Items.Count * 13;
-      If ListBoxFilesQueue.Height > (RichEditLog.Height div 2 ) Then ListBoxFilesQueue.Height := (RichEditLog.Height div 2 );
-      ListBoxFilesQueue.Top := (StatusBarMain.top - ListBoxFilesQueue.Height) - 2;
-      ListBoxFilesQueue.left := (RichEditLog.Width - ListBoxFilesQueue.Width) - 2;
-  End;
-
-procedure TExport.AddInQueueFiles(FileName : String);
-  var
-    tmp : string;
-     i : integer;
-
-  Begin
-      If (ExtractFileExt(FileName) = '.csv')
-      Then Begin
-        If AnsiPos(FileName, ListBoxFilesQueue.Items.Text) = 0
-          Then Begin
-            ListBoxFilesQueue.Items.Add(FileName);
-            LogLine(1 , 'Ajout du fichier dans la queue : ' + tmp);
-          End;
-      End;
-      CleanQueueFiles;
-      UpdateQueueFiles;
-  End;
-
-
-procedure TExport.CleanQueueFiles;
-  var
-    tmp : string;
-     i : integer;
-
-  Begin
-    For i := 0 To ListBoxFilesQueue.Items.count - 1
-      Do If Not FileExists(ListBoxFilesQueue.Items[i])
-        Then ListBoxFilesQueue.Items[i] := '';
-    Supprime_Ligne_Blanche(ListBoxFilesQueue.Items);
-  End;
-
-procedure TExport.HandleFolderChange(ASender: TFolderMon; AFolderItem: TFolderItemInfo);
-  var
-    tmp : string;
-     i : integer;
-
-  Begin
-      tmp := IncludeTrailingPathDelimiter(ASender.Folder) + AFolderItem.Name;
-      LogLine(0,FOLDER_ACTION_NAMES[AFolderItem.Action] + ' Fichier : ' + tmp);
-      If FOLDER_MONITORING.IsActive
-        Then Begin
-          TimerStart.Enabled := False;
-          AddInQueueFiles(tmp);
-          TimerStart.Enabled := (ListBoxFilesQueue.Items.count > 0) AND (FOLDER_MONITORING.IsActive) AND (PROCESS in [tpNone, tpWait, tpDone, tpMonitor]);
-        End;
-  End;
-
-procedure TExport.HandleFolderMonActivated(ASender: TObject);
-  Begin
-    LogLine(1, format(_MONITORING_DIR_START, [FOLDER_MONITORING.Folder]));
-    LabelMonitoring.Caption := format(_MONITORING_DIR_START, [FOLDER_MONITORING.Folder]);
-  End;
-
-procedure TExport.HandleFolderMonDeactivated(ASender: TObject);
-  Begin
-    LogLine(1, format(_MONITORING_DIR_STOP, [FOLDER_MONITORING.Folder]));
-     LabelMonitoring.Caption := format(_MONITORING_DIR_STOP, [FOLDER_MONITORING.Folder]);
-     TimerStart.Enabled := False;
-  End;
-
-procedure TExport.DirectoryWatch1Change(Sender: TObject);
-  Begin
-    LogLine(0, 'Fichier ' + Sender.ClassName);
-  End;
-
-procedure TExport.StartMonitoring;
-  var
-    vMonitoredChanges: TChangeTypes;
-
-  Begin
-    If FOLDER_MONITORING.IsActive Then
-      FOLDER_MONITORING.Deactivate;
-
-    FOLDER_MONITORING.OnActivated := HandleFolderMonActivated;
-    FOLDER_MONITORING.OnDeactivated := HandleFolderMonDeactivated;
-    FOLDER_MONITORING.OnFolderChange := HandleFolderChange;
-
-      FOLDER_MONITORING.Folder := CONFIG.Values['CsvFolder'];
-      vMonitoredChanges := [];
-      Include(vMonitoredChanges, ctFileName);
-      Include(vMonitoredChanges, ctSize);
-      Include(vMonitoredChanges, ctLastWriteTime);
-      Include(vMonitoredChanges, ctCreationTime);
-      Include(vMonitoredChanges, ctSecurityAttr);
-
-      FOLDER_MONITORING.MonitoredChanges := vMonitoredChanges;
-      FOLDER_MONITORING.MonitorSubFolders := TestBool(CONFIG.Values['MonitorSubfolders']);
-      FOLDER_MONITORING.Activate;
-  End;
 
 procedure TExport.ToolButtonConfigClick(Sender: TObject);
 begin
@@ -494,20 +245,6 @@ begin
   SplashScreen.Free;
 end;
 
-procedure TExport.HandlePopupItem(Sender: TObject);
-  Var
-    S : string;
-
-  begin
-    S := IncludeTrailingPathDelimiter(IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)) + 'Logs') + TMenuItem(Sender).Caption;
-      If FileExists(S)
-          Then Begin
-            RichEditLogs.Lines.LoadFromFile(S);
-            ACTUAL_LOG := False;
-          End Else ACTUAL_LOG := True;
-    RichEditLogs.Visible := Not ACTUAL_LOG;
-    RichEditLog.Visible := ACTUAL_LOG;
-end;
 
 procedure TExport.ToolButtonStartMaualClick(Sender: TObject);
   var
@@ -548,31 +285,6 @@ procedure TExport.ToolButtonStartMaualClick(Sender: TObject);
         End;
   End;
 
-  procedure TExport.Lancer;
-    Var
-       ZipListFiles : TStringList;
-
-    Begin
-      ZipListFiles := TStringList.Create;
-      Try
-        While ListBoxFilesQueue.Items.Count > 0
-          Do Begin
-            If PROCESS <> tpStop
-              Then If exportToMis(export.ListBoxFilesQueue.Items[0])
-                Then Begin
-                  ZipListFiles.Add(export.ListBoxFilesQueue.Items[0]);
-                  export.ListBoxFilesQueue.Items.Delete(0);
-                  export.UpdateQueueFiles;
-                End;
-          End;
-      Finally
-        If (PROCESS <> tpStop) AND (directoryExists(CONFIG.Values['ArchiveFolder']))
-          Then ZipFiles(ZipListFiles);
-        ZipListFiles.Free;
-        RefreshStatus(tpDone);
-      End;
-    End;
-
 function TExport.exportToMis(Filename: String): boolean;
 var
     myFile : TextFile;
@@ -580,7 +292,7 @@ var
     operation : char;
     _FILEIN, _FILEOUT, _TEMP, _ENTETE : TStringList;
     i,j, k, trouve, position : integer;
-    ligne, station, sensor, test, _DATE, _HEURE, _VALEUR : String;
+    ligne, station, test, _DATE, _HEURE, _VALEUR : String;
 
 const
     _OUTLINE = '%s;%s;%s';
@@ -609,7 +321,7 @@ Begin
   // recupere le nom de la station dans le nom du fichier
   _ENTETE.Text := AnsiReplaceText(extractFileName(Filename), '_', #13+#10);
   station := _ENTETE[0];
-
+                showmessage(station);
    // chargement du fichier
   _FILEIN.LoadFromFile(Filename);
 
@@ -631,29 +343,44 @@ Begin
   For i := 1 to _ENTETE.Count - 1 Do
   Begin
     LogLine(2 , 'station : ' + _ENTETE[i]);
-    test := AnsiUpperCase(FormConfiguration.testFormat(_ENTETE[i]));
-
+    test := trim(AnsiUpperCase(FormConfiguration.testFormat(_ENTETE[i])));
     // cherche la colonne de correspondance
-    for k := 1 to FormConfiguration.StringGridCsv.RowCount - 1 Do
+    trouve := -1;
+    k := 0;
+    while trouve = -1 Do
+    // for k := 1 to FormConfiguration.StringGridCsv.RowCount - 1 Do
+    begin
        if FormConfiguration.StringGridCsv.Cells[1,k] = station
-        Then if AnsiStartsStr(FormConfiguration.StringGridCsv.Cells[2,k], test)
-          Then trouve := k;
-
-    station := FormConfiguration.StringGridCsv.Cells[3,trouve];
-    sensor :=  FormConfiguration.StringGridCsv.Cells[4,trouve];
-    if Length(FormConfiguration.StringGridCsv.Cells[6,trouve]) > 0 Then
+        Then if AnsiContainsText(test, FormConfiguration.StringGridCsv.Cells[2,k])
+          Then begin
+            trouve := k;
+            LogLine(2 , 'station: ' + FormConfiguration.StringGridCsv.Cells[3,trouve]);
+            LogLine(2 , 'sensor: ' + FormConfiguration.StringGridCsv.Cells[4,trouve]);
+          end;
+       inc(k);
+       if (k >= FormConfiguration.StringGridCsv.RowCount - 1)
+        Then trouve := -2;
+    end;
+    if trouve > 0 Then
     Begin
-        test := copy(FormConfiguration.StringGridCsv.Cells[6,trouve],0,1);
-          if test = '+' Then operation := '+';
-          if test = '-' Then operation := '-';
-          if test = '*' Then operation := '*';
-          if test = '/' Then operation := '/';
-      calcul :=  strtofloat(copy(FormConfiguration.StringGridCsv.Cells[6,trouve], 2, 20));
-    End else  operation := '!';
+      if Length(FormConfiguration.StringGridCsv.Cells[6,trouve]) > 0 Then
+      Begin
+          test := copy(FormConfiguration.StringGridCsv.Cells[6,trouve],0,1);
+            if test = '+' Then operation := '+';
+            if test = '-' Then operation := '-';
+            if test = '*' Then operation := '*';
+            if test = '/' Then operation := '/';
+            calcul :=  strtofloat(copy(FormConfiguration.StringGridCsv.Cells[6,trouve], 2, 20));
+      End else  operation := '!';
+    End Else begin
+      LogLine(2 , 'Erreur : Pas de correspondance pour station :  ' + station);
+      LogLine(2 , '                                 et sensor  :  ' + test);
+      exit;
+    End;
 
 
 
-    _FILEOUT.Add(format(_OUTENTETE, [station, sensor]));
+    _FILEOUT.Add(format(_OUTENTETE, [FormConfiguration.StringGridCsv.Cells[3,trouve], FormConfiguration.StringGridCsv.Cells[4,trouve]]));
     For j := 1 to _FILEIN.Count - 1 Do
     Begin
 
@@ -736,16 +463,26 @@ function TExport.ZipFiles(lst: TStrings) : Boolean;
   End;
 
 
-procedure TExport.TimerStartTimer(Sender: TObject);
 
-    Begin
-      CleanQueueFiles;
-      If (CANEXECUTE = true) AND(FOLDER_MONITORING.IsActive) AND (PROCESS in [tpNone, tpWait, tpDone, tpMonitor]) AND (ListBoxFilesQueue.Items.Count > 0)
-        Then Begin
-          LogLine(0, _PROCESS_START_TIMER);
-          LogLine(1, _PROCESS_MODE_AUTO);
-          Lancer;
-        End;
+
+procedure TExport.Actuel1Click(Sender: TObject);
+  Var
+    S : string;
+
+  begin
+
+    S := IncludeTrailingPathDelimiter(ExtractFilePath(Application.ExeName)) + 'Logs\' + TMenuItem(Sender).Caption;
+    LogLine(2, S);
+
+      If FileExists(S)
+          Then Begin
+            RichEditLogs.Lines.LoadFromFile(S);
+            RichEditLog.Visible := false;
+            RichEditLogs.Visible := true;
+          End Else Begin
+            RichEditLog.Visible := true;
+            RichEditLogs.Visible := false;
+          end;
 end;
 
 end.

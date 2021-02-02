@@ -1,0 +1,914 @@
+[11:00:06]  Demmarrage version : 1.0.0.0
+[11:00:06]  lecture de la configuration
+[11:00:06]  Rafraichissement de la configuration
+[11:00:41]  sauvegarde de la configuration
+[11:00:41]  Rafraichissement de la configuration
+[11:00:42]  Sortie de programme
+[11:00:44]  Demmarrage version : 1.0.0.0
+[11:00:44]  lecture de la configuration
+[11:00:44]  Rafraichissement de la configuration
+[11:00:47]  Sortie de programme
+[11:01:35]  Demmarrage version : 1.0.0.0
+[11:01:35]  lecture de la configuration
+[11:01:35]  Rafraichissement de la configuration
+[11:01:48] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:02:32] 		 station : Charge hydraulique[cm]
+[11:02:32] 		 station : Température[°C]
+[11:02:32] 	 Traitement du fichier fini
+[11:02:32] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-02-32].zip
+[11:02:32] 	 Archive basedir \
+[11:02:32] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:02:32] 	 Fermeture du fichier ZIP
+[11:02:39]  Sortie de programme
+[11:05:16]  Demmarrage version : 1.0.0.0
+[11:05:16]  lecture de la configuration
+[11:05:16]  Rafraichissement de la configuration
+[11:05:23] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:05:25] 		 station : Charge hydraulique[cm]
+[11:08:09] 		 station : Température[°C]
+[11:08:12] 	 Traitement du fichier fini
+[11:08:12] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-08-12].zip
+[11:08:13] 	 Archive basedir \
+[11:08:13] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:08:13] 	 Fermeture du fichier ZIP
+[11:19:00]  Sortie de programme
+[11:19:09]  Demmarrage version : 1.0.0.0
+[11:19:09]  lecture de la configuration
+[11:19:09]  Rafraichissement de la configuration
+[11:29:02] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-29-02].zip
+[11:29:02] 	 Archive basedir \
+[11:29:02] 	 Fermeture du fichier ZIP
+[11:29:04]  Sortie de programme
+[11:32:01]  Demmarrage version : 1.0.0.0
+[11:32:01]  lecture de la configuration
+[11:32:01]  Rafraichissement de la configuration
+[11:32:51] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-32-51].zip
+[11:32:51] 	 Archive basedir \
+[11:32:51] 	 Fermeture du fichier ZIP
+[11:32:52]  Sortie de programme
+[11:32:54]  Demmarrage version : 1.0.0.0
+[11:32:54]  lecture de la configuration
+[11:32:54]  Rafraichissement de la configuration
+[11:32:57] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-32-57].zip
+[11:32:57] 	 Archive basedir \
+[11:32:57] 	 Fermeture du fichier ZIP
+[11:34:13] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:34:15] 		 station : Charge hydraulique[cm]
+[11:34:42] 		 station : Température[°C]
+[11:34:44] 	 Traitement du fichier fini
+[11:34:44] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-34-44].zip
+[11:34:44] 	 Archive basedir \
+[11:34:44] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:34:44] 	 Fermeture du fichier ZIP
+[11:36:42]  Demmarrage version : 1.0.0.0
+[11:36:42]  lecture de la configuration
+[11:36:42]  Rafraichissement de la configuration
+[11:36:48]  Rafraichissement de la configuration
+[11:36:51] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-36-51].zip
+[11:36:51] 	 Archive basedir \
+[11:36:51] 	 Fermeture du fichier ZIP
+[11:36:53]  Sortie de programme
+[11:37:15]  Demmarrage version : 1.0.0.0
+[11:37:15]  lecture de la configuration
+[11:37:15]  Rafraichissement de la configuration
+[11:37:18]  Rafraichissement de la configuration
+[11:37:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:37:29] 		 station : Charge hydraulique[cm]
+[11:37:32] 		 station : Température[°C]
+[11:39:46]  Demmarrage version : 1.0.0.0
+[11:39:47]  lecture de la configuration
+[11:39:47]  Rafraichissement de la configuration
+[11:39:51] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:39:52] 		 station : Charge hydraulique[cm]
+[11:39:55] 		 station : Température[°C]
+[11:42:45]  Demmarrage version : 1.0.0.0
+[11:42:45]  lecture de la configuration
+[11:42:45]  Rafraichissement de la configuration
+[11:42:48] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:42:50] 		 station : Charge hydraulique[cm]
+[11:43:18] 		 station : Température[°C]
+[11:44:04] 	 Traitement du fichier fini
+[11:44:04] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-11-44-04].zip
+[11:44:04] 	 Archive basedir \
+[11:44:04] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:44:04] 	 Fermeture du fichier ZIP
+[11:46:01]  Demmarrage version : 1.0.0.0
+[11:46:01]  lecture de la configuration
+[11:46:01]  Rafraichissement de la configuration
+[11:46:12] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:46:14] 		 station : Charge hydraulique[cm]
+[11:46:16] 		 station: puit corbel : pz aval ru kervidy
+[11:46:16] 		 test: CHARG : CHARGE
+[11:46:16] 		 station: puit corbel : pz aval ru kervidy
+[11:46:16] 		 test: TEMP : CHARGE
+[11:46:16] 		 station: baro kervidy : pz aval ru kervidy
+[11:46:16] 		 test: PRESS : CHARGE
+[11:46:16] 		 station: baro kervidy : pz aval ru kervidy
+[11:46:16] 		 test: TEMP : CHARGE
+[11:46:16] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:46:16] 		 test: CHARG : CHARGE
+[11:46:16] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:46:16] 		 test: TEMP : CHARGE
+[11:46:16] 		 station: brgm : pz aval ru kervidy
+[11:46:16] 		 test: COND : CHARGE
+[11:46:16] 		 station: brgm : pz aval ru kervidy
+[11:46:16] 		 test: CHARG : CHARGE
+[11:46:16] 		 station: brgm : pz aval ru kervidy
+[11:46:16] 		 test: TEMP : CHARGE
+[11:47:34]  Demmarrage version : 1.0.0.0
+[11:47:34]  lecture de la configuration
+[11:47:34]  Rafraichissement de la configuration
+[11:47:39] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:47:40] 		 station : Charge hydraulique[cm]
+[11:47:41] 		 station: puit corbel : pz aval ru kervidy
+[11:47:41] 		 test: CHARG : CHARGE
+[11:47:41] 		 station: puit corbel : pz aval ru kervidy
+[11:47:41] 		 test: TEMP : CHARGE
+[11:47:41] 		 station: baro kervidy : pz aval ru kervidy
+[11:47:41] 		 test: PRESS : CHARGE
+[11:47:41] 		 station: baro kervidy : pz aval ru kervidy
+[11:47:41] 		 test: TEMP : CHARGE
+[11:47:41] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:47:41] 		 test: CHARG : CHARGE
+[11:47:41] 		 trouve : 5
+[11:47:41] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:47:41] 		 test: TEMP : CHARGE
+[11:47:41] 		 station: brgm : pz aval ru kervidy
+[11:47:41] 		 test: COND : CHARGE
+[11:47:41] 		 station: brgm : pz aval ru kervidy
+[11:47:41] 		 test: CHARG : CHARGE
+[11:47:41] 		 station: brgm : pz aval ru kervidy
+[11:47:41] 		 test: TEMP : CHARGE
+[11:47:52] 		 station : Température[°C]
+[11:47:53] 		 station: puit corbel : KERV_B_AVA
+[11:47:53] 		 test: CHARG : TEMP
+[11:47:53] 		 station: puit corbel : KERV_B_AVA
+[11:47:53] 		 test: TEMP : TEMP
+[11:47:53] 		 station: baro kervidy : KERV_B_AVA
+[11:47:53] 		 test: PRESS : TEMP
+[11:47:53] 		 station: baro kervidy : KERV_B_AVA
+[11:47:53] 		 test: TEMP : TEMP
+[11:47:53] 		 station: pz aval ru kervidy : KERV_B_AVA
+[11:47:53] 		 test: CHARG : TEMP
+[11:47:53] 		 station: pz aval ru kervidy : KERV_B_AVA
+[11:47:53] 		 test: TEMP : TEMP
+[11:47:53] 		 station: brgm : KERV_B_AVA
+[11:47:53] 		 test: COND : TEMP
+[11:47:53] 		 station: brgm : KERV_B_AVA
+[11:47:53] 		 test: CHARG : TEMP
+[11:47:53] 		 station: brgm : KERV_B_AVA
+[11:47:53] 		 test: TEMP : TEMP
+[11:49:34]  Demmarrage version : 1.0.0.0
+[11:49:34]  lecture de la configuration
+[11:49:34]  Rafraichissement de la configuration
+[11:49:39] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:49:41] 		 station : Charge hydraulique[cm]
+[11:49:41] 		 station: puit corbel : pz aval ru kervidy
+[11:49:41] 		 test: CHARG : CHARGE
+[11:49:41] 		 station: puit corbel : pz aval ru kervidy
+[11:49:41] 		 test: TEMP : CHARGE
+[11:49:41] 		 station: baro kervidy : pz aval ru kervidy
+[11:49:41] 		 test: PRESS : CHARGE
+[11:49:41] 		 station: baro kervidy : pz aval ru kervidy
+[11:49:41] 		 test: TEMP : CHARGE
+[11:49:41] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:49:41] 		 test: CHARG : CHARGE
+[11:49:41] 		 trouve : 5
+[11:49:41] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:49:41] 		 test: TEMP : CHARGE
+[11:49:41] 		 station: brgm : pz aval ru kervidy
+[11:49:41] 		 test: COND : CHARGE
+[11:49:41] 		 station: brgm : pz aval ru kervidy
+[11:49:41] 		 test: CHARG : CHARGE
+[11:49:41] 		 station: brgm : pz aval ru kervidy
+[11:49:41] 		 test: TEMP : CHARGE
+[11:49:52] 		 station : Température[°C]
+[11:49:52] 		 station: puit corbel : KERV_B_AVA
+[11:49:52] 		 test: CHARG : TEMP
+[11:49:52] 		 station: puit corbel : KERV_B_AVA
+[11:49:52] 		 test: TEMP : TEMP
+[11:49:52] 		 station: baro kervidy : KERV_B_AVA
+[11:49:52] 		 test: PRESS : TEMP
+[11:49:52] 		 station: baro kervidy : KERV_B_AVA
+[11:49:52] 		 test: TEMP : TEMP
+[11:49:52] 		 station: pz aval ru kervidy : KERV_B_AVA
+[11:49:52] 		 test: CHARG : TEMP
+[11:49:52] 		 station: pz aval ru kervidy : KERV_B_AVA
+[11:49:52] 		 test: TEMP : TEMP
+[11:49:52] 		 station: brgm : KERV_B_AVA
+[11:49:52] 		 test: COND : TEMP
+[11:49:52] 		 station: brgm : KERV_B_AVA
+[11:49:52] 		 test: CHARG : TEMP
+[11:49:52] 		 station: brgm : KERV_B_AVA
+[11:49:52] 		 test: TEMP : TEMP
+[11:50:24]  Demmarrage version : 1.0.0.0
+[11:50:24]  lecture de la configuration
+[11:50:24]  Rafraichissement de la configuration
+[11:50:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:50:30] 		 station : Charge hydraulique[cm]
+[11:50:30] 		 station: puit corbel : pz aval ru kervidy
+[11:50:30] 		 test: CHARG : CHARGE
+[11:50:30] 		 station: puit corbel : pz aval ru kervidy
+[11:50:30] 		 test: TEMP : CHARGE
+[11:50:30] 		 station: baro kervidy : pz aval ru kervidy
+[11:50:30] 		 test: PRESS : CHARGE
+[11:50:30] 		 station: baro kervidy : pz aval ru kervidy
+[11:50:30] 		 test: TEMP : CHARGE
+[11:50:30] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:50:30] 		 test: CHARG : CHARGE
+[11:50:30] 		 trouve : 5
+[11:50:30] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[11:50:30] 		 test: TEMP : CHARGE
+[11:50:30] 		 station: brgm : pz aval ru kervidy
+[11:50:30] 		 test: COND : CHARGE
+[11:50:30] 		 station: brgm : pz aval ru kervidy
+[11:50:30] 		 test: CHARG : CHARGE
+[11:50:30] 		 station: brgm : pz aval ru kervidy
+[11:50:30] 		 test: TEMP : CHARGE
+[11:50:31] 		 station : Température[°C]
+[11:50:31] 		 station: puit corbel : KERV_B_AVA
+[11:50:31] 		 test: CHARG : TEMP
+[11:50:31] 		 station: puit corbel : KERV_B_AVA
+[11:50:31] 		 test: TEMP : TEMP
+[11:50:31] 		 station: baro kervidy : KERV_B_AVA
+[11:50:32] 		 test: PRESS : TEMP
+[11:50:32] 		 station: baro kervidy : KERV_B_AVA
+[11:50:32] 		 test: TEMP : TEMP
+[11:50:32] 		 station: pz aval ru kervidy : KERV_B_AVA
+[11:50:32] 		 test: CHARG : TEMP
+[11:50:32] 		 station: pz aval ru kervidy : KERV_B_AVA
+[11:50:32] 		 test: TEMP : TEMP
+[11:50:32] 		 station: brgm : KERV_B_AVA
+[11:50:32] 		 test: COND : TEMP
+[11:50:32] 		 station: brgm : KERV_B_AVA
+[11:50:32] 		 test: CHARG : TEMP
+[11:50:32] 		 station: brgm : KERV_B_AVA
+[11:50:32] 		 test: TEMP : TEMP
+[11:51:49]  Demmarrage version : 1.0.0.0
+[11:51:49]  lecture de la configuration
+[11:51:49]  Rafraichissement de la configuration
+[11:51:53] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[11:51:54] 		 station : Charge hydraulique[cm]
+[11:51:54] 		 station: |puit corbel| : |pz aval ru kervidy|
+[11:51:54] 		 test: |CHARG| : |CHARGE|
+[11:51:54] 		 station: |puit corbel| : |pz aval ru kervidy|
+[11:51:54] 		 test: |TEMP| : |CHARGE|
+[11:51:54] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[11:51:54] 		 test: |PRESS| : |CHARGE|
+[11:51:54] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[11:51:54] 		 test: |TEMP| : |CHARGE|
+[11:51:54] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[11:51:54] 		 test: |CHARG| : |CHARGE|
+[11:51:54] 		 trouve : 5
+[11:51:54] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[11:51:54] 		 test: |TEMP| : |CHARGE|
+[11:51:54] 		 station: |brgm| : |pz aval ru kervidy|
+[11:51:54] 		 test: |COND| : |CHARGE|
+[11:51:54] 		 station: |brgm| : |pz aval ru kervidy|
+[11:51:54] 		 test: |CHARG| : |CHARGE|
+[11:51:54] 		 station: |brgm| : |pz aval ru kervidy|
+[11:51:54] 		 test: |TEMP| : |CHARGE|
+[11:51:58] 		 station : Température[°C]
+[11:51:58] 		 station: |puit corbel| : |KERV_B_AVA|
+[11:51:58] 		 test: |CHARG| : |TEMP|
+[11:51:58] 		 station: |puit corbel| : |KERV_B_AVA|
+[11:51:58] 		 test: |TEMP| : |TEMP|
+[11:51:58] 		 station: |baro kervidy| : |KERV_B_AVA|
+[11:51:58] 		 test: |PRESS| : |TEMP|
+[11:51:58] 		 station: |baro kervidy| : |KERV_B_AVA|
+[11:51:58] 		 test: |TEMP| : |TEMP|
+[11:51:58] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[11:51:58] 		 test: |CHARG| : |TEMP|
+[11:51:58] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[11:51:58] 		 test: |TEMP| : |TEMP|
+[11:51:58] 		 station: |brgm| : |KERV_B_AVA|
+[11:51:58] 		 test: |COND| : |TEMP|
+[11:51:58] 		 station: |brgm| : |KERV_B_AVA|
+[11:51:58] 		 test: |CHARG| : |TEMP|
+[11:51:58] 		 station: |brgm| : |KERV_B_AVA|
+[11:51:58] 		 test: |TEMP| : |TEMP|
+[12:05:35]  Demmarrage version : 1.0.0.0
+[12:05:36]  lecture de la configuration
+[12:05:36]  Rafraichissement de la configuration
+[12:05:41] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:05:42] 		 station : Charge hydraulique[cm]
+[12:06:51]  Demmarrage version : 1.0.0.0
+[12:06:51]  lecture de la configuration
+[12:06:51]  Rafraichissement de la configuration
+[12:06:58] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:07:00] 		 station : Charge hydraulique[cm]
+[12:07:43]  Demmarrage version : 1.0.0.0
+[12:07:43]  lecture de la configuration
+[12:07:43]  Rafraichissement de la configuration
+[12:07:47] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:07:48] 		 station : Charge hydraulique[cm]
+[12:07:48] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:07:48] 		 test: |Nom_col_csv| : |CHARGE|
+[12:07:48] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:07:48] 		 test: |CHARG| : |CHARGE|
+[12:07:49] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:07:49] 		 test: |TEMP| : |CHARGE|
+[12:07:49] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:07:49] 		 test: |PRESS| : |CHARGE|
+[12:07:49] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:07:49] 		 test: |TEMP| : |CHARGE|
+[12:07:49] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:07:49] 		 test: |CHARG| : |CHARGE|
+[12:07:49] 		 trouve : 5
+[12:07:49] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:07:49] 		 test: |TEMP| : |CHARGE|
+[12:07:49] 		 station: |brgm| : |pz aval ru kervidy|
+[12:07:49] 		 test: |COND| : |CHARGE|
+[12:07:49] 		 station: |brgm| : |pz aval ru kervidy|
+[12:07:49] 		 test: |CHARG| : |CHARGE|
+[12:07:49] 		 station: |brgm| : |pz aval ru kervidy|
+[12:07:49] 		 test: |TEMP| : |CHARGE|
+[12:10:39]  Demmarrage version : 1.0.0.0
+[12:10:39]  lecture de la configuration
+[12:10:39]  Rafraichissement de la configuration
+[12:10:46] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:10:47] 		 station : Charge hydraulique[cm]
+[12:10:47] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:10:47] 		 test: |Nom_col_csv| : |CHARGE|
+[12:10:49] 		 station : Température[°C]
+[12:10:49] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:10:49] 		 test: |Nom_col_csv| : |TEMP|
+[12:10:52] 	 Traitement du fichier fini
+[12:10:52] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-10-52].zip
+[12:10:52] 	 Archive basedir \
+[12:10:52] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:10:52] 	 Fermeture du fichier ZIP
+[12:10:56]  Sortie de programme
+[12:11:18]  Demmarrage version : 1.0.0.0
+[12:11:18]  lecture de la configuration
+[12:11:18]  Rafraichissement de la configuration
+[12:11:21] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-11-21].zip
+[12:11:21] 	 Archive basedir \
+[12:11:21] 	 Fermeture du fichier ZIP
+[12:11:42] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:11:43] 		 station : Charge hydraulique[cm]
+[12:11:43] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:11:43] 		 test: |Nom_col_csv| : |CHARGE|
+[12:11:45] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-11-45].zip
+[12:11:45] 	 Archive basedir \
+[12:11:45] 	 Fermeture du fichier ZIP
+[12:11:55] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-11-55].zip
+[12:11:55] 	 Archive basedir \
+[12:11:55] 	 Fermeture du fichier ZIP
+[12:11:56]  Sortie de programme
+[12:13:23]  Demmarrage version : 1.0.0.0
+[12:13:23]  lecture de la configuration
+[12:13:23]  Rafraichissement de la configuration
+[12:13:28] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:13:30] 		 station : Charge hydraulique[cm]
+[12:13:30] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:13:30] 		 test: |Nom_col_csv| : |CHARGE|
+[12:13:30] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:13:30] 		 test: |CHARG| : |CHARGE|
+[12:13:30] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:13:30] 		 test: |TEMP| : |CHARGE|
+[12:13:30] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:13:30] 		 test: |PRESS| : |CHARGE|
+[12:13:30] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:13:30] 		 test: |TEMP| : |CHARGE|
+[12:13:30] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:13:30] 		 test: |CHARG| : |CHARGE|
+[12:13:30] 		 trouve : 5
+[12:13:33] 		 station : Température[°C]
+[12:13:33] 		 station: |Nom_pt_mesure_diver_office| : |KERV_B_AVA|
+[12:13:33] 		 test: |Nom_col_csv| : |TEMP|
+[12:13:33] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:13:33] 		 test: |CHARG| : |TEMP|
+[12:13:33] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:13:33] 		 test: |TEMP| : |TEMP|
+[12:13:33] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:13:33] 		 test: |PRESS| : |TEMP|
+[12:13:33] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:13:33] 		 test: |TEMP| : |TEMP|
+[12:13:33] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:13:33] 		 test: |CHARG| : |TEMP|
+[12:13:33] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:13:33] 		 test: |TEMP| : |TEMP|
+[12:13:33] 		 station: |brgm| : |KERV_B_AVA|
+[12:13:33] 		 test: |COND| : |TEMP|
+[12:13:33] 		 station: |brgm| : |KERV_B_AVA|
+[12:13:33] 		 test: |CHARG| : |TEMP|
+[12:15:11]  Demmarrage version : 1.0.0.0
+[12:15:11]  lecture de la configuration
+[12:15:11]  Rafraichissement de la configuration
+[12:15:19] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:15:20] 		 station : Charge hydraulique[cm]
+[12:15:20] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:15:20] 		 test: |Nom_col_csv| : |CHARGE|
+[12:15:20] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:15:20] 		 test: |CHARG| : |CHARGE|
+[12:15:20] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:15:20] 		 test: |TEMP| : |CHARGE|
+[12:15:20] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:15:20] 		 test: |PRESS| : |CHARGE|
+[12:15:20] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:15:20] 		 test: |TEMP| : |CHARGE|
+[12:15:20] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:15:20] 		 test: |CHARG| : |CHARGE|
+[12:15:20] 		 trouve : 5
+[12:15:22] 		 station : Température[°C]
+[12:15:22] 		 station: |Nom_pt_mesure_diver_office| : |KERV_B_AVA|
+[12:15:22] 		 test: |Nom_col_csv| : |TEMP|
+[12:15:22] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:15:22] 		 test: |CHARG| : |TEMP|
+[12:15:22] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:15:22] 		 test: |TEMP| : |TEMP|
+[12:15:22] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:15:22] 		 test: |PRESS| : |TEMP|
+[12:15:22] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:15:22] 		 test: |TEMP| : |TEMP|
+[12:15:22] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:15:22] 		 test: |CHARG| : |TEMP|
+[12:15:22] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:15:22] 		 test: |TEMP| : |TEMP|
+[12:15:22] 		 station: |brgm| : |KERV_B_AVA|
+[12:15:22] 		 test: |COND| : |TEMP|
+[12:15:22] 		 station: |brgm| : |KERV_B_AVA|
+[12:15:22] 		 test: |CHARG| : |TEMP|
+[12:15:38] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-15-38].zip
+[12:15:38] 	 Archive basedir \
+[12:15:38] 	 Fermeture du fichier ZIP
+[12:15:39]  Sortie de programme
+[12:18:44]  Demmarrage version : 1.0.0.0
+[12:18:44]  lecture de la configuration
+[12:18:44]  Rafraichissement de la configuration
+[12:18:52] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:18:54] 		 station : Charge hydraulique[cm]
+[12:18:54] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:18:54] 		 test: |Nom_col_csv| : |CHARGE|
+[12:18:54] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:18:54] 		 test: |CHARG| : |CHARGE|
+[12:18:54] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:18:54] 		 test: |TEMP| : |CHARGE|
+[12:18:54] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:18:54] 		 test: |PRESS| : |CHARGE|
+[12:18:54] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:18:54] 		 test: |TEMP| : |CHARGE|
+[12:18:54] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:18:54] 		 test: |CHARG| : |CHARGE|
+[12:18:54] 		 trouve : 5
+[12:18:55] 		 station : Température[°C]
+[12:18:55] 		 station: |Nom_pt_mesure_diver_office| : |KERV_B_AVA|
+[12:18:55] 		 test: |Nom_col_csv| : |TEMP|
+[12:18:55] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:18:55] 		 test: |CHARG| : |TEMP|
+[12:18:55] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:18:55] 		 test: |TEMP| : |TEMP|
+[12:18:55] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:18:55] 		 test: |PRESS| : |TEMP|
+[12:18:55] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:18:55] 		 test: |TEMP| : |TEMP|
+[12:18:55] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:18:55] 		 test: |CHARG| : |TEMP|
+[12:18:55] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:18:55] 		 test: |TEMP| : |TEMP|
+[12:18:55] 		 station: |brgm| : |KERV_B_AVA|
+[12:18:55] 		 test: |COND| : |TEMP|
+[12:18:55] 		 station: |brgm| : |KERV_B_AVA|
+[12:18:55] 		 test: |CHARG| : |TEMP|
+[12:18:57] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-18-57].zip
+[12:18:57] 	 Archive basedir \
+[12:18:57] 	 Fermeture du fichier ZIP
+[12:18:59]  Sortie de programme
+[12:19:13]  Demmarrage version : 1.0.0.0
+[12:19:13]  lecture de la configuration
+[12:19:13]  Rafraichissement de la configuration
+[12:19:19] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:19:20] 		 station : Charge hydraulique[cm]
+[12:19:20] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:19:20] 		 test: |Nom_col_csv| : |CHARGE|
+[12:19:20] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:19:20] 		 test: |CHARG| : |CHARGE|
+[12:19:20] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:19:20] 		 test: |TEMP| : |CHARGE|
+[12:19:20] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:19:20] 		 test: |PRESS| : |CHARGE|
+[12:19:20] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:19:20] 		 test: |TEMP| : |CHARGE|
+[12:19:20] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:19:20] 		 test: |CHARG| : |CHARGE|
+[12:19:20] 		 trouve : 5
+[12:19:24] 		 station : Température[°C]
+[12:19:24] 		 station: |Nom_pt_mesure_diver_office| : |KERV_B_AVA|
+[12:19:24] 		 test: |Nom_col_csv| : |TEMP|
+[12:19:24] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:19:24] 		 test: |CHARG| : |TEMP|
+[12:19:24] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:19:24] 		 test: |TEMP| : |TEMP|
+[12:19:24] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:19:24] 		 test: |PRESS| : |TEMP|
+[12:19:24] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:19:24] 		 test: |TEMP| : |TEMP|
+[12:19:24] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:19:24] 		 test: |CHARG| : |TEMP|
+[12:19:24] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:19:24] 		 test: |TEMP| : |TEMP|
+[12:19:24] 		 station: |brgm| : |KERV_B_AVA|
+[12:19:24] 		 test: |COND| : |TEMP|
+[12:19:24] 		 station: |brgm| : |KERV_B_AVA|
+[12:19:24] 		 test: |CHARG| : |TEMP|
+[12:19:46] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-19-46].zip
+[12:19:46] 	 Archive basedir \
+[12:19:46] 	 Fermeture du fichier ZIP
+[12:19:48]  Sortie de programme
+[12:19:50]  Demmarrage version : 1.0.0.0
+[12:19:50]  lecture de la configuration
+[12:19:50]  Rafraichissement de la configuration
+[12:19:53] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-19-53].zip
+[12:19:53] 	 Archive basedir \
+[12:19:53] 	 Fermeture du fichier ZIP
+[12:19:54]  Sortie de programme
+[12:21:27]  Demmarrage version : 1.0.0.0
+[12:21:27]  lecture de la configuration
+[12:21:27]  Rafraichissement de la configuration
+[12:21:32] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:21:33] 		 station : Charge hydraulique[cm]
+[12:21:33] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:21:33] 		 test: |Nom_col_csv| : |CHARGE|
+[12:21:33] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:21:33] 		 test: |CHARG| : |CHARGE|
+[12:21:33] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:21:33] 		 test: |TEMP| : |CHARGE|
+[12:21:33] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:21:33] 		 test: |PRESS| : |CHARGE|
+[12:21:33] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:21:33] 		 test: |TEMP| : |CHARGE|
+[12:21:33] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:21:33] 		 test: |CHARG| : |CHARGE|
+[12:21:33] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:21:33] 		 test: |TEMP| : |CHARGE|
+[12:21:33] 		 station: |brgm| : |pz aval ru kervidy|
+[12:21:33] 		 test: |COND| : |CHARGE|
+[12:21:33] 		 station: |brgm| : |pz aval ru kervidy|
+[12:21:33] 		 test: |CHARG| : |CHARGE|
+[12:21:44] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-21-44].zip
+[12:21:44] 	 Archive basedir \
+[12:21:44] 	 Fermeture du fichier ZIP
+[12:21:46]  Sortie de programme
+[12:22:01]  Demmarrage version : 1.0.0.0
+[12:22:01]  lecture de la configuration
+[12:22:01]  Rafraichissement de la configuration
+[12:22:10] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:22:11] 		 station : Charge hydraulique[cm]
+[12:22:11] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:22:11] 		 test: |Nom_col_csv| : |CHARGE|
+[12:22:11] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:22:11] 		 test: |CHARG| : |CHARGE|
+[12:22:11] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:22:11] 		 test: |TEMP| : |CHARGE|
+[12:22:11] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:22:11] 		 test: |PRESS| : |CHARGE|
+[12:22:11] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:22:11] 		 test: |TEMP| : |CHARGE|
+[12:22:11] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:22:11] 		 test: |CHARG| : |CHARGE|
+[12:22:11] 		 trouve : 5
+[12:22:12] 		 station : Température[°C]
+[12:22:12] 		 station: |Nom_pt_mesure_diver_office| : |KERV_B_AVA|
+[12:22:12] 		 test: |Nom_col_csv| : |TEMP|
+[12:22:12] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:22:12] 		 test: |CHARG| : |TEMP|
+[12:22:12] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:22:12] 		 test: |TEMP| : |TEMP|
+[12:22:12] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:22:12] 		 test: |PRESS| : |TEMP|
+[12:22:12] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:22:12] 		 test: |TEMP| : |TEMP|
+[12:22:12] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:22:12] 		 test: |CHARG| : |TEMP|
+[12:22:12] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:22:12] 		 test: |TEMP| : |TEMP|
+[12:22:12] 		 station: |brgm| : |KERV_B_AVA|
+[12:22:12] 		 test: |COND| : |TEMP|
+[12:22:12] 		 station: |brgm| : |KERV_B_AVA|
+[12:22:12] 		 test: |CHARG| : |TEMP|
+[12:22:19] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-22-19].zip
+[12:22:19] 	 Archive basedir \
+[12:22:19] 	 Fermeture du fichier ZIP
+[12:22:21]  Sortie de programme
+[12:23:15]  Demmarrage version : 1.0.0.0
+[12:23:15]  lecture de la configuration
+[12:23:15]  Rafraichissement de la configuration
+[12:23:22] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:23:24] 		 station : Charge hydraulique[cm]
+[12:23:24] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:23:24] 		 test: |Nom_col_csv| : |CHARGE|
+[12:23:24] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:23:24] 		 test: |CHARG| : |CHARGE|
+[12:23:24] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:23:24] 		 test: |TEMP| : |CHARGE|
+[12:23:24] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:23:24] 		 test: |PRESS| : |CHARGE|
+[12:23:24] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:23:24] 		 test: |TEMP| : |CHARGE|
+[12:23:24] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:23:24] 		 test: |CHARG| : |CHARGE|
+[12:23:24] 		 trouve : 5
+[12:23:27] 		 station : Température[°C]
+[12:23:27] 		 station: |Nom_pt_mesure_diver_office| : |KERV_B_AVA|
+[12:23:27] 		 test: |Nom_col_csv| : |TEMP|
+[12:23:27] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:23:27] 		 test: |CHARG| : |TEMP|
+[12:23:27] 		 station: |puit corbel| : |KERV_B_AVA|
+[12:23:27] 		 test: |TEMP| : |TEMP|
+[12:23:27] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:23:27] 		 test: |PRESS| : |TEMP|
+[12:23:27] 		 station: |baro kervidy| : |KERV_B_AVA|
+[12:23:27] 		 test: |TEMP| : |TEMP|
+[12:23:27] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:23:27] 		 test: |CHARG| : |TEMP|
+[12:23:27] 		 station: |pz aval ru kervidy| : |KERV_B_AVA|
+[12:23:27] 		 test: |TEMP| : |TEMP|
+[12:23:27] 		 station: |brgm| : |KERV_B_AVA|
+[12:23:27] 		 test: |COND| : |TEMP|
+[12:23:27] 		 station: |brgm| : |KERV_B_AVA|
+[12:23:27] 		 test: |CHARG| : |TEMP|
+[12:23:33] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-23-33].zip
+[12:23:33] 	 Archive basedir \
+[12:23:33] 	 Fermeture du fichier ZIP
+[12:26:37]  Demmarrage version : 1.0.0.0
+[12:26:37]  lecture de la configuration
+[12:26:37]  Rafraichissement de la configuration
+[12:26:44] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:26:46] 		 station : Charge hydraulique[cm]
+[12:26:46] 		 station: |Nom_pt_mesure_diver_office| : |Date/time|
+[12:26:46] 		 test: |Nom_col_csv| : |CHARGE|
+[12:26:46] 		 station: |puit corbel| : |Date/time|
+[12:26:46] 		 test: |CHARG| : |CHARGE|
+[12:26:46] 		 station: |puit corbel| : |Date/time|
+[12:26:46] 		 test: |TEMP| : |CHARGE|
+[12:26:46] 		 station: |baro kervidy| : |Date/time|
+[12:26:46] 		 test: |PRESS| : |CHARGE|
+[12:26:46] 		 station: |baro kervidy| : |Date/time|
+[12:26:46] 		 test: |TEMP| : |CHARGE|
+[12:26:46] 		 station: |pz aval ru kervidy| : |Date/time|
+[12:26:46] 		 test: |CHARG| : |CHARGE|
+[12:26:46] 		 station: |pz aval ru kervidy| : |Date/time|
+[12:26:46] 		 test: |TEMP| : |CHARGE|
+[12:26:46] 		 station: |brgm| : |Date/time|
+[12:26:46] 		 test: |COND| : |CHARGE|
+[12:26:46] 		 station: |brgm| : |Date/time|
+[12:26:46] 		 test: |CHARG| : |CHARGE|
+[12:26:50] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-26-50].zip
+[12:26:50] 	 Archive basedir \
+[12:26:50] 	 Fermeture du fichier ZIP
+[12:27:45]  Demmarrage version : 1.0.0.0
+[12:27:45]  lecture de la configuration
+[12:27:45]  Rafraichissement de la configuration
+[12:27:49] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:27:51] 		 station : Charge hydraulique[cm]
+[12:27:51] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:27:51] 		 test: |Nom_col_csv| : |CHARGE|
+[12:27:51] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:27:51] 		 test: |CHARG| : |CHARGE|
+[12:27:51] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:27:51] 		 test: |TEMP| : |CHARGE|
+[12:27:51] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:27:51] 		 test: |PRESS| : |CHARGE|
+[12:27:51] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:27:51] 		 test: |TEMP| : |CHARGE|
+[12:27:51] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:27:51] 		 test: |CHARG| : |CHARGE|
+[12:27:51] 		 trouve : 5
+[12:28:49]  Demmarrage version : 1.0.0.0
+[12:28:49]  lecture de la configuration
+[12:28:49]  Rafraichissement de la configuration
+[12:28:53] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:28:55] 		 station : Charge hydraulique[cm]
+[12:28:55] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:28:55] 		 test: |Nom_col_csv| : |CHARGE|
+[12:28:55] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:28:55] 		 test: |CHARG| : |CHARGE|
+[12:28:55] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:28:55] 		 test: |TEMP| : |CHARGE|
+[12:28:55] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:28:55] 		 test: |PRESS| : |CHARGE|
+[12:28:55] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:28:55] 		 test: |TEMP| : |CHARGE|
+[12:28:55] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:28:55] 		 test: |CHARG| : |CHARGE|
+[12:28:55] 		 trouve : 5
+[12:28:56] 		 station : Température[°C]
+[12:28:56] 		 station: |Nom_pt_mesure_diver_office| : |pz aval ru kervidy|
+[12:28:56] 		 test: |Nom_col_csv| : |TEMP|
+[12:28:56] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:28:56] 		 test: |CHARG| : |TEMP|
+[12:28:56] 		 station: |puit corbel| : |pz aval ru kervidy|
+[12:28:56] 		 test: |TEMP| : |TEMP|
+[12:28:56] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:28:56] 		 test: |PRESS| : |TEMP|
+[12:28:56] 		 station: |baro kervidy| : |pz aval ru kervidy|
+[12:28:56] 		 test: |TEMP| : |TEMP|
+[12:28:56] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:28:56] 		 test: |CHARG| : |TEMP|
+[12:28:56] 		 station: |pz aval ru kervidy| : |pz aval ru kervidy|
+[12:28:56] 		 test: |TEMP| : |TEMP|
+[12:28:56] 		 trouve : 6
+[12:29:01] 	 Traitement du fichier fini
+[12:29:01] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-12-29-01].zip
+[12:29:01] 	 Archive basedir \
+[12:29:01] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[12:29:01] 	 Fermeture du fichier ZIP
+[12:29:08]  Sortie de programme
+[14:10:13]  Demmarrage version : 1.0.0.0
+[14:10:13]  lecture de la configuration
+[14:10:13]  Rafraichissement de la configuration
+[14:10:29] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-14-10-29].zip
+[14:10:29] 	 Archive basedir \
+[14:10:29] 	 Fermeture du fichier ZIP
+[14:10:31]  Sortie de programme
+[14:14:26]  Demmarrage version : 1.0.0.0
+[14:14:26]  lecture de la configuration
+[14:14:26]  Rafraichissement de la configuration
+[14:15:00] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[14:15:02] 		 station : Charge hydraulique[cm]
+[14:15:02] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[14:15:02] 		 sensor: CHARG : CHARGE
+[14:15:02] 		 station : Température[°C]
+[14:15:02] 		 station: pz aval ru kervidy : pz aval ru kervidy
+[14:15:02] 		 sensor: TEMP : TEMP
+[14:15:02] 	 Traitement du fichier fini
+[14:15:02] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-14-15-02].zip
+[14:15:02] 	 Archive basedir \
+[14:15:02] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[14:15:02] 	 Fermeture du fichier ZIP
+[14:18:43]  Demmarrage version : 1.0.0.0
+[14:18:43]  lecture de la configuration
+[14:18:43]  Rafraichissement de la configuration
+[14:19:16] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[14:19:19] 		 station : Charge hydraulique[cm]
+[14:19:19] 		 station: KERV_B_AVA
+[14:19:19] 		 sensor: 0101
+[14:19:19] 		 station : Température[°C]
+[14:19:19] 		 station: KERV_B_AVA
+[14:19:19] 		 sensor: 0201
+[14:19:19] 	 Traitement du fichier fini
+[14:19:19] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-14-19-19].zip
+[14:19:19] 	 Archive basedir \
+[14:19:19] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[14:19:19] 	 Fermeture du fichier ZIP
+[14:20:15]  Sortie de programme
+[14:20:44]  Demmarrage version : 1.0.0.0
+[14:20:44]  lecture de la configuration
+[14:20:44]  Rafraichissement de la configuration
+[14:20:47]  Sortie de programme
+[14:21:44]  Demmarrage version : 1.0.0.0
+[14:21:44]  lecture de la configuration
+[14:21:44]  Rafraichissement de la configuration
+[14:21:48]  Sortie de programme
+[14:21:49]  Demmarrage version : 1.0.0.0
+[14:21:49]  lecture de la configuration
+[14:21:49]  Rafraichissement de la configuration
+[14:21:51]  Sortie de programme
+[14:21:53]  Demmarrage version : 1.0.0.0
+[14:21:53]  lecture de la configuration
+[14:21:53]  Rafraichissement de la configuration
+[14:21:56]  Sortie de programme
+[14:29:06]  Demmarrage version : 1.0.0.0
+[14:29:06]  lecture de la configuration
+[14:29:06]  Rafraichissement de la configuration
+[14:29:23] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-14-29-23].zip
+[14:29:23] 	 Archive basedir \
+[14:29:23] 	 Fermeture du fichier ZIP
+[14:29:24]  Sortie de programme
+[14:30:21]  Demmarrage version : 1.0.0.0
+[14:30:21]  lecture de la configuration
+[14:30:21]  Rafraichissement de la configuration
+[14:30:29]  Rafraichissement de la configuration
+[14:30:34]  Sortie de programme
+[14:53:23]  Demmarrage version : 1.0.0.0
+[14:53:23]  lecture de la configuration
+[14:53:23]  Rafraichissement de la configuration
+[14:53:25]  Sortie de programme
+[14:53:57]  Demmarrage version : 1.0.0.0
+[14:53:57]  lecture de la configuration
+[14:53:57]  Rafraichissement de la configuration
+[14:54:00]  Sortie de programme
+[14:54:02]  Demmarrage version : 1.0.0.0
+[14:54:02]  lecture de la configuration
+[14:54:02]  Rafraichissement de la configuration
+[14:54:08] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-14-54-08].zip
+[14:54:08] 	 Archive basedir \
+[14:54:08] 	 Fermeture du fichier ZIP
+[14:54:16]  Sortie de programme
+[14:54:50]  Demmarrage version : 1.0.0.0
+[14:54:50]  lecture de la configuration
+[14:54:50]  Rafraichissement de la configuration
+[14:54:57]  Sortie de programme
+[14:55:14]  Demmarrage version : 1.0.0.0
+[14:55:14]  lecture de la configuration
+[14:55:14]  Rafraichissement de la configuration
+[14:56:08]  Sortie de programme
+[14:57:17]  Demmarrage version : 1.0.0.0
+[14:57:17]  lecture de la configuration
+[14:57:17]  Rafraichissement de la configuration
+[14:57:29]  Sortie de programme
+[14:58:43]  Demmarrage version : 1.0.0.0
+[14:58:43]  lecture de la configuration
+[14:58:43]  Rafraichissement de la configuration
+[15:00:03]  Demmarrage version : 1.0.0.0
+[15:00:03]  lecture de la configuration
+[15:00:03]  Rafraichissement de la configuration
+[15:01:47]  Demmarrage version : 1.0.0.0
+[15:01:47]  lecture de la configuration
+[15:01:47]  Rafraichissement de la configuration
+[15:06:01]  Demmarrage version : 1.0.0.0
+[15:06:01]  lecture de la configuration
+[15:06:01]  Rafraichissement de la configuration
+[15:06:21]  Sortie de programme
+[15:07:22]  Demmarrage version : 1.0.0.0
+[15:07:22]  lecture de la configuration
+[15:07:22]  Rafraichissement de la configuration
+[15:08:13]  Demmarrage version : 1.0.0.0
+[15:08:13]  lecture de la configuration
+[15:08:13]  Rafraichissement de la configuration
+[15:08:45]  Sortie de programme
+[15:09:36]  Demmarrage version : 1.0.0.0
+[15:09:36]  lecture de la configuration
+[15:09:36]  Rafraichissement de la configuration
+[15:10:45]  Demmarrage version : 1.0.0.0
+[15:10:45]  lecture de la configuration
+[15:10:45]  Rafraichissement de la configuration
+[15:10:47] 		 C:\csvToMis\csvToMis\Logs\[&CsvToHydrasMis] 01-02-2021.log
+[15:14:26]  Demmarrage version : 1.0.0.0
+[15:14:26]  lecture de la configuration
+[15:14:26]  Rafraichissement de la configuration
+[15:15:00]  Demmarrage version : 1.0.0.0
+[15:15:00]  lecture de la configuration
+[15:15:00]  Rafraichissement de la configuration
+[15:15:03] 		 C:\csvToMis\csvToMis\Logs\&CsvToHydrasMis 01-02-2021.log
+[15:15:15]  Sortie de programme
+[15:21:42]  Demmarrage version : 1.0.0.0
+[15:25:18]  Demmarrage version : 1.0.0.0
+[15:25:18]  lecture de la configuration
+[15:25:18]  Rafraichissement de la configuration
+[15:25:20] 		 C:\csvToMis\csvToMis\Logs\CsvToHydrasMis 01-02-2021.log
+[15:25:23] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 02-02-2021.log
+[15:25:26] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 12-01-2021.log
+[15:25:32] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 02-02-2021.log
+[15:25:35]  Sortie de programme
+[15:29:55]  Demmarrage version : 1.0.0.0
+[15:29:55]  lecture de la configuration
+[15:29:55]  Rafraichissement de la configuration
+[15:29:58] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 02-02-2021.log
+[15:30:00] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 12-01-2021.log
+[15:30:03] 		 C:\csvToMis\csvToMis\Logs\Actuel
+[15:30:05] 		 C:\csvToMis\csvToMis\Logs\CsvToHydrasMis 01-02-2021.log
+[15:30:07] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 02-02-2021.log
+[15:30:09] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 12-01-2021.log
+[15:30:10] 		 C:\csvToMis\csvToMis\Logs\Actuel
+[15:30:13] 		 C:\csvToMis\csvToMis\Logs\[CsvToHydrasMis] 29-01-2021.log
+[15:30:15] 		 C:\csvToMis\csvToMis\Logs\Actuel
+[15:30:42]  lecture de la configuration
+[15:30:42]  Rafraichissement de la configuration
+[15:30:50] 		 C:\csvToMis\csvToMis\Logs\CsvToHydrasMis 01-02-2021.log
+[15:30:55]  Sortie de programme
+[15:48:54]  Demmarrage version : 1.0.0.0
+[15:48:54]  lecture de la configuration
+[15:48:54]  Rafraichissement de la configuration
+[15:48:57]  Sortie de programme
+[15:49:26]  Demmarrage version : 1.0.0.0
+[15:49:26]  lecture de la configuration
+[15:49:26]  Rafraichissement de la configuration
+[15:49:28] 		 C:\csvToMis\csvToMis\Logs\CsvToHydrasMis 01-02-2021.log
+[15:49:29]  Sortie de programme
+[15:52:02]  Demmarrage version : 1.0.0.0
+[15:52:02]  lecture de la configuration
+[15:52:02]  Rafraichissement de la configuration
+[15:52:05]  Sortie de programme
+[15:52:30]  Demmarrage version : 1.0.0.0
+[15:52:30]  lecture de la configuration
+[15:52:30]  Rafraichissement de la configuration
+[15:53:31] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-15-53-31].zip
+[15:53:31] 	 Archive basedir \
+[15:53:31] 	 Fermeture du fichier ZIP
+[15:53:37]  Sortie de programme
+[15:54:59]  Demmarrage version : 1.0.0.0
+[15:54:59]  lecture de la configuration
+[15:54:59]  Rafraichissement de la configuration
+[15:55:08] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[15:55:08] 		 station : Charge hydraulique[cm]
+[15:55:08] 		 station: KERV_B_AVA
+[15:55:08] 		 sensor: 0101
+[15:55:08] 		 station : Température[°C]
+[15:55:08] 		 station: KERV_B_AVA
+[15:55:08] 		 sensor: 0201
+[15:55:08] 	 Traitement du fichier fini
+[15:55:08] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [02-02-2021-15-55-08].zip
+[15:55:08] 	 Archive basedir \
+[15:55:08] 		 Deplacement du fichier C:\csvToMis\tests\csv\pz aval ru kervidy_210129085520_F6033.CSV
+[15:55:08] 	 Fermeture du fichier ZIP
+[15:55:15]  Sortie de programme
+[15:55:31]  Demmarrage version : 1.0.0.0
+[15:55:32]  lecture de la configuration
+[15:55:32]  Rafraichissement de la configuration
+[15:55:37]  Sortie de programme
+[15:56:16]  Demmarrage version : 1.0.0.0
+[15:56:16]  lecture de la configuration
+[15:56:16]  Rafraichissement de la configuration
+[15:56:24]  Sortie de programme
