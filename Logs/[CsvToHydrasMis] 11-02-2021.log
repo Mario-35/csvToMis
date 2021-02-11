@@ -2593,3 +2593,134 @@
 [17:48:05]  lecture de la configuration
 [17:48:05]  Rafraichissement de la configuration
 [17:48:06]  Sortie de programme
+[19:52:07]  Demmarrage version : 1.0.0.0
+[19:52:07]  lecture de la configuration
+[19:52:07]  Rafraichissement de la configuration
+[19:52:35]  Rafraichissement de la configuration
+[19:52:41] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[19:52:41] 		 station : Charge hydraulique[cm]
+[19:52:41] 		 Erreur : Pas de correspondance pour station :  f2
+[19:52:41] 		                                  et sensor  :  CHARGE
+[19:52:41] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-19-52-41].zip
+[19:52:41] 	 Archive basedir \
+[19:52:41] 	 Fermeture du fichier ZIP
+[19:53:43] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[19:53:43] 		 station : Charge hydraulique[cm]
+[19:53:43] 		 Erreur : Pas de correspondance pour station :  f2
+[19:53:43] 		                                  et sensor  :  CHARGE
+[19:53:43] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-19-53-43].zip
+[19:53:43] 	 Archive basedir \
+[19:53:43] 	 Fermeture du fichier ZIP
+[19:54:49]  lecture de la configuration
+[19:54:50]  Rafraichissement de la configuration
+[19:54:56]  lecture de la configuration
+[19:54:56]  Rafraichissement de la configuration
+[19:54:57]  Sortie de programme
+[19:55:00]  Demmarrage version : 1.0.0.0
+[19:55:00]  lecture de la configuration
+[19:55:00]  Rafraichissement de la configuration
+[19:55:24]  sauvegarde de la configuration
+[19:55:24]  Rafraichissement de la configuration
+[19:55:29]  lecture de la configuration
+[19:55:29]  Rafraichissement de la configuration
+[19:55:38] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[19:55:38] 		 station : Charge hydraulique[cm]
+[19:55:38] 		 station: KERR_B_F2B
+[19:55:38] 		 sensor: 0101
+[19:55:38] 		 station : Température[°C]
+[19:55:38] 		 station: KERR_B_F2B
+[19:55:38] 		 sensor: 0201
+[19:55:38] 		 station : 2:Cond. spéc.[ms/cm]
+[19:55:38] 		 Erreur : Pas de correspondance pour station :  f2
+[19:55:38] 		                                  et sensor  :  2:COND. SP
+[19:55:38] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-19-55-38].zip
+[19:55:38] 	 Archive basedir \
+[19:55:38] 	 Fermeture du fichier ZIP
+[19:58:20]  Rafraichissement de la configuration
+[19:58:21]  Sortie de programme
+[20:01:28]  Demmarrage version : 1.0.0.0
+[20:01:28]  lecture de la configuration
+[20:01:28]  Rafraichissement de la configuration
+[20:01:31]  Sortie de programme
+[20:02:33]  Demmarrage version : 1.0.0.0
+[20:02:33]  lecture de la configuration
+[20:02:33]  Rafraichissement de la configuration
+[20:02:38] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[20:02:53]  Demmarrage version : 1.0.0.0
+[20:02:53]  lecture de la configuration
+[20:02:53]  Rafraichissement de la configuration
+[20:03:01] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[20:03:01] 		 station : Charge hydraulique[cm]
+[20:03:01] 		 Erreur : Pas de correspondance pour station :  f2
+[20:03:01] 		                                  et sensor  :  CHARGE
+[20:03:01] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-20-03-01].zip
+[20:03:01] 	 Archive basedir \
+[20:03:01] 	 Fermeture du fichier ZIP
+[20:04:44]  Demmarrage version : 1.0.0.0
+[20:04:44]  lecture de la configuration
+[20:04:44]  Rafraichissement de la configuration
+[20:04:48] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[20:04:48] 		 station : Charge hydraulique[cm]
+[20:04:48] 		 Nom_col_csv : CHARGE
+[20:04:48] 		 CHARG : CHARGE
+[20:04:48] 		 TEMP : CHARGE
+[20:04:48] 		 COND : CHARGE
+[20:04:48] 		 PRESS : CHARGE
+[20:04:48] 		 CHARG : CHARGE
+[20:04:48] 		 TEMP : CHARGE
+[20:04:48] 		 COND : CHARGE
+[20:04:48] 		 PRESS : CHARGE
+[20:04:48] 		 CHARG : CHARGE
+[20:04:48] 		 TEMP : CHARGE
+[20:04:48] 		 COND : CHARGE
+[20:04:48] 		 PRESS : CHARGE
+[20:04:48] 		 CHARG : CHARGE
+[20:04:48] 		 TEMP : CHARGE
+[20:04:48] 		 COND : CHARGE
+[20:04:48] 		 PRESS : CHARGE
+[20:04:49] 		 PRESS : CHARGE
+[20:04:49] 		 Erreur : Pas de correspondance pour station :  f2
+[20:04:49] 		                                  et sensor  :  CHARGE
+[20:04:49] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-20-04-49].zip
+[20:04:49] 	 Archive basedir \
+[20:04:49] 	 Fermeture du fichier ZIP
+[20:06:19]  Demmarrage version : 1.0.0.0
+[20:06:19]  lecture de la configuration
+[20:06:19]  Rafraichissement de la configuration
+[20:06:24] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[20:06:24] 		 station : Charge hydraulique[cm]
+[20:06:24] 		 Nom_col_csv : CHARGE
+[20:06:24] 		 CHARG : CHARGE
+[20:06:24] 		 TEMP : CHARGE
+[20:06:24] 		 COND : CHARGE
+[20:06:24] 		 PRESS : CHARGE
+[20:06:24] 		 CHARG : CHARGE
+[20:06:24] 		 station: KERR_B_F2B
+[20:06:24] 		 sensor: 0101
+[20:06:24] 		 station : Température[°C]
+[20:06:24] 		 Nom_col_csv : TEMP
+[20:06:24] 		 CHARG : TEMP
+[20:06:24] 		 TEMP : TEMP
+[20:06:24] 		 COND : TEMP
+[20:06:24] 		 PRESS : TEMP
+[20:06:24] 		 CHARG : TEMP
+[20:06:24] 		 TEMP : TEMP
+[20:06:24] 		 station: KERR_B_F2B
+[20:06:24] 		 sensor: 0201
+[20:06:24] 		 station : 2:Cond. spéc.[ms/cm]
+[20:06:24] 		 Nom_col_csv : 2:COND. SP
+[20:06:24] 		 CHARG : 2:COND. SP
+[20:06:24] 		 TEMP : 2:COND. SP
+[20:06:24] 		 COND : 2:COND. SP
+[20:06:24] 		 PRESS : 2:COND. SP
+[20:06:24] 		 CHARG : 2:COND. SP
+[20:06:24] 		 TEMP : 2:COND. SP
+[20:06:24] 		 COND : 2:COND. SP
+[20:06:24] 		 station: KERR_B_F2B
+[20:06:24] 		 sensor: 0224
+[20:06:24] 	 Traitement du fichier fini
+[20:06:24] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-20-06-24].zip
+[20:06:24] 	 Archive basedir \
+[20:06:24] 		 Deplacement du fichier C:\csvToMis\tests\csv\f2_201119144130_P1142.CSV
+[20:06:24] 	 Fermeture du fichier ZIP
+[20:06:57]  Sortie de programme
