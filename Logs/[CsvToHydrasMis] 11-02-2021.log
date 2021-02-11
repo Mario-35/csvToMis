@@ -5,3 +5,2591 @@
 [13:58:21]  lecture de la configuration
 [13:58:21]  Rafraichissement de la configuration
 [13:58:23]  Sortie de programme
+[16:40:27]  Demmarrage version : 1.0.0.0
+[16:40:27]  lecture de la configuration
+[16:40:27]  Rafraichissement de la configuration
+[16:40:43] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:40:43] 		 station : Charge hydraulique[cm]
+[16:40:43] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:40:43] 		                                  et sensor  :  CHARGE
+[16:40:43] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-40-43].zip
+[16:40:43] 	 Archive basedir \
+[16:40:43] 	 Fermeture du fichier ZIP
+[16:41:59]  sauvegarde de la configuration
+[16:41:59]  Rafraichissement de la configuration
+[16:42:05] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:42:05] 		 station : Charge hydraulique[cm]
+[16:42:05] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:42:05] 		                                  et sensor  :  CHARGE
+[16:42:05] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-42-05].zip
+[16:42:05] 	 Archive basedir \
+[16:42:05] 	 Fermeture du fichier ZIP
+[16:45:55]  sauvegarde de la configuration
+[16:45:55]  Rafraichissement de la configuration
+[16:46:06]  lecture de la configuration
+[16:46:06]  Rafraichissement de la configuration
+[16:46:07]  Sortie de programme
+[16:46:10]  Demmarrage version : 1.0.0.0
+[16:46:10]  lecture de la configuration
+[16:46:10]  Rafraichissement de la configuration
+[16:46:33]  sauvegarde de la configuration
+[16:46:33]  Rafraichissement de la configuration
+[16:46:39] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:46:39] 		 station : Charge hydraulique[cm]
+[16:46:39] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:46:39] 		                                  et sensor  :  CHARGE
+[16:46:39] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-46-39].zip
+[16:46:39] 	 Archive basedir \
+[16:46:39] 	 Fermeture du fichier ZIP
+[16:47:23]  sauvegarde de la configuration
+[16:47:23]  Rafraichissement de la configuration
+[16:47:25]  Sortie de programme
+[16:47:28]  Demmarrage version : 1.0.0.0
+[16:47:28]  lecture de la configuration
+[16:47:28]  Rafraichissement de la configuration
+[16:47:33] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:47:33] 		 station : Charge hydraulique[cm]
+[16:47:33] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:47:33] 		                                  et sensor  :  CHARGE
+[16:47:33] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-47-33].zip
+[16:47:33] 	 Archive basedir \
+[16:47:33] 	 Fermeture du fichier ZIP
+[16:48:25]  sauvegarde de la configuration
+[16:48:25]  Rafraichissement de la configuration
+[16:48:42] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:48:42] 		 station : Charge hydraulique[cm]
+[16:48:42] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:48:42] 		                                  et sensor  :  CHARGE
+[16:48:42] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-48-42].zip
+[16:48:42] 	 Archive basedir \
+[16:48:42] 	 Fermeture du fichier ZIP
+[16:50:24]  lecture de la configuration
+[16:50:24]  Rafraichissement de la configuration
+[16:50:25]  Sortie de programme
+[16:52:22]  Demmarrage version : 1.0.0.0
+[16:52:22]  lecture de la configuration
+[16:52:22]  Rafraichissement de la configuration
+[16:52:29]  sauvegarde de la configuration
+[16:52:29]  Rafraichissement de la configuration
+[16:52:34] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:52:34] 		 station : Charge hydraulique[cm]
+[16:52:34] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:52:34] 		                                  et sensor  :  CHARGE
+[16:52:34] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-52-34].zip
+[16:52:34] 	 Archive basedir \
+[16:52:34] 	 Fermeture du fichier ZIP
+[16:52:41]  Sortie de programme
+[16:53:21]  Demmarrage version : 1.0.0.0
+[16:53:21]  lecture de la configuration
+[16:53:21]  Rafraichissement de la configuration
+[16:53:29]  Rafraichissement de la configuration
+[16:53:37]  Rafraichissement de la configuration
+[16:53:49]  Rafraichissement de la configuration
+[16:53:52] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:53:52] 		 station : Charge hydraulique[cm]
+[16:53:52] 		 NOM_COL_CSV
+[16:53:52] 		 CHARG
+[16:53:52] 		 TEMP
+[16:53:52] 		 COND
+[16:53:52] 		 PRESS
+[16:53:52] 		 TEMP
+[16:53:52] 		 PRESS
+[16:53:52] 		 PRESS
+[16:53:52] 		 TEMP
+[16:53:52] 		 CHARG
+[16:53:52] 		 COND
+[16:53:52] 		 PRESS
+[16:53:52] 		 CHARG
+[16:53:52] 		 TEMP
+[16:53:52] 		 PRESS
+[16:53:52] 		 CHARG
+[16:53:52] 		 TEMP
+[16:53:52] 		 PRESS
+[16:53:52] 		 CHARG
+[16:53:52] 		 TEMP
+[16:53:52] 		 COND
+[16:53:52] 		 TEMP
+[16:53:52] 		 PRESS
+[16:53:52] 		 PRESS
+[16:53:52] 		 CHARG
+[16:53:52] 		 TEMP
+[16:53:52] 		 COND
+[16:53:52] 		 CHARG
+[16:53:52] 		 PRESS
+[16:53:52] 		 TEMP
+[16:53:52] 		 CHARG
+[16:53:52] 		 PRESS
+[16:53:52] 		 TEMP
+[16:53:52] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:53:52] 		                                  et sensor  :  CHARGE
+[16:53:52] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-53-52].zip
+[16:53:52] 	 Archive basedir \
+[16:53:52] 	 Fermeture du fichier ZIP
+[16:54:51]  Demmarrage version : 1.0.0.0
+[16:54:51]  lecture de la configuration
+[16:54:51]  Rafraichissement de la configuration
+[16:54:56] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:54:56] 		 station : Charge hydraulique[cm]
+[16:54:56] 		 NOM_COL_CSV
+[16:54:56] 		 CHARG
+[16:54:56] 		 TEMP
+[16:54:56] 		 COND
+[16:54:56] 		 PRESS
+[16:54:56] 		 TEMP
+[16:54:56] 		 PRESS
+[16:54:56] 		 PRESS
+[16:54:56] 		 TEMP
+[16:54:56] 		 CHARG
+[16:54:56] 		 COND
+[16:54:56] 		 PRESS
+[16:54:56] 		 CHARG
+[16:54:56] 		 TEMP
+[16:54:56] 		 PRESS
+[16:54:56] 		 CHARG
+[16:54:56] 		 TEMP
+[16:54:56] 		 PRESS
+[16:54:56] 		 CHARG
+[16:54:56] 		 TEMP
+[16:54:56] 		 COND
+[16:54:56] 		 TEMP
+[16:54:56] 		 PRESS
+[16:54:56] 		 PRESS
+[16:54:56] 		 CHARG
+[16:54:56] 		 TEMP
+[16:54:56] 		 COND
+[16:54:56] 		 CHARG
+[16:54:56] 		 PRESS
+[16:54:56] 		 TEMP
+[16:54:56] 		 CHARG
+[16:54:56] 		 PRESS
+[16:54:56] 		 TEMP
+[16:54:56] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:54:56] 		                                  et sensor  :  CHARGE
+[16:54:56] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-54-56].zip
+[16:54:56] 	 Archive basedir \
+[16:54:56] 	 Fermeture du fichier ZIP
+[16:55:44]  Demmarrage version : 1.0.0.0
+[16:55:44]  lecture de la configuration
+[16:55:44]  Rafraichissement de la configuration
+[16:55:48] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:55:48] 		 station : Charge hydraulique[cm]
+[16:55:48] 		 CHARGE : NOM_COL_CSV
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : COND
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : COND
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : COND
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : COND
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 CHARGE : CHARG
+[16:55:48] 		 CHARGE : PRESS
+[16:55:48] 		 CHARGE : TEMP
+[16:55:48] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:55:48] 		                                  et sensor  :  CHARGE
+[16:55:48] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-55-48].zip
+[16:55:48] 	 Archive basedir \
+[16:55:48] 	 Fermeture du fichier ZIP
+[16:57:47]  Demmarrage version : 1.0.0.0
+[16:57:47]  lecture de la configuration
+[16:57:47]  Rafraichissement de la configuration
+[16:57:51] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[16:57:51] 		 station : Charge hydraulique[cm]
+[16:57:51] 		 CHARGE : NOM_COL_CSV
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : COND
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : COND
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : COND
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : COND
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 CHARGE : CHARG
+[16:57:51] 		 CHARGE : PRESS
+[16:57:51] 		 CHARGE : TEMP
+[16:57:51] 		 Erreur : Pas de correspondance pour station :  ABW2
+[16:57:51] 		                                  et sensor  :  CHARGE
+[16:57:51] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-16-57-51].zip
+[16:57:51] 	 Archive basedir \
+[16:57:51] 	 Fermeture du fichier ZIP
+[17:04:29]  Demmarrage version : 1.0.0.0
+[17:04:29]  lecture de la configuration
+[17:04:29]  Rafraichissement de la configuration
+[17:04:34] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:04:34] 		 station : Charge hydraulique[cm]
+[17:04:34] 		 CHARGE : NOM_COL_CSV
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : COND
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : COND
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : COND
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : COND
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 CHARGE : CHARG
+[17:04:34] 		 CHARGE : PRESS
+[17:04:34] 		 CHARGE : TEMP
+[17:04:34] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:04:34] 		                                  et sensor  :  CHARGE
+[17:04:34] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-04-34].zip
+[17:04:34] 	 Archive basedir \
+[17:04:34] 	 Fermeture du fichier ZIP
+[17:06:04]  Demmarrage version : 1.0.0.0
+[17:06:04]  lecture de la configuration
+[17:06:04]  Rafraichissement de la configuration
+[17:06:07] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:06:07] 		 station : Charge hydraulique[cm]
+[17:06:07] 		 Nom_c
+[17:06:07] 		 CHARG
+[17:06:07] 		 TEMP
+[17:06:07] 		 COND
+[17:06:07] 		 PRESS
+[17:06:07] 		 TEMP
+[17:06:07] 		 PRESS
+[17:06:07] 		 PRESS
+[17:06:07] 		 TEMP
+[17:06:07] 		 CHARG
+[17:06:07] 		 COND
+[17:06:07] 		 PRESS
+[17:06:07] 		 CHARG
+[17:06:07] 		 TEMP
+[17:06:07] 		 PRESS
+[17:06:07] 		 CHARG
+[17:06:07] 		 TEMP
+[17:06:07] 		 PRESS
+[17:06:07] 		 CHARG
+[17:06:07] 		 TEMP
+[17:06:07] 		 COND
+[17:06:07] 		 TEMP
+[17:06:07] 		 PRESS
+[17:06:07] 		 PRESS
+[17:06:07] 		 CHARG
+[17:06:07] 		 TEMP
+[17:06:07] 		 COND
+[17:06:07] 		 CHARG
+[17:06:07] 		 PRESS
+[17:06:07] 		 TEMP
+[17:06:07] 		 CHARG
+[17:06:07] 		 PRESS
+[17:06:07] 		 TEMP
+[17:06:07] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:06:07] 		                                  et sensor  :  CHARGE
+[17:06:07] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-06-07].zip
+[17:06:07] 	 Archive basedir \
+[17:06:07] 	 Fermeture du fichier ZIP
+[17:06:50]  Demmarrage version : 1.0.0.0
+[17:06:50]  lecture de la configuration
+[17:06:50]  Rafraichissement de la configuration
+[17:06:54] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:06:54] 		 station : Charge hydraulique[cm]
+[17:06:54] 		 CHARGE : Nom_c
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : COND
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : COND
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : COND
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : COND
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 CHARGE : CHARG
+[17:06:54] 		 CHARGE : PRESS
+[17:06:54] 		 CHARGE : TEMP
+[17:06:54] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:06:54] 		                                  et sensor  :  CHARGE
+[17:06:54] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-06-54].zip
+[17:06:54] 	 Archive basedir \
+[17:06:54] 	 Fermeture du fichier ZIP
+[17:08:15]  Demmarrage version : 1.0.0.0
+[17:08:15]  lecture de la configuration
+[17:08:15]  Rafraichissement de la configuration
+[17:08:20] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:08:20] 		 station : Charge hydraulique[cm]
+[17:08:20] 		 CHARGE : CHARGE
+[17:08:20] 		 CHARGE : CHAR
+[17:08:20] 		 CHARGE : CHA
+[17:08:20] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHAR
+[17:08:21] 		 CHARGE : CHA
+[17:08:21] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:08:21] 		                                  et sensor  :  CHARGE
+[17:08:21] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-08-21].zip
+[17:08:21] 	 Archive basedir \
+[17:08:21] 	 Fermeture du fichier ZIP
+[17:08:39]  Demmarrage version : 1.0.0.0
+[17:08:39]  lecture de la configuration
+[17:08:39]  Rafraichissement de la configuration
+[17:08:44] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:08:44] 		 station : Charge hydraulique[cm]
+[17:08:44] 		 CHARGE : CHARGE
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHARG
+[17:08:44] 		 CHARGE : CHAR
+[17:08:44] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:08:44] 		                                  et sensor  :  CHARGE
+[17:08:44] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-08-44].zip
+[17:08:44] 	 Archive basedir \
+[17:08:44] 	 Fermeture du fichier ZIP
+[17:10:43]  Demmarrage version : 1.0.0.0
+[17:10:43]  lecture de la configuration
+[17:10:43]  Rafraichissement de la configuration
+[17:10:47]  lecture de la configuration
+[17:10:47]  Rafraichissement de la configuration
+[17:10:51] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:10:51] 		 station : Charge hydraulique[cm]
+[17:10:51] 		 CHARGE : CHARGE
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHARG
+[17:10:51] 		 CHARGE : CHAR
+[17:10:51] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:10:51] 		                                  et sensor  :  CHARGE
+[17:10:51] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-10-51].zip
+[17:10:51] 	 Archive basedir \
+[17:10:51] 	 Fermeture du fichier ZIP
+[17:11:30]  Demmarrage version : 1.0.0.0
+[17:11:30]  lecture de la configuration
+[17:11:30]  Rafraichissement de la configuration
+[17:11:34]  lecture de la configuration
+[17:11:34]  Rafraichissement de la configuration
+[17:11:41] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:11:41] 		 station : Charge hydraulique[cm]
+[17:11:41] 		 CHARGE : CHARGE
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHARG
+[17:11:41] 		 CHARGE : CHAR
+[17:11:41] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:11:41] 		                                  et sensor  :  CHARGE
+[17:11:41] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-11-41].zip
+[17:11:41] 	 Archive basedir \
+[17:11:41] 	 Fermeture du fichier ZIP
+[17:12:01]  Demmarrage version : 1.0.0.0
+[17:12:01]  lecture de la configuration
+[17:12:01]  Rafraichissement de la configuration
+[17:12:05] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:12:05] 		 station : Charge hydraulique[cm]
+[17:12:05] 		 Nom_col_csv : CHARGE
+[17:12:05] 		 CHARG : CHARG
+[17:12:05] 		 TEMP : CHAR
+[17:12:05] 		 COND : CHAR
+[17:12:05] 		 PRESS : CHARG
+[17:12:05] 		 TEMP : CHAR
+[17:12:05] 		 PRESS : CHARG
+[17:12:05] 		 PRESS : CHARG
+[17:12:05] 		 TEMP : CHAR
+[17:12:05] 		 CHARG : CHARG
+[17:12:05] 		 COND : CHAR
+[17:12:05] 		 PRESS : CHARG
+[17:12:05] 		 CHARG : CHARG
+[17:12:05] 		 TEMP : CHAR
+[17:12:05] 		 PRESS : CHARG
+[17:12:05] 		 CHARG : CHARG
+[17:12:05] 		 TEMP : CHAR
+[17:12:05] 		 PRESS : CHARG
+[17:12:06] 		 CHARG : CHARG
+[17:12:06] 		 TEMP : CHAR
+[17:12:06] 		 COND : CHAR
+[17:12:06] 		 TEMP : CHAR
+[17:12:06] 		 PRESS : CHARG
+[17:12:06] 		 PRESS : CHARG
+[17:12:06] 		 CHARG : CHARG
+[17:12:06] 		 TEMP : CHAR
+[17:12:06] 		 COND : CHAR
+[17:12:06] 		 CHARG : CHARG
+[17:12:06] 		 PRESS : CHARG
+[17:12:06] 		 TEMP : CHAR
+[17:12:06] 		 CHARG : CHARG
+[17:12:06] 		 PRESS : CHARG
+[17:12:06] 		 TEMP : CHAR
+[17:12:06] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:12:06] 		                                  et sensor  :  CHARGE
+[17:12:06] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-12-06].zip
+[17:12:06] 	 Archive basedir \
+[17:12:06] 	 Fermeture du fichier ZIP
+[17:12:27]  Sortie de programme
+[17:14:17]  Demmarrage version : 1.0.0.0
+[17:14:17]  lecture de la configuration
+[17:14:17]  Rafraichissement de la configuration
+[17:14:21] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:14:21] 		 station : Charge hydraulique[cm]
+[17:14:21] 		 Nom_col_csv : CHARGE
+[17:14:21] 		 Nom_pt_mesure_diver_office : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 CHARG : CHARG
+[17:14:21] 		 P 1 mh : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 P 1 mh : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 COND : CHAR
+[17:14:21] 		 P 1 mh : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 P 1 mh : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 baro-mulehole : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 baro-mulehole : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 mule hole outlet : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 mule hole outlet : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 CHARG : CHARG
+[17:14:21] 		 mule hole outlet : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 COND : CHAR
+[17:14:21] 		 soreda allah : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 soreda allah : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 CHARG : CHARG
+[17:14:21] 		 soreda allah : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 soreda allah : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 nugu hole rampura : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 CHARG : CHARG
+[17:14:21] 		 nugu hole rampura : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 nugu hole rampura : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 maddur outlet : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 CHARG : CHARG
+[17:14:21] 		 maddur outlet : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 maddur outlet : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 COND : CHAR
+[17:14:21] 		 maddur outlet : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 baro flux tower : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 baro flux tower : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 abw : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 CHARG : CHARG
+[17:14:21] 		 abw : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 TEMP : CHAR
+[17:14:21] 		 abw : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 COND : CHAR
+[17:14:21] 		 abw : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 CHARG : CHARG
+[17:14:21] 		 abw2 : ABW2
+[17:14:21] 		 =============================
+[17:14:21] 		 PRESS : CHARG
+[17:14:21] 		 abw2 : ABW2
+[17:14:21] 		 =============================
+[17:14:22] 		 TEMP : CHAR
+[17:14:22] 		 abw2 : ABW2
+[17:14:22] 		 =============================
+[17:14:22] 		 CHARG : CHARG
+[17:14:22] 		 b35 : ABW2
+[17:14:22] 		 =============================
+[17:14:22] 		 PRESS : CHARG
+[17:14:22] 		 b35 : ABW2
+[17:14:22] 		 =============================
+[17:14:22] 		 TEMP : CHAR
+[17:14:22] 		 b35 : ABW2
+[17:14:22] 		 =============================
+[17:14:22] 		 Erreur : Pas de correspondance pour station :  ABW2
+[17:14:22] 		                                  et sensor  :  CHARGE
+[17:14:22] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-14-22].zip
+[17:14:22] 	 Archive basedir \
+[17:14:22] 	 Fermeture du fichier ZIP
+[17:17:26]  Demmarrage version : 1.0.0.0
+[17:17:26]  lecture de la configuration
+[17:17:26]  Rafraichissement de la configuration
+[17:17:30] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:17:30] 		 station : Charge hydraulique[cm]
+[17:17:30] 		 Nom_col_csv : CHARGE
+[17:17:30] 		 Nom_pt_mesure_diver_office : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARG : CHARG
+[17:17:30] 		 P 1 mh : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 P 1 mh : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 COND : CHAR
+[17:17:30] 		 P 1 mh : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 P 1 mh : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 baro-mulehole : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 baro-mulehole : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 mule hole outlet : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 mule hole outlet : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARG : CHARG
+[17:17:30] 		 mule hole outlet : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 COND : CHAR
+[17:17:30] 		 soreda allah : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 soreda allah : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARG : CHARG
+[17:17:30] 		 soreda allah : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 soreda allah : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 nugu hole rampura : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARG : CHARG
+[17:17:30] 		 nugu hole rampura : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 nugu hole rampura : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 maddur outlet : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARG : CHARG
+[17:17:30] 		 maddur outlet : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 maddur outlet : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 COND : CHAR
+[17:17:30] 		 maddur outlet : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 baro flux tower : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 baro flux tower : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 PRESS : CHARG
+[17:17:30] 		 abw : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARG : CHARG
+[17:17:30] 		 abw : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 TEMP : CHAR
+[17:17:30] 		 abw : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 COND : CHAR
+[17:17:30] 		 abw : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARG : CHARG
+[17:17:30] 		 abw2 : ABW2
+[17:17:30] 		 =============================
+[17:17:30] 		 CHARGE :bingo: CHARG
+[17:17:30] 		 station: BER_R_ABW2
+[17:17:30] 		 sensor: 0001
+[17:18:19]  Demmarrage version : 1.0.0.0
+[17:18:19]  lecture de la configuration
+[17:18:19]  Rafraichissement de la configuration
+[17:18:27]  Demmarrage version : 1.0.0.0
+[17:18:27]  lecture de la configuration
+[17:18:27]  Rafraichissement de la configuration
+[17:18:33] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:18:33] 		 station : Charge hydraulique[cm]
+[17:18:33] 		 CHARGE :bingo: CHARG
+[17:18:33] 		 station: BER_R_ABW2
+[17:18:33] 		 sensor: 0001
+[17:19:09]  Sortie de programme
+[17:21:40]  Demmarrage version : 1.0.0.0
+[17:21:41]  lecture de la configuration
+[17:21:41]  Rafraichissement de la configuration
+[17:21:46] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:21:46] 		 station : Charge hydraulique[cm]
+[17:21:46] 		 CHARGE :bingo: CHARG
+[17:21:46] 		 station: BER_R_ABW2
+[17:21:46] 		 sensor: 0001
+[17:21:46] 		 771,59
+[17:22:03]  Sortie de programme
+[17:24:59]  Demmarrage version : 1.0.0.0
+[17:24:59]  lecture de la configuration
+[17:24:59]  Rafraichissement de la configuration
+[17:25:05] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:25:05] 		 station : Charge hydraulique[cm]
+[17:25:05] 		 CHARGE :bingo: CHARG
+[17:25:05] 		 station: BER_R_ABW2
+[17:25:05] 		 sensor: 0001
+[17:25:05] 		 771,59
+[17:26:29]  Demmarrage version : 1.0.0.0
+[17:26:29]  lecture de la configuration
+[17:26:29]  Rafraichissement de la configuration
+[17:26:35] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:26:35] 		 station : Charge hydraulique[cm]
+[17:26:35] 		 CHARGE :bingo: CHARG
+[17:26:35] 		 station: BER_R_ABW2
+[17:26:35] 		 sensor: 0001
+[17:26:35] 		 771,59
+[17:26:35] 		 771,68
+[17:26:35] 		 771,82
+[17:26:35] 		 771,47
+[17:26:35] 		 771,84
+[17:26:35] 		 771,74
+[17:26:35] 		 771,34
+[17:26:35] 		 771,46
+[17:26:35] 		 771,87
+[17:26:35] 		 771,78
+[17:26:35] 		 772,12
+[17:26:35] 		 771,99
+[17:26:35] 		 772,06
+[17:26:35] 		 772,06
+[17:26:35] 		 772,16
+[17:26:35] 		 772,03
+[17:26:35] 		 772,18
+[17:26:35] 		 772,22
+[17:26:35] 		 772,26
+[17:26:35] 		 772,1
+[17:26:35] 		 772,18
+[17:26:35] 		 772,13
+[17:26:35] 		 771,91
+[17:26:35] 		 772,15
+[17:26:35] 		 772,12
+[17:26:35] 		 772,12
+[17:26:35] 		 772,12
+[17:26:35] 		 772,12
+[17:26:35] 		 772,19
+[17:26:35] 		 772,37
+[17:26:35] 		 772,38
+[17:26:35] 		 772,6
+[17:26:35] 		 772,64
+[17:26:35] 		 773,1
+[17:26:35] 		 773,14
+[17:26:35] 		 773,5
+[17:26:35] 		 773,78
+[17:26:35] 		 773,85
+[17:26:35] 		 773,88
+[17:26:35] 		 773,9
+[17:26:35] 		 774,14
+[17:26:35] 		 774,02
+[17:26:35] 		 773,89
+[17:26:35] 		 773,61
+[17:26:35] 		 773,69
+[17:26:35] 		 774,15
+[17:26:35] 		 774,38
+[17:26:35] 		 773,73
+[17:26:35] 		 774,02
+[17:26:35] 		 774,02
+[17:26:35] 		 774,33
+[17:26:35] 		 774,18
+[17:26:35] 		 774,04
+[17:26:35] 		 773,94
+[17:26:35] 		 773,82
+[17:26:35] 		 773,92
+[17:26:35] 		 773,8
+[17:26:35] 		 773,4
+[17:26:35] 		 773,46
+[17:26:35] 		 773,89
+[17:26:35] 		 773,88
+[17:26:35] 		 774,16
+[17:26:35] 		 774,09
+[17:26:35] 		 773,97
+[17:26:35] 		 774,13
+[17:26:35] 		 774,16
+[17:26:35] 		 774,33
+[17:26:35] 		 774,19
+[17:26:35] 		 774,35
+[17:26:35] 		 774,04
+[17:26:35] 		 774,06
+[17:26:35] 		 774
+[17:26:35] 		 774,14
+[17:26:35] 		 774,47
+[17:26:35] 		 774,41
+[17:26:35] 		 774,14
+[17:26:35] 		 774,21
+[17:26:35] 		 774,47
+[17:26:35] 		 774,38
+[17:26:35] 		 774,51
+[17:26:35] 		 774,86
+[17:26:35] 		 775,09
+[17:26:35] 		 775,4
+[17:26:35] 		 775,53
+[17:26:35] 		 775,54
+[17:26:35] 		 775,43
+[17:26:35] 		 776,11
+[17:26:35] 		 775,9
+[17:26:35] 		 776,18
+[17:26:35] 		 776,28
+[17:26:35] 		 775,87
+[17:26:35] 		 776,14
+[17:26:35] 		 776,05
+[17:26:35] 		 776,03
+[17:26:35] 		 775,79
+[17:26:35] 		 775,89
+[17:26:35] 		 775,99
+[17:26:35] 		 776,07
+[17:26:35] 		 776,1
+[17:26:35] 		 776,18
+[17:26:35] 		 775,79
+[17:26:35] 		 775,78
+[17:26:35] 		 776,02
+[17:26:35] 		 776,13
+[17:26:35] 		 776,09
+[17:26:35] 		 776,13
+[17:26:35] 		 776,33
+[17:26:35] 		 776,17
+[17:26:35] 		 776,17
+[17:26:35] 		 776,14
+[17:26:35] 		 775,89
+[17:26:35] 		 775,97
+[17:26:35] 		 776,13
+[17:26:36] 		 776,13
+[17:26:36] 		 776,39
+[17:26:36] 		 776,23
+[17:26:36] 		 776,19
+[17:26:36] 		 776,11
+[17:26:36] 		 776,1
+[17:26:36] 		 776,17
+[17:26:36] 		 776,2
+[17:26:36] 		 776,03
+[17:26:36] 		 776,1
+[17:26:36] 		 776,07
+[17:26:36] 		 776,35
+[17:26:36] 		 776,12
+[17:26:36] 		 775,81
+[17:26:36] 		 776,04
+[17:26:36] 		 776,5
+[17:26:36] 		 776,55
+[17:26:36] 		 776,89
+[17:26:36] 		 777,05
+[17:26:36] 		 777,03
+[17:26:36] 		 776,87
+[17:26:36] 		 777,03
+[17:26:36] 		 777,19
+[17:26:36] 		 777,07
+[17:26:36] 		 776,81
+[17:26:36] 		 776,85
+[17:26:36] 		 777,1
+[17:26:36] 		 777,24
+[17:26:36] 		 777,45
+[17:26:36] 		 777,27
+[17:26:36] 		 776,9
+[17:26:36] 		 777,14
+[17:26:36] 		 777,19
+[17:26:36] 		 777
+[17:26:36] 		 776,92
+[17:26:36] 		 776,71
+[17:26:36] 		 776,52
+[17:26:36] 		 776,26
+[17:26:36] 		 776,07
+[17:26:36] 		 776,27
+[17:26:36] 		 776,19
+[17:26:36] 		 776,23
+[17:26:36] 		 776,16
+[17:26:36] 		 776,25
+[17:26:36] 		 776,2
+[17:26:36] 		 776,05
+[17:26:36] 		 776,13
+[17:26:36] 		 776,22
+[17:26:36] 		 776,44
+[17:26:36] 		 776,42
+[17:26:36] 		 776,49
+[17:26:36] 		 776,25
+[17:26:36] 		 776,2
+[17:26:36] 		 776,2
+[17:26:36] 		 776,23
+[17:26:36] 		 776,41
+[17:26:36] 		 776,48
+[17:26:36] 		 776,42
+[17:26:36] 		 776,25
+[17:26:36] 		 776,57
+[17:26:36] 		 776,51
+[17:26:36] 		 776,75
+[17:26:36] 		 776,79
+[17:26:36] 		 776,59
+[17:26:36] 		 776,75
+[17:26:36] 		 776,74
+[17:26:36] 		 776,41
+[17:26:36] 		 776,74
+[17:26:36] 		 777,02
+[17:26:36] 		 777,06
+[17:26:36] 		 777,21
+[17:26:36] 		 777,41
+[17:26:36] 		 777,16
+[17:26:36] 		 777,2
+[17:26:36] 		 777,22
+[17:26:36] 		 777,35
+[17:26:36] 		 777,07
+[17:26:36] 		 777,57
+[17:26:36] 		 777,54
+[17:26:36] 		 777,41
+[17:26:36] 		 777,08
+[17:26:36] 		 777,33
+[17:26:36] 		 777,04
+[17:26:36] 		 776,79
+[17:26:36] 		 776,55
+[17:26:36] 		 776,13
+[17:26:36] 		 776,17
+[17:26:36] 		 776,09
+[17:26:36] 		 775,65
+[17:26:36] 		 775,78
+[17:26:36] 		 775,81
+[17:26:36] 		 775,72
+[17:26:36] 		 776,04
+[17:26:36] 		 775,87
+[17:26:36] 		 775,84
+[17:26:36] 		 776,03
+[17:26:36] 		 776
+[17:26:36] 		 776,16
+[17:26:36] 		 776,03
+[17:26:36] 		 776,19
+[17:26:36] 		 775,91
+[17:26:36] 		 776,14
+[17:26:36] 		 776,19
+[17:26:36] 		 776
+[17:26:36] 		 776,2
+[17:26:36] 		 776,18
+[17:26:36] 		 776,37
+[17:26:36] 		 776,41
+[17:26:36] 		 776,15
+[17:26:36] 		 776,15
+[17:26:36] 		 776,44
+[17:26:36] 		 776,45
+[17:26:36] 		 776,59
+[17:26:36] 		 776,67
+[17:26:36] 		 776,52
+[17:26:36] 		 776,86
+[17:26:36] 		 776,92
+[17:26:36] 		 776,87
+[17:26:36] 		 777,29
+[17:26:36] 		 776,93
+[17:26:36] 		 776,85
+[17:26:36] 		 776,78
+[17:26:36] 		 777,27
+[17:26:36] 		 777,35
+[17:26:36] 		 777,04
+[17:26:36] 		 776,75
+[17:26:36] 		 776,62
+[17:26:36] 		 776,51
+[17:26:36] 		 776,71
+[17:26:36] 		 776,68
+[17:26:37] 		 776,33
+[17:26:37] 		 776,23
+[17:26:37] 		 776
+[17:26:37] 		 776,1
+[17:26:37] 		 775,66
+[17:26:37] 		 775,5
+[17:26:37] 		 775,74
+[17:26:37] 		 775,47
+[17:26:37] 		 775,65
+[17:26:37] 		 775,49
+[17:26:37] 		 775,69
+[17:26:37] 		 776,01
+[17:26:37] 		 776,07
+[17:26:37] 		 775,94
+[17:26:37] 		 775,78
+[17:26:37] 		 775,88
+[17:26:37] 		 775,69
+[17:26:37] 		 775,62
+[17:26:37] 		 775,69
+[17:26:37] 		 775,88
+[17:26:37] 		 775,74
+[17:26:37] 		 775,88
+[17:26:37] 		 776,1
+[17:26:37] 		 775,91
+[17:26:37] 		 775,96
+[17:26:37] 		 775,94
+[17:26:37] 		 776,31
+[17:26:37] 		 776,17
+[17:26:37] 		 776,13
+[17:26:37] 		 776,13
+[17:26:37] 		 776,13
+[17:26:37] 		 776,25
+[17:26:37] 		 776,49
+[17:26:37] 		 776,71
+[17:26:37] 		 777,04
+[17:26:37] 		 776,79
+[17:26:37] 		 777,25
+[17:26:37] 		 777,07
+[17:26:37] 		 776,98
+[17:26:37] 		 777,03
+[17:26:37] 		 776,72
+[17:26:37] 		 777,14
+[17:26:37] 		 777,2
+[17:26:37] 		 776,56
+[17:26:37] 		 776,33
+[17:26:37] 		 776,4
+[17:26:37] 		 776,62
+[17:26:37] 		 776,23
+[17:26:37] 		 776,08
+[17:26:37] 		 775,95
+[17:26:37] 		 776,07
+[17:26:37] 		 775,66
+[17:26:37] 		 775,79
+[17:26:37] 		 775,79
+[17:26:37] 		 776,01
+[17:26:37] 		 775,95
+[17:26:37] 		 776,03
+[17:26:37] 		 775,98
+[17:26:37] 		 775,79
+[17:26:37] 		 775,54
+[17:26:37] 		 775,85
+[17:26:37] 		 775,81
+[17:26:37] 		 775,94
+[17:26:37] 		 775,92
+[17:26:37] 		 776,01
+[17:26:37] 		 775,82
+[17:26:37] 		 775,81
+[17:26:37] 		 776,01
+[17:26:37] 		 776,14
+[17:26:37] 		 776,08
+[17:26:37] 		 776,32
+[17:26:37] 		 776,11
+[17:26:37] 		 776,11
+[17:26:37] 		 776,13
+[17:26:37] 		 775,85
+[17:26:37] 		 775,91
+[17:26:37] 		 776,29
+[17:26:37] 		 776,14
+[17:26:37] 		 776,29
+[17:26:37] 		 777,03
+[17:26:37] 		 777,01
+[17:26:37] 		 776,9
+[17:26:37] 		 777,09
+[17:26:37] 		 777
+[17:26:37] 		 776,87
+[17:26:37] 		 776,79
+[17:26:37] 		 777,02
+[17:26:37] 		 777,08
+[17:26:37] 		 777,37
+[17:26:37] 		 777,27
+[17:26:37] 		 777,11
+[17:26:37] 		 776,52
+[17:26:37] 		 776,2
+[17:26:37] 		 776,3
+[17:26:37] 		 776,24
+[17:26:37] 		 775,96
+[17:26:37] 		 776,39
+[17:26:37] 		 776,16
+[17:26:37] 		 775,82
+[17:26:37] 		 776,02
+[17:26:37] 		 776,06
+[17:26:37] 		 775,76
+[17:26:37] 		 775,6
+[17:26:37] 		 775,55
+[17:26:37] 		 775,88
+[17:26:37] 		 775,69
+[17:26:37] 		 775,94
+[17:26:37] 		 775,81
+[17:26:37] 		 775,76
+[17:26:37] 		 775,5
+[17:26:37] 		 775,94
+[17:26:37] 		 775,73
+[17:26:37] 		 776,04
+[17:26:37] 		 776,03
+[17:26:37] 		 775,97
+[17:26:37] 		 775,97
+[17:26:37] 		 775,97
+[17:26:37] 		 776,14
+[17:26:37] 		 775,93
+[17:26:37] 		 776,04
+[17:26:37] 		 776,19
+[17:26:37] 		 776,03
+[17:26:37] 		 776
+[17:26:37] 		 776,13
+[17:26:37] 		 776,23
+[17:26:37] 		 776,2
+[17:26:37] 		 776,48
+[17:26:37] 		 776,3
+[17:26:37] 		 776,42
+[17:26:37] 		 776,74
+[17:26:37] 		 776,97
+[17:26:37] 		 776,64
+[17:26:37] 		 776,87
+[17:26:38] 		 777,11
+[17:26:38] 		 777,03
+[17:26:38] 		 777,11
+[17:26:38] 		 776,88
+[17:26:38] 		 777
+[17:26:38] 		 776,98
+[17:26:38] 		 777,17
+[17:26:38] 		 777,13
+[17:26:38] 		 776,92
+[17:26:38] 		 777,03
+[17:26:38] 		 776,95
+[17:26:38] 		 776,47
+[17:26:38] 		 776,3
+[17:26:38] 		 776,59
+[17:26:38] 		 776,16
+[17:26:38] 		 776,13
+[17:26:38] 		 775,9
+[17:26:38] 		 775,76
+[17:26:38] 		 775,75
+[17:26:38] 		 775,75
+[17:26:38] 		 775,8
+[17:26:38] 		 776,01
+[17:26:38] 		 775,75
+[17:26:38] 		 775,78
+[17:26:38] 		 776,09
+[17:26:38] 		 776,44
+[17:26:38] 		 776,14
+[17:26:38] 		 776,24
+[17:26:38] 		 776,4
+[17:26:38] 		 776,39
+[17:26:38] 		 776,37
+[17:26:38] 		 776,17
+[17:26:38] 		 776
+[17:26:38] 		 776,08
+[17:26:38] 		 775,98
+[17:26:38] 		 776,52
+[17:26:38] 		 776,1
+[17:26:38] 		 776,16
+[17:26:38] 		 776,44
+[17:26:38] 		 776,25
+[17:26:38] 		 776,41
+[17:26:38] 		 776,66
+[17:26:38] 		 776,79
+[17:26:38] 		 777,24
+[17:26:38] 		 777,37
+[17:26:38] 		 777,28
+[17:26:38] 		 777,42
+[17:26:38] 		 777,26
+[17:26:38] 		 776,66
+[17:26:38] 		 776,97
+[17:26:38] 		 776,89
+[17:26:38] 		 776,41
+[17:26:38] 		 776,91
+[17:26:38] 		 777,07
+[17:26:38] 		 776,81
+[17:26:38] 		 777,14
+[17:26:38] 		 777,06
+[17:26:38] 		 776,97
+[17:26:38] 		 776,91
+[17:26:38] 		 776,87
+[17:26:38] 		 776,87
+[17:26:38] 		 776,62
+[17:26:38] 		 776,02
+[17:26:38] 		 775,9
+[17:26:38] 		 775,9
+[17:26:38] 		 775,8
+[17:26:38] 		 775,96
+[17:26:38] 		 775,99
+[17:26:38] 		 775,97
+[17:26:38] 		 776,1
+[17:26:38] 		 776,04
+[17:26:38] 		 775,9
+[17:26:38] 		 776,1
+[17:26:38] 		 776,1
+[17:26:38] 		 776,22
+[17:26:38] 		 776,23
+[17:26:38] 		 776,09
+[17:26:38] 		 776,19
+[17:26:38] 		 776,37
+[17:26:38] 		 776,64
+[17:26:38] 		 776,36
+[17:26:38] 		 776,45
+[17:26:38] 		 776,47
+[17:26:38] 		 776,3
+[17:26:38] 		 776,78
+[17:26:38] 		 776,73
+[17:26:38] 		 776,5
+[17:26:38] 		 776,57
+[17:26:38] 		 776,85
+[17:26:38] 		 777,22
+[17:26:38] 		 777,42
+[17:26:38] 		 777,46
+[17:26:38] 		 776,97
+[17:26:38] 		 777,01
+[17:26:38] 		 777
+[17:26:38] 		 777,04
+[17:26:38] 		 777,03
+[17:26:38] 		 777,11
+[17:26:38] 		 777,17
+[17:26:38] 		 777,35
+[17:26:38] 		 777,34
+[17:26:38] 		 777,02
+[17:26:38] 		 777,38
+[17:26:38] 		 777,24
+[17:26:38] 		 776,95
+[17:26:38] 		 776,82
+[17:26:38] 		 776,59
+[17:26:38] 		 776,93
+[17:26:38] 		 776,88
+[17:26:38] 		 776,55
+[17:26:38] 		 776,36
+[17:26:38] 		 775,78
+[17:26:38] 		 775,72
+[17:26:38] 		 776,09
+[17:26:38] 		 776,03
+[17:26:38] 		 776,19
+[17:26:38] 		 776,3
+[17:26:38] 		 775,97
+[17:26:38] 		 776,01
+[17:26:38] 		 776,64
+[17:26:38] 		 776,38
+[17:26:38] 		 776,23
+[17:26:38] 		 776,43
+[17:26:38] 		 776,17
+[17:26:38] 		 776
+[17:26:38] 		 775,98
+[17:26:38] 		 775,94
+[17:26:38] 		 776,32
+[17:26:38] 		 776,32
+[17:26:38] 		 776,2
+[17:26:39] 		 776,32
+[17:26:39] 		 776,63
+[17:26:39] 		 776,42
+[17:26:39] 		 776,54
+[17:26:39] 		 776,61
+[17:26:39] 		 776,45
+[17:26:39] 		 776,41
+[17:26:39] 		 776,6
+[17:26:39] 		 776,92
+[17:26:39] 		 777,09
+[17:26:39] 		 777,02
+[17:26:39] 		 776,92
+[17:26:39] 		 776,61
+[17:26:39] 		 776,86
+[17:26:39] 		 776,97
+[17:26:39] 		 777,34
+[17:26:39] 		 777,54
+[17:26:39] 		 777,46
+[17:26:39] 		 777,29
+[17:26:39] 		 777,48
+[17:26:39] 		 777,16
+[17:26:39] 		 777,2
+[17:26:39] 		 776,98
+[17:26:39] 		 776,91
+[17:26:39] 		 776,87
+[17:26:39] 		 776,53
+[17:26:39] 		 776,37
+[17:26:39] 		 776,3
+[17:26:39] 		 776,23
+[17:26:39] 		 776,35
+[17:26:39] 		 776,1
+[17:26:39] 		 776,06
+[17:26:39] 		 776,04
+[17:26:39] 		 775,78
+[17:26:39] 		 775,88
+[17:26:39] 		 776,16
+[17:26:39] 		 775,87
+[17:26:39] 		 776,1
+[17:26:39] 		 776,23
+[17:26:39] 		 776,07
+[17:26:39] 		 776,03
+[17:26:39] 		 776,16
+[17:26:39] 		 776,09
+[17:26:39] 		 776,01
+[17:26:39] 		 776,05
+[17:26:39] 		 776,14
+[17:26:39] 		 776,14
+[17:26:39] 		 775,97
+[17:26:39] 		 776,32
+[17:26:39] 		 776,46
+[17:26:39] 		 776,38
+[17:26:39] 		 776,47
+[17:26:39] 		 776,33
+[17:26:39] 		 776,16
+[17:26:39] 		 776,44
+[17:26:39] 		 776,68
+[17:26:39] 		 777,38
+[17:26:39] 		 777,14
+[17:26:39] 		 777,04
+[17:26:39] 		 777,26
+[17:26:39] 		 777,42
+[17:26:39] 		 777,22
+[17:26:39] 		 777,42
+[17:26:39] 		 777,33
+[17:26:39] 		 776,85
+[17:26:39] 		 777,2
+[17:26:39] 		 777,03
+[17:26:39] 		 776,71
+[17:26:39] 		 777,22
+[17:26:39] 		 777,52
+[17:26:39] 		 777,58
+[17:26:39] 		 777,62
+[17:26:39] 		 777,29
+[17:26:39] 		 776,71
+[17:26:39] 		 776,55
+[17:26:39] 		 776,42
+[17:26:39] 		 776,18
+[17:26:39] 		 775,84
+[17:26:39] 		 775,67
+[17:26:39] 		 776,03
+[17:26:39] 		 776,13
+[17:26:39] 		 776,14
+[17:26:39] 		 775,95
+[17:26:39] 		 775,91
+[17:26:39] 		 776,01
+[17:26:39] 		 775,95
+[17:26:39] 		 776,03
+[17:26:39] 		 776,03
+[17:26:39] 		 775,95
+[17:26:39] 		 775,94
+[17:26:39] 		 776,3
+[17:26:39] 		 776,07
+[17:26:39] 		 776
+[17:26:39] 		 776,38
+[17:26:39] 		 775,79
+[17:26:39] 		 775,87
+[17:26:39] 		 775,72
+[17:26:39] 		 775,76
+[17:26:39] 		 775,97
+[17:26:39] 		 775,88
+[17:26:39] 		 775,91
+[17:26:39] 		 775,79
+[17:26:39] 		 776,07
+[17:26:39] 		 776,12
+[17:26:39] 		 776,41
+[17:26:39] 		 776,68
+[17:26:39] 		 776,81
+[17:26:39] 		 776,81
+[17:26:39] 		 776,47
+[17:26:39] 		 777,07
+[17:26:39] 		 777,07
+[17:26:39] 		 777,07
+[17:26:39] 		 777,49
+[17:26:39] 		 777,43
+[17:26:39] 		 776,87
+[17:26:39] 		 777,2
+[17:26:39] 		 777,11
+[17:26:39] 		 776,78
+[17:26:39] 		 776,5
+[17:26:39] 		 776,5
+[17:26:39] 		 776,34
+[17:26:39] 		 776,68
+[17:26:39] 		 776,37
+[17:26:39] 		 775,98
+[17:26:39] 		 776,01
+[17:26:39] 		 775,85
+[17:26:40] 		 775,94
+[17:26:40] 		 776,01
+[17:26:40] 		 775,88
+[17:26:40] 		 775,9
+[17:26:40] 		 776,28
+[17:26:40] 		 776,14
+[17:26:40] 		 775,88
+[17:26:40] 		 775,85
+[17:26:40] 		 775,88
+[17:26:40] 		 775,91
+[17:26:40] 		 775,94
+[17:26:40] 		 775,63
+[17:26:40] 		 775,84
+[17:26:40] 		 775,92
+[17:26:40] 		 776,13
+[17:26:40] 		 775,95
+[17:26:40] 		 776,13
+[17:26:40] 		 775,95
+[17:26:40] 		 775,92
+[17:26:40] 		 775,71
+[17:26:40] 		 775,94
+[17:26:40] 		 775,87
+[17:26:40] 		 776,15
+[17:26:40] 		 775,75
+[17:26:40] 		 775,62
+[17:26:40] 		 776,25
+[17:26:40] 		 776,33
+[17:26:40] 		 776,17
+[17:26:40] 		 776,54
+[17:26:40] 		 776,17
+[17:26:40] 		 775,79
+[17:26:40] 		 775,97
+[17:26:40] 		 775,82
+[17:26:40] 		 776,03
+[17:26:40] 		 776,64
+[17:26:40] 		 776,51
+[17:26:40] 		 776,39
+[17:26:40] 		 776,39
+[17:26:40] 		 776,05
+[17:26:40] 		 776,43
+[17:26:40] 		 776,2
+[17:26:40] 		 776,14
+[17:26:40] 		 776,07
+[17:26:40] 		 776,05
+[17:26:40] 		 776,3
+[17:26:40] 		 776,12
+[17:26:40] 		 776,32
+[17:26:40] 		 776,24
+[17:26:40] 		 776
+[17:26:40] 		 776,11
+[17:26:40] 		 776,04
+[17:26:40] 		 775,95
+[17:26:40] 		 776,19
+[17:26:40] 		 776,16
+[17:26:40] 		 776,01
+[17:26:40] 		 776,05
+[17:26:40] 		 776,14
+[17:26:40] 		 775,94
+[17:26:40] 		 776
+[17:26:40] 		 776,09
+[17:26:40] 		 776,17
+[17:26:40] 		 776,11
+[17:26:40] 		 776,11
+[17:26:40] 		 775,66
+[17:26:40] 		 776,03
+[17:26:40] 		 775,72
+[17:26:40] 		 775,66
+[17:26:40] 		 775,93
+[17:26:40] 		 775,96
+[17:26:40] 		 776,06
+[17:26:40] 		 775,94
+[17:26:40] 		 775,97
+[17:26:40] 		 776,16
+[17:26:40] 		 776,1
+[17:26:40] 		 776,54
+[17:26:40] 		 776,43
+[17:26:40] 		 776,3
+[17:26:40] 		 776,67
+[17:26:40] 		 776,81
+[17:26:40] 		 776,65
+[17:26:40] 		 777,14
+[17:26:40] 		 776,84
+[17:26:40] 		 777,11
+[17:26:40] 		 777,1
+[17:26:40] 		 777,07
+[17:26:40] 		 777,51
+[17:26:40] 		 776,84
+[17:26:40] 		 777,33
+[17:26:40] 		 776,87
+[17:26:40] 		 776,75
+[17:26:40] 		 776,48
+[17:26:40] 		 776,39
+[17:26:40] 		 776,01
+[17:26:40] 		 775,97
+[17:26:40] 		 775,95
+[17:26:40] 		 775,82
+[17:26:40] 		 775,82
+[17:26:40] 		 775,94
+[17:26:40] 		 776,07
+[17:26:40] 		 775,97
+[17:26:40] 		 775,95
+[17:26:40] 		 776,01
+[17:26:40] 		 776,05
+[17:26:40] 		 776,4
+[17:26:40] 		 775,84
+[17:26:40] 		 776,07
+[17:26:40] 		 775,75
+[17:26:40] 		 775,86
+[17:26:40] 		 775,85
+[17:26:40] 		 775,63
+[17:26:40] 		 776,04
+[17:26:40] 		 776,03
+[17:26:40] 		 776,2
+[17:26:40] 		 776,12
+[17:26:40] 		 776,07
+[17:26:40] 		 776,01
+[17:26:40] 		 775,98
+[17:26:40] 		 775,82
+[17:26:40] 		 775,9
+[17:26:40] 		 776,28
+[17:26:41] 		 776,2
+[17:26:41] 		 776,42
+[17:26:41] 		 776,42
+[17:26:41] 		 776,49
+[17:26:41] 		 776,53
+[17:26:41] 		 776,74
+[17:26:41] 		 777,01
+[17:26:41] 		 776,88
+[17:26:41] 		 777,09
+[17:26:41] 		 777,42
+[17:26:41] 		 777,26
+[17:26:41] 		 777,33
+[17:26:41] 		 777,33
+[17:26:41] 		 777,55
+[17:26:41] 		 777,22
+[17:26:41] 		 777,1
+[17:26:41] 		 777,23
+[17:26:41] 		 777,19
+[17:26:41] 		 776,91
+[17:26:41] 		 776,71
+[17:26:41] 		 776,55
+[17:26:41] 		 776,42
+[17:26:41] 		 776,07
+[17:26:41] 		 776,06
+[17:26:41] 		 776,08
+[17:26:41] 		 775,86
+[17:26:41] 		 775,72
+[17:26:41] 		 776,19
+[17:26:41] 		 775,94
+[17:26:41] 		 775,91
+[17:26:41] 		 776,22
+[17:26:41] 		 776,17
+[17:26:41] 		 776
+[17:26:41] 		 776,13
+[17:26:41] 		 775,94
+[17:26:41] 		 776
+[17:26:41] 		 775,94
+[17:26:41] 		 776,05
+[17:26:41] 		 775,92
+[17:26:41] 		 775,88
+[17:26:41] 		 776,05
+[17:26:41] 		 776,27
+[17:26:41] 		 776,03
+[17:26:41] 		 775,95
+[17:26:41] 		 776,04
+[17:26:41] 		 776,13
+[17:26:41] 		 775,94
+[17:26:41] 		 775,76
+[17:26:41] 		 776,13
+[17:26:41] 		 776,64
+[17:26:41] 		 777,44
+[17:26:41] 		 777,01
+[17:26:41] 		 777
+[17:26:41] 		 777,09
+[17:26:41] 		 777,28
+[17:26:41] 		 777,2
+[17:26:41] 		 777,19
+[17:26:41] 		 777,09
+[17:26:41] 		 776,93
+[17:26:41] 		 777,06
+[17:26:41] 		 777,27
+[17:26:41] 		 777,01
+[17:26:41] 		 777,07
+[17:26:41] 		 776,85
+[17:26:41] 		 776,56
+[17:26:41] 		 776,68
+[17:26:41] 		 776,97
+[17:26:41] 		 776,99
+[17:26:41] 		 776,46
+[17:26:41] 		 776,4
+[17:26:41] 		 776,35
+[17:26:41] 		 776,04
+[17:26:41] 		 776,11
+[17:26:41] 		 776,39
+[17:26:41] 		 776,23
+[17:26:41] 		 776,05
+[17:26:41] 		 776,08
+[17:26:41] 		 776,2
+[17:26:41] 		 775,92
+[17:26:41] 		 776,03
+[17:26:41] 		 775,95
+[17:26:41] 		 776,3
+[17:26:41] 		 776,01
+[17:26:41] 		 776,05
+[17:26:41] 		 776,1
+[17:26:41] 		 775,95
+[17:26:41] 		 776,17
+[17:26:41] 		 776,39
+[17:26:41] 		 775,94
+[17:26:41] 		 776,51
+[17:26:41] 		 776,45
+[17:26:41] 		 775,96
+[17:26:41] 		 776,33
+[17:26:41] 		 775,92
+[17:26:41] 		 776,23
+[17:26:41] 		 776,32
+[17:26:41] 		 776,35
+[17:26:41] 		 776,45
+[17:26:41] 		 776,43
+[17:26:41] 		 776,17
+[17:26:41] 		 776,27
+[17:26:41] 		 776,61
+[17:26:41] 		 776,8
+[17:26:41] 		 777,13
+[17:26:41] 		 777,12
+[17:26:41] 		 776,71
+[17:26:41] 		 776,98
+[17:26:41] 		 776,95
+[17:26:41] 		 776,62
+[17:26:41] 		 776,66
+[17:26:41] 		 776,56
+[17:26:41] 		 776,46
+[17:26:41] 		 776,39
+[17:26:41] 		 776,44
+[17:26:41] 		 776,2
+[17:26:41] 		 776
+[17:26:41] 		 776,17
+[17:26:41] 		 776,32
+[17:26:41] 		 776,07
+[17:26:41] 		 776,08
+[17:26:42] 		 776,2
+[17:26:42] 		 776,17
+[17:26:42] 		 776,11
+[17:26:42] 		 776,29
+[17:26:42] 		 776
+[17:26:42] 		 775,91
+[17:26:42] 		 776,15
+[17:26:42] 		 776,3
+[17:26:42] 		 775,79
+[17:26:42] 		 776,16
+[17:26:42] 		 775,7
+[17:26:42] 		 775,7
+[17:26:42] 		 775,87
+[17:26:42] 		 776
+[17:26:42] 		 775,98
+[17:26:42] 		 776,09
+[17:26:42] 		 775,94
+[17:26:42] 		 776,2
+[17:26:42] 		 776,1
+[17:26:42] 		 776,1
+[17:26:42] 		 776,35
+[17:26:42] 		 776,19
+[17:26:42] 		 776,36
+[17:26:42] 		 776,31
+[17:26:42] 		 775,9
+[17:26:42] 		 776,24
+[17:26:42] 		 776,64
+[17:26:42] 		 776,87
+[17:26:42] 		 776,71
+[17:26:42] 		 776,63
+[17:26:42] 		 776,77
+[17:26:42] 		 776,75
+[17:26:42] 		 777
+[17:26:42] 		 777,13
+[17:26:42] 		 777,32
+[17:26:42] 		 776,94
+[17:26:42] 		 777,04
+[17:26:42] 		 776,78
+[17:26:42] 		 776,76
+[17:26:42] 		 776,87
+[17:26:42] 		 776,9
+[17:26:42] 		 776,69
+[17:26:42] 		 776,33
+[17:26:42] 		 776,08
+[17:26:42] 		 775,87
+[17:26:42] 		 776,39
+[17:26:42] 		 776,16
+[17:26:42] 		 776,07
+[17:26:42] 		 775,98
+[17:26:42] 		 776,33
+[17:26:42] 		 776,2
+[17:26:42] 		 775,81
+[17:26:42] 		 775,81
+[17:26:42] 		 775,98
+[17:26:42] 		 776,08
+[17:26:42] 		 776,05
+[17:26:42] 		 775,84
+[17:26:42] 		 775,92
+[17:26:42] 		 775,86
+[17:26:42] 		 775,97
+[17:26:42] 		 775,97
+[17:26:42] 		 775,98
+[17:26:42] 		 776,03
+[17:26:42] 		 776,2
+[17:26:42] 		 776,25
+[17:26:42] 		 775,79
+[17:26:42] 		 776,03
+[17:26:42] 		 776,05
+[17:26:42] 		 775,75
+[17:26:42] 		 775,52
+[17:26:42] 		 775,55
+[17:26:42] 		 775,59
+[17:26:42] 		 776,03
+[17:26:42] 		 776,78
+[17:26:42] 		 777,32
+[17:26:42] 		 777,02
+[17:26:42] 		 777,04
+[17:26:42] 		 776,46
+[17:26:42] 		 776,49
+[17:26:42] 		 776,62
+[17:26:42] 		 776,37
+[17:26:42] 		 776,71
+[17:26:42] 		 776,59
+[17:26:42] 		 776,68
+[17:26:42] 		 776,74
+[17:26:42] 		 776,63
+[17:26:42] 		 776,88
+[17:26:42] 		 776,71
+[17:26:42] 		 776,4
+[17:26:42] 		 776,7
+[17:26:42] 		 776,78
+[17:26:42] 		 777,04
+[17:26:42] 		 776,88
+[17:26:42] 		 776,33
+[17:26:42] 		 776,08
+[17:26:42] 		 776,01
+[17:26:42] 		 775,97
+[17:26:42] 		 775,73
+[17:26:42] 		 775,68
+[17:26:42] 		 776,11
+[17:26:42] 		 775,91
+[17:26:42] 		 775,79
+[17:26:42] 		 775,87
+[17:26:42] 		 776,26
+[17:26:42] 		 775,82
+[17:26:42] 		 775,98
+[17:26:42] 		 776
+[17:26:42] 		 776,2
+[17:26:42] 		 776,3
+[17:26:42] 		 776,54
+[17:26:42] 		 776,58
+[17:26:42] 		 776,7
+[17:26:42] 		 776,75
+[17:26:42] 		 776,48
+[17:26:42] 		 776,55
+[17:26:42] 		 776,52
+[17:26:42] 		 776,77
+[17:26:42] 		 776,92
+[17:26:42] 		 776,74
+[17:26:42] 		 776,83
+[17:26:42] 		 776,58
+[17:26:42] 		 776,51
+[17:26:43] 		 776,94
+[17:26:43] 		 776,58
+[17:26:43] 		 776,8
+[17:26:43] 		 777,02
+[17:26:43] 		 777,51
+[17:26:43] 		 776,96
+[17:26:43] 		 776,75
+[17:26:43] 		 776,61
+[17:26:43] 		 776,26
+[17:26:43] 		 776,52
+[17:26:43] 		 776,36
+[17:26:43] 		 776,41
+[17:26:43] 		 776,56
+[17:26:43] 		 776,59
+[17:26:43] 		 776,43
+[17:26:43] 		 776,39
+[17:26:43] 		 776,87
+[17:26:43] 		 776,62
+[17:26:43] 		 776,52
+[17:26:43] 		 776,3
+[17:26:43] 		 776
+[17:26:43] 		 776,13
+[17:26:43] 		 775,84
+[17:26:43] 		 776,16
+[17:26:43] 		 776,2
+[17:26:43] 		 776,17
+[17:26:43] 		 775,89
+[17:26:43] 		 776,06
+[17:26:43] 		 775,87
+[17:26:43] 		 776
+[17:26:43] 		 776,05
+[17:26:43] 		 776,04
+[17:26:43] 		 776,07
+[17:26:43] 		 775,79
+[17:26:43] 		 775,86
+[17:26:43] 		 776,01
+[17:26:43] 		 775,95
+[17:26:43] 		 775,97
+[17:26:43] 		 776,07
+[17:26:43] 		 776,16
+[17:26:43] 		 776,3
+[17:26:43] 		 776,17
+[17:26:43] 		 776,23
+[17:26:43] 		 776
+[17:26:43] 		 776,17
+[17:26:43] 		 776,3
+[17:26:43] 		 776,32
+[17:26:43] 		 776,35
+[17:26:43] 		 776,11
+[17:26:43] 		 776,17
+[17:26:43] 		 776,22
+[17:26:43] 		 776,36
+[17:26:43] 		 776,42
+[17:26:43] 		 776,44
+[17:26:43] 		 776,55
+[17:26:43] 		 776,24
+[17:26:43] 		 776,49
+[17:26:43] 		 776,78
+[17:26:43] 		 776,82
+[17:26:43] 		 776,59
+[17:26:43] 		 777,01
+[17:26:43] 		 776,59
+[17:26:43] 		 776,79
+[17:26:43] 		 776,68
+[17:26:43] 		 776,56
+[17:26:43] 		 776,75
+[17:26:43] 		 776,52
+[17:26:43] 		 776,27
+[17:26:43] 		 776,09
+[17:26:43] 		 776,08
+[17:26:43] 		 776,06
+[17:26:43] 		 776,03
+[17:26:43] 		 776,17
+[17:26:43] 		 775,88
+[17:26:43] 		 776,05
+[17:26:43] 		 776,18
+[17:26:43] 		 776,07
+[17:26:43] 		 776,24
+[17:26:43] 		 776,24
+[17:26:43] 		 776,1
+[17:26:43] 		 776,03
+[17:26:43] 		 775,73
+[17:26:43] 		 775,94
+[17:26:43] 		 775,97
+[17:26:43] 		 775,97
+[17:26:43] 		 775,89
+[17:26:43] 		 775,89
+[17:26:43] 		 776,05
+[17:26:43] 		 776
+[17:26:43] 		 776,04
+[17:26:43] 		 776,18
+[17:26:43] 		 776,03
+[17:26:43] 		 776,04
+[17:26:43] 		 776,11
+[17:26:43] 		 775,97
+[17:26:43] 		 776,58
+[17:26:43] 		 776,58
+[17:26:43] 		 776,35
+[17:26:43] 		 776,3
+[17:26:43] 		 776,31
+[17:26:43] 		 776,77
+[17:26:43] 		 776,68
+[17:26:43] 		 776,68
+[17:26:43] 		 776,46
+[17:26:43] 		 776,68
+[17:26:43] 		 776,47
+[17:26:43] 		 776,72
+[17:26:43] 		 776,81
+[17:26:43] 		 776,75
+[17:26:43] 		 776,66
+[17:26:43] 		 776,52
+[17:26:43] 		 776,5
+[17:26:43] 		 776,36
+[17:26:43] 		 776,11
+[17:26:43] 		 775,83
+[17:26:43] 		 775,86
+[17:26:43] 		 775,65
+[17:26:43] 		 775,92
+[17:26:43] 		 775,9
+[17:26:43] 		 775,91
+[17:26:43] 		 775,66
+[17:26:44] 		 775,98
+[17:26:44] 		 775,82
+[17:26:44] 		 775,76
+[17:26:44] 		 775,82
+[17:26:44] 		 775,78
+[17:26:44] 		 775,78
+[17:26:44] 		 775,63
+[17:26:44] 		 775,66
+[17:26:44] 		 775,59
+[17:26:44] 		 775,65
+[17:26:44] 		 775,78
+[17:26:44] 		 775,88
+[17:26:44] 		 775,57
+[17:26:44] 		 775,72
+[17:26:44] 		 776,13
+[17:26:44] 		 776,04
+[17:26:44] 		 775,68
+[17:26:44] 		 776
+[17:26:44] 		 776,1
+[17:26:44] 		 775,8
+[17:26:44] 		 775,82
+[17:26:44] 		 775,88
+[17:26:44] 		 776,1
+[17:26:44] 		 776,07
+[17:26:44] 		 776,13
+[17:26:44] 		 776,27
+[17:26:44] 		 776,6
+[17:26:44] 		 776,75
+[17:26:44] 		 776,88
+[17:26:44] 		 776,69
+[17:26:44] 		 776,67
+[17:26:44] 		 776,68
+[17:26:44] 		 776,91
+[17:26:44] 		 776,85
+[17:26:44] 		 776,9
+[17:26:44] 		 776,87
+[17:26:44] 		 776,66
+[17:26:44] 		 776,5
+[17:26:44] 		 776,65
+[17:26:44] 		 776,78
+[17:26:44] 		 776,4
+[17:26:44] 		 776,4
+[17:26:44] 		 776,28
+[17:26:44] 		 776,04
+[17:26:44] 		 776
+[17:26:44] 		 776,16
+[17:26:44] 		 775,94
+[17:26:44] 		 775,9
+[17:26:44] 		 775,76
+[17:26:44] 		 775,76
+[17:26:44] 		 775,89
+[17:26:44] 		 775,94
+[17:26:44] 		 775,82
+[17:26:44] 		 775,54
+[17:26:44] 		 775,7
+[17:26:44] 		 775,79
+[17:26:44] 		 775,78
+[17:26:44] 		 776,01
+[17:26:44] 		 775,76
+[17:26:44] 		 775,66
+[17:26:44] 		 775,79
+[17:26:44] 		 775,79
+[17:26:44] 		 775,85
+[17:26:44] 		 775,82
+[17:26:44] 		 776,01
+[17:26:44] 		 775,79
+[17:26:44] 		 775,94
+[17:26:44] 		 775,81
+[17:26:44] 		 775,98
+[17:26:44] 		 776,16
+[17:26:44] 		 776,07
+[17:26:44] 		 776,38
+[17:26:44] 		 776,06
+[17:26:44] 		 776,27
+[17:26:44] 		 776,62
+[17:26:44] 		 776,63
+[17:26:44] 		 776,68
+[17:26:44] 		 776,56
+[17:26:44] 		 776,93
+[17:26:44] 		 776,7
+[17:26:44] 		 776,71
+[17:26:44] 		 776,49
+[17:26:44] 		 776,45
+[17:26:44] 		 776,21
+[17:26:44] 		 776,55
+[17:26:44] 		 776,3
+[17:26:44] 		 776,14
+[17:26:44] 		 776,26
+[17:26:44] 		 776,23
+[17:26:44] 		 775,95
+[17:26:44] 		 776,02
+[17:26:44] 		 775,87
+[17:26:44] 		 775,82
+[17:26:44] 		 775,9
+[17:26:44] 		 775,76
+[17:26:44] 		 775,88
+[17:26:44] 		 775,94
+[17:26:44] 		 775,75
+[17:26:44] 		 775,88
+[17:26:44] 		 776,13
+[17:26:44] 		 775,76
+[17:26:44] 		 775,73
+[17:26:44] 		 775,56
+[17:26:44] 		 775,82
+[17:26:44] 		 775,79
+[17:26:44] 		 775,85
+[17:26:44] 		 776,02
+[17:26:44] 		 775,84
+[17:26:44] 		 776
+[17:26:44] 		 775,88
+[17:26:44] 		 775,94
+[17:26:44] 		 775,72
+[17:26:44] 		 775,93
+[17:26:44] 		 775,63
+[17:26:44] 		 775,87
+[17:26:44] 		 775,94
+[17:26:44] 		 775,84
+[17:26:44] 		 775,8
+[17:26:44] 		 775,71
+[17:26:44] 		 775,93
+[17:26:44] 		 776,37
+[17:26:44] 		 776,33
+[17:26:44] 		 776,19
+[17:26:44] 		 776,02
+[17:26:44] 		 775,98
+[17:26:44] 		 776,61
+[17:26:44] 		 776,77
+[17:26:45] 		 776,79
+[17:26:45] 		 776,53
+[17:26:45] 		 776,46
+[17:26:45] 		 776,15
+[17:26:45] 		 776,17
+[17:26:45] 		 776,08
+[17:26:45] 		 776,5
+[17:26:45] 		 776,36
+[17:26:45] 		 776
+[17:26:45] 		 775,94
+[17:26:45] 		 776,14
+[17:26:45] 		 776,11
+[17:26:45] 		 776,04
+[17:26:45] 		 775,91
+[17:26:45] 		 776,01
+[17:26:45] 		 776,01
+[17:26:45] 		 776
+[17:26:45] 		 775,98
+[17:26:45] 		 776,06
+[17:26:45] 		 775,91
+[17:26:45] 		 775,95
+[17:26:45] 		 775,85
+[17:26:45] 		 775,95
+[17:26:45] 		 775,73
+[17:26:45] 		 775,97
+[17:26:45] 		 775,92
+[17:26:45] 		 775,65
+[17:26:45] 		 775,92
+[17:26:45] 		 775,84
+[17:26:45] 		 776,05
+[17:26:45] 		 775,89
+[17:26:45] 		 776,01
+[17:26:45] 		 775,98
+[17:26:45] 		 776,03
+[17:26:45] 		 775,94
+[17:26:45] 		 775,82
+[17:26:45] 		 776,17
+[17:26:45] 		 775,94
+[17:26:45] 		 776,01
+[17:26:45] 		 776
+[17:26:45] 		 776,17
+[17:26:45] 		 776,22
+[17:26:45] 		 776,25
+[17:26:45] 		 776,28
+[17:26:45] 		 776,17
+[17:26:45] 		 776,51
+[17:26:45] 		 776,54
+[17:26:45] 		 776,33
+[17:26:45] 		 776,62
+[17:26:45] 		 776,59
+[17:26:45] 		 776,33
+[17:26:45] 		 776,55
+[17:26:45] 		 776,57
+[17:26:45] 		 776,48
+[17:26:45] 		 776,52
+[17:26:45] 		 776,78
+[17:26:45] 		 776,99
+[17:26:45] 		 776,48
+[17:26:45] 		 776,62
+[17:26:45] 		 776,46
+[17:26:45] 		 776,56
+[17:26:45] 		 776,4
+[17:26:45] 		 776,32
+[17:26:45] 		 776,13
+[17:26:45] 		 776,3
+[17:26:45] 		 776,41
+[17:26:45] 		 775,91
+[17:26:45] 		 776,02
+[17:26:45] 		 776,26
+[17:26:45] 		 776,24
+[17:26:45] 		 776,3
+[17:26:45] 		 776,1
+[17:26:45] 		 775,91
+[17:26:45] 		 775,94
+[17:26:45] 		 775,57
+[17:26:45] 		 776,07
+[17:26:45] 		 776,08
+[17:26:45] 		 776,05
+[17:26:45] 		 775,95
+[17:26:45] 		 775,95
+[17:26:45] 		 775,82
+[17:26:45] 		 776,02
+[17:26:45] 		 775,91
+[17:26:45] 		 776,36
+[17:26:45] 		 775,88
+[17:26:45] 		 776,06
+[17:26:45] 		 776,04
+[17:26:45] 		 775,62
+[17:26:45] 		 776,01
+[17:26:45] 		 776,32
+[17:26:45] 		 776,52
+[17:26:45] 		 776,62
+[17:26:45] 		 777,04
+[17:26:45] 		 776,58
+[17:26:45] 		 776,71
+[17:26:45] 		 776,66
+[17:26:45] 		 776,36
+[17:26:45] 		 776,59
+[17:26:45] 		 776,49
+[17:26:45] 		 776,37
+[17:26:45] 		 776,19
+[17:26:45] 		 776,4
+[17:26:45] 		 775,89
+[17:26:45] 		 775,87
+[17:26:45] 		 775,75
+[17:26:45] 		 775,72
+[17:26:45] 		 775,62
+[17:26:45] 		 775,76
+[17:26:45] 		 775,52
+[17:26:45] 		 776,06
+[17:26:45] 		 775,53
+[17:26:45] 		 775,76
+[17:26:45] 		 776,04
+[17:26:45] 		 775,75
+[17:26:45] 		 775,59
+[17:26:45] 		 775,73
+[17:26:45] 		 775,54
+[17:26:45] 		 775,85
+[17:26:45] 		 776
+[17:26:45] 		 775,82
+[17:26:45] 		 776,2
+[17:26:45] 		 776
+[17:26:45] 		 776,19
+[17:26:45] 		 776,01
+[17:26:45] 		 775,72
+[17:26:45] 		 775,72
+[17:26:45] 		 775,95
+[17:26:45] 		 775,97
+[17:26:45] 		 775,78
+[17:26:45] 		 775,94
+[17:26:45] 		 776,1
+[17:26:45] 		 775,76
+[17:26:45] 		 775,97
+[17:26:45] 		 775,92
+[17:26:45] 		 775,85
+[17:26:46] 		 776,23
+[17:26:46] 		 776,46
+[17:26:46] 		 776,51
+[17:26:46] 		 776,22
+[17:26:46] 		 776,8
+[17:26:46] 		 776,85
+[17:26:46] 		 776,66
+[17:26:46] 		 776,23
+[17:26:46] 		 776,24
+[17:26:46] 		 776,79
+[17:26:46] 		 776,91
+[17:26:46] 		 776,48
+[17:26:46] 		 776,51
+[17:26:46] 		 776,12
+[17:26:46] 		 776,13
+[17:26:46] 		 776,33
+[17:26:46] 		 776,38
+[17:26:46] 		 776,4
+[17:26:46] 		 776,4
+[17:26:46] 		 776,29
+[17:26:46] 		 776
+[17:26:46] 		 776,03
+[17:26:46] 		 775,91
+[17:26:46] 		 775,92
+[17:26:46] 		 776,01
+[17:26:46] 		 775,98
+[17:26:46] 		 775,98
+[17:26:46] 		 775,57
+[17:26:46] 		 776,03
+[17:26:46] 		 776,03
+[17:26:46] 		 776,03
+[17:26:46] 		 775,94
+[17:26:46] 		 775,94
+[17:26:46] 		 775,82
+[17:26:46] 		 775,91
+[17:26:46] 		 775,97
+[17:26:46] 		 775,75
+[17:26:46] 		 775,76
+[17:26:46] 		 775,89
+[17:26:46] 		 775,82
+[17:26:46] 		 775,86
+[17:26:46] 		 776,1
+[17:26:46] 		 776,02
+[17:26:46] 		 776,04
+[17:26:46] 		 776,19
+[17:26:46] 		 776,31
+[17:26:46] 		 775,97
+[17:26:46] 		 775,84
+[17:26:46] 		 776,26
+[17:26:46] 		 776,66
+[17:26:46] 		 776,65
+[17:26:46] 		 776,5
+[17:26:46] 		 776,85
+[17:26:46] 		 776,69
+[17:26:46] 		 776,68
+[17:26:46] 		 776,8
+[17:26:46] 		 777,22
+[17:26:46] 		 776,65
+[17:26:46] 		 776,7
+[17:26:46] 		 776,75
+[17:26:46] 		 777,16
+[17:26:46] 		 777,23
+[17:26:46] 		 776,84
+[17:26:46] 		 777,59
+[17:26:46] 		 777,3
+[17:26:46] 		 777,29
+[17:26:46] 		 777,1
+[17:26:46] 		 776,94
+[17:26:46] 		 776,59
+[17:26:46] 		 776,28
+[17:26:46] 		 775,9
+[17:26:46] 		 776,1
+[17:26:46] 		 776,14
+[17:26:46] 		 776,16
+[17:26:46] 		 775,87
+[17:26:46] 		 775,87
+[17:26:46] 		 776,2
+[17:26:46] 		 775,97
+[17:26:46] 		 776,08
+[17:26:46] 		 775,98
+[17:26:46] 		 775,79
+[17:26:46] 		 776,16
+[17:26:46] 		 776,11
+[17:26:46] 		 776,03
+[17:26:46] 		 775,93
+[17:26:46] 		 776,04
+[17:26:46] 		 776,33
+[17:26:46] 		 776,19
+[17:26:46] 		 776,22
+[17:26:46] 		 776,23
+[17:26:46] 		 776,26
+[17:26:46] 		 776,31
+[17:26:46] 		 776,31
+[17:26:46] 		 776,44
+[17:26:46] 		 776,24
+[17:26:46] 		 776,16
+[17:26:46] 		 776,68
+[17:26:46] 		 777,13
+[17:26:46] 		 777,45
+[17:26:46] 		 776,79
+[17:26:46] 		 776,75
+[17:26:46] 		 777,13
+[17:26:46] 		 776,9
+[17:26:46] 		 776,97
+[17:26:46] 		 777,05
+[17:26:46] 		 777,01
+[17:26:46] 		 777,02
+[17:26:46] 		 776,94
+[17:26:46] 		 776,95
+[17:26:46] 		 776,97
+[17:26:46] 		 776,79
+[17:26:46] 		 777,26
+[17:26:46] 		 777,17
+[17:26:46] 		 777,06
+[17:26:46] 		 776,95
+[17:26:46] 		 776,79
+[17:26:46] 		 776,31
+[17:26:46] 		 775,85
+[17:26:46] 		 775,78
+[17:26:46] 		 775,78
+[17:26:46] 		 775,87
+[17:26:46] 		 775,84
+[17:26:46] 		 776,11
+[17:26:46] 		 775,91
+[17:26:46] 		 775,87
+[17:26:46] 		 776,07
+[17:26:46] 		 776,13
+[17:26:46] 		 775,78
+[17:26:46] 		 776,01
+[17:26:47] 		 776,01
+[17:26:47] 		 776,09
+[17:26:47] 		 775,86
+[17:26:47] 		 775,63
+[17:26:47] 		 775,98
+[17:26:47] 		 775,88
+[17:26:47] 		 775,72
+[17:26:47] 		 775,91
+[17:26:47] 		 776,31
+[17:26:47] 		 776,01
+[17:26:47] 		 775,88
+[17:26:47] 		 776,34
+[17:26:47] 		 776,51
+[17:26:47] 		 776,64
+[17:26:47] 		 776,48
+[17:26:47] 		 776,36
+[17:26:47] 		 776,52
+[17:26:47] 		 776,69
+[17:26:47] 		 776,45
+[17:26:47] 		 776,52
+[17:26:47] 		 776,73
+[17:26:47] 		 776,81
+[17:26:47] 		 777,22
+[17:26:47] 		 777,06
+[17:26:47] 		 777,29
+[17:26:47] 		 777,05
+[17:26:47] 		 777,03
+[17:26:47] 		 777,24
+[17:26:47] 		 777,17
+[17:26:47] 		 777,1
+[17:26:47] 		 777,16
+[17:26:47] 		 777,26
+[17:26:47] 		 777,19
+[17:26:47] 		 776,85
+[17:26:47] 		 776,79
+[17:26:47] 		 776,53
+[17:26:47] 		 776,15
+[17:26:47] 		 775,97
+[17:26:47] 		 775,98
+[17:26:47] 		 775,79
+[17:26:47] 		 775,67
+[17:26:47] 		 775,9
+[17:26:47] 		 775,79
+[17:26:47] 		 775,63
+[17:26:47] 		 775,78
+[17:26:47] 		 775,78
+[17:26:47] 		 775,68
+[17:26:47] 		 775,52
+[17:26:47] 		 775,92
+[17:26:47] 		 775,81
+[17:26:47] 		 775,75
+[17:26:47] 		 775,6
+[17:26:47] 		 775,84
+[17:26:47] 		 775,97
+[17:26:47] 		 776,07
+[17:26:47] 		 776,17
+[17:26:47] 		 776,14
+[17:26:47] 		 776,22
+[17:26:47] 		 776,06
+[17:26:47] 		 776,17
+[17:26:47] 		 776,42
+[17:26:47] 		 776,25
+[17:26:47] 		 776,26
+[17:26:47] 		 776,74
+[17:26:47] 		 777,28
+[17:26:47] 		 777,1
+[17:26:47] 		 776,8
+[17:26:47] 		 776,84
+[17:26:47] 		 776,66
+[17:26:47] 		 776,47
+[17:26:47] 		 776,44
+[17:26:47] 		 776,36
+[17:26:47] 		 776,81
+[17:26:47] 		 776,88
+[17:26:47] 		 776,84
+[17:26:47] 		 776,97
+[17:26:47] 		 776,85
+[17:26:47] 		 776,76
+[17:26:47] 		 776,95
+[17:26:47] 		 776,53
+[17:26:47] 		 776,72
+[17:26:47] 		 776,49
+[17:26:47] 		 776,43
+[17:26:47] 		 776,24
+[17:26:47] 		 775,78
+[17:26:47] 		 775,56
+[17:26:47] 		 775,41
+[17:26:47] 		 775,56
+[17:26:47] 		 775,68
+[17:26:47] 		 775,49
+[17:26:47] 		 775,84
+[17:26:47] 		 776,03
+[17:26:47] 		 775,99
+[17:26:47] 		 775,84
+[17:26:47] 		 775,82
+[17:26:47] 		 775,82
+[17:26:47] 		 775,79
+[17:26:47] 		 776
+[17:26:47] 		 775,66
+[17:26:47] 		 775,65
+[17:26:47] 		 775,68
+[17:26:47] 		 775,95
+[17:26:47] 		 775,87
+[17:26:47] 		 775,75
+[17:26:47] 		 775,82
+[17:26:47] 		 775,91
+[17:26:47] 		 776,07
+[17:26:47] 		 775,99
+[17:26:47] 		 776,06
+[17:26:47] 		 776,16
+[17:26:47] 		 776,01
+[17:26:47] 		 776,51
+[17:26:47] 		 776,97
+[17:26:47] 		 777,4
+[17:26:47] 		 777,04
+[17:26:47] 		 777,11
+[17:26:47] 		 777,11
+[17:26:47] 		 776,86
+[17:26:47] 		 776,85
+[17:26:47] 		 776,7
+[17:26:47] 		 776,94
+[17:26:47] 		 776,92
+[17:26:47] 		 777,2
+[17:26:48] 		 776,95
+[17:26:48] 		 776,88
+[17:26:48] 		 776,63
+[17:26:48] 		 776,73
+[17:26:48] 		 776,46
+[17:26:48] 		 776,33
+[17:26:48] 		 776,46
+[17:26:48] 		 775,86
+[17:26:48] 		 776,39
+[17:26:48] 		 775,86
+[17:26:48] 		 775,89
+[17:26:48] 		 775,9
+[17:26:48] 		 775,59
+[17:26:48] 		 775,91
+[17:26:48] 		 775,65
+[17:26:48] 		 775,73
+[17:26:48] 		 775,56
+[17:26:48] 		 775,43
+[17:26:48] 		 775,33
+[17:26:48] 		 775,25
+[17:26:48] 		 775,36
+[17:26:48] 		 775,63
+[17:26:48] 		 775,72
+[17:26:48] 		 775,75
+[17:26:48] 		 775,58
+[17:26:48] 		 775,78
+[17:26:48] 		 775,84
+[17:26:48] 		 775,77
+[17:26:48] 		 776,03
+[17:26:48] 		 775,93
+[17:26:48] 		 775,76
+[17:26:48] 		 775,96
+[17:26:48] 		 775,88
+[17:26:48] 		 775,54
+[17:26:48] 		 775,86
+[17:26:48] 		 775,91
+[17:26:48] 		 776,4
+[17:26:48] 		 776,83
+[17:26:48] 		 777
+[17:26:48] 		 776,65
+[17:26:48] 		 776,81
+[17:26:48] 		 776,74
+[17:26:48] 		 777,07
+[17:26:48] 		 777,24
+[17:26:48] 		 776,89
+[17:26:48] 		 776,52
+[17:26:48] 		 776,37
+[17:26:48] 		 776,56
+[17:26:48] 		 776,71
+[17:26:48] 		 776,81
+[17:26:48] 		 776,82
+[17:26:48] 		 776,69
+[17:26:48] 		 776,79
+[17:26:48] 		 776,5
+[17:26:48] 		 776,43
+[17:26:48] 		 776,17
+[17:26:48] 		 776,12
+[17:26:48] 		 775,89
+[17:26:48] 		 775,97
+[17:26:48] 		 775,79
+[17:26:48] 		 775,57
+[17:26:48] 		 775,72
+[17:26:48] 		 775,57
+[17:26:48] 		 775,63
+[17:26:48] 		 775,5
+[17:26:48] 		 775,62
+[17:26:48] 		 775,56
+[17:26:48] 		 775,49
+[17:26:48] 		 775,68
+[17:26:48] 		 775,72
+[17:26:48] 		 775,62
+[17:26:48] 		 775,89
+[17:26:48] 		 775,72
+[17:26:48] 		 775,66
+[17:26:48] 		 775,98
+[17:26:48] 		 775,85
+[17:26:48] 		 775,68
+[17:26:48] 		 775,65
+[17:26:48] 		 775,82
+[17:26:48] 		 775,9
+[17:26:48] 		 775,81
+[17:26:48] 		 775,9
+[17:26:48] 		 776,01
+[17:26:48] 		 776,1
+[17:26:48] 		 776,56
+[17:26:48] 		 776,59
+[17:26:48] 		 776,55
+[17:26:48] 		 776,51
+[17:26:48] 		 776,87
+[17:26:48] 		 777,03
+[17:26:48] 		 776,7
+[17:26:48] 		 776,92
+[17:26:48] 		 776,95
+[17:26:48] 		 776,86
+[17:26:48] 		 776,76
+[17:26:48] 		 776,62
+[17:26:48] 		 777,04
+[17:26:48] 		 776,88
+[17:26:48] 		 
+[17:33:57]  Demmarrage version : 1.0.0.0
+[17:33:57]  lecture de la configuration
+[17:33:57]  Rafraichissement de la configuration
+[17:34:00] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:34:00] 		 station : Charge hydraulique[cm]
+[17:34:00] 		 CHARGE :bingo: CHARG
+[17:34:00] 		 station: BER_R_ABW2
+[17:34:00] 		 sensor: 0001
+[17:34:00] 		 station : Température[°C]
+[17:34:00] 		 TEMP :bingo: TEMP
+[17:34:00] 		 station: BER_R_ABW2
+[17:34:00] 		 sensor: 0003
+[17:34:00] 	 Traitement du fichier fini
+[17:34:00] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [11-02-2021-17-34-00].zip
+[17:34:00] 	 Archive basedir \
+[17:34:00] 		 Deplacement du fichier C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[17:34:00] 	 Fermeture du fichier ZIP
+[17:48:02]  Sortie de programme
+[17:48:05]  Demmarrage version : 1.0.0.0
+[17:48:05]  lecture de la configuration
+[17:48:05]  Rafraichissement de la configuration
+[17:48:06]  Sortie de programme

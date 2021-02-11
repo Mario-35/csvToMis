@@ -353,8 +353,8 @@ function TExport.exportToMis(Filename: String): boolean;
       k := 0;
       while trouve = -1 Do
       begin
-        if FormConfiguration.StringGridCsv.Cells[1,k] = station Then 
-          if AnsiContainsText(test, FormConfiguration.StringGridCsv.Cells[2,k]) Then 
+        if AnsiUpperCase(FormConfiguration.StringGridCsv.Cells[1,k]) = AnsiUpperCase(station) Then
+          if (FormConfiguration.StringGridCsv.Cells[2,k] =  copy(test, 0, length(FormConfiguration.StringGridCsv.Cells[2,k]))) Then
             begin
               trouve := k;
               LogLine(2 , 'station: ' + FormConfiguration.StringGridCsv.Cells[3,trouve]);
@@ -394,22 +394,26 @@ function TExport.exportToMis(Filename: String): boolean;
           Begin
             _DATE := trim(AnsiReplaceText(copy(_TEMP[0],0,position),'/',''));
             _HEURE := trim(AnsiReplaceText(copy(_TEMP[0], position, 10),':',''));
-            if  operation = '!' Then _VALEUR := _TEMP[i]
-            Else Begin
-              Case operation of
-                '+' : resultat := StrToFloat(_TEMP[i]) + calcul;
-                '-' : resultat := StrToFloat(_TEMP[i]) - calcul;
-                '*' : resultat := StrToFloat(_TEMP[i]) * calcul;
-                '/' : resultat := StrToFloat(_TEMP[i]) / calcul;
-              end;
-              _VALEUR := floatToStr(resultat);
-            End;
+            if (_TEMP[i] <> '') Then
+            begin
+              _VALEUR := AnsiReplaceText(_TEMP[i],',','.');
+              if  operation = '!' Then _VALEUR := _VALEUR
+              Else Begin
+                Case operation of
+                  '+' : resultat := StrToFloat(_VALEUR) + calcul;
+                  '-' : resultat := StrToFloat(_VALEUR) - calcul;
+                  '*' : resultat := StrToFloat(_VALEUR) * calcul;
+                  '/' : resultat := StrToFloat(_VALEUR) / calcul;
+                end;
+                _VALEUR := floatToStr(resultat);
+              End;
+            End else _VALEUR := 'null';
           End;
           _FILEOUT.Add(format(_OUTLINE, [_DATE, _HEURE ,AnsiReplaceText(_VALEUR,',','.')]))
         end Else if AnsiStartsStr(_FILEIN[j], 'END OF DATA FILE') Then break;
       End;
     End;
-    
+
     _FILEOUT.SaveToFile(IncludeTrailingPathDelimiter(CONFIG.Values['MisFolder'])+AnsiReplaceText(ExtractFileName(Filename),'.csv','.mis'));
     _FILEIN.Free;
     _FILEOUT.Free;
