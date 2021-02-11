@@ -335,7 +335,7 @@ procedure TFormConfiguration.RefreshConfig;
     PanelMis.Color := testColor(MISDIR_OK);
     PanelArchive.Color := testColor(ARCHIVEDIR_OK);
     PanelParamImport.Visible := CSVDIR_OK;
-    export.ToolButtonStartMaual.enabled := CSVDIR_OK;
+    export.ToolButtonStartManual.enabled := CSVDIR_OK;
 
     If (CONFIG.Values['launchMonitoringStartup'] = 'True') AND (CANEXECUTE = True)
       Then export.RefreshStatus(tpMonitor);
