@@ -354,7 +354,7 @@ function TExport.exportToMis(Filename: String): boolean;
       while trouve = -1 Do
       begin
         if AnsiUpperCase(FormConfiguration.StringGridCsv.Cells[1,k]) = AnsiUpperCase(station) Then
-          if (FormConfiguration.StringGridCsv.Cells[2,k] =  copy(test, 0, length(FormConfiguration.StringGridCsv.Cells[2,k])) OR AnsiContainsText(FormConfiguration.StringGridCsv.Cells[2,k], test)) Then
+          if AnsiContainsText(FormConfiguration.StringGridCsv.Cells[2,k], test) Then
             begin
               trouve := k;
               LogLine(2 , 'station: ' + FormConfiguration.StringGridCsv.Cells[3,trouve]);

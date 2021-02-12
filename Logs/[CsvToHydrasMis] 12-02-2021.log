@@ -1,0 +1,62 @@
+[10:58:59]  Demmarrage version : 1.0.0.0
+[10:58:59]  lecture de la configuration
+[10:58:59]  Rafraichissement de la configuration
+[10:59:16] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[10:59:16] 		 station : Charge hydraulique[cm]
+[10:59:16] 		 Erreur : Pas de correspondance pour station :  ABW2
+[10:59:16] 		                                  et sensor  :  CHARGE
+[10:59:16] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [12-02-2021-10-59-16].zip
+[10:59:16] 	 Archive basedir \
+[10:59:16] 	 Fermeture du fichier ZIP
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151556_J7149.CSV
+[10:59:25] 		 station : Charge hydraulique[cm]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  ABW2
+[10:59:25] 		                                  et sensor  :  CHARGE
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\ABW2_210210151635_J7149.CSV
+[10:59:25] 		 station : Pression[cmH2O]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  ABW2
+[10:59:25] 		                                  et sensor  :  
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\baro flux tower_210210151804_P6166.CSV
+[10:59:25] 		 station : Pression[cmH2O]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  baro flux tower
+[10:59:25] 		                                  et sensor  :  
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\baro-mulehole_210210151837_N5727.CSV
+[10:59:25] 		 station : Pression[cmH2O]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  baro-mulehole
+[10:59:25] 		                                  et sensor  :  
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\berambadi abw_210210151853_V5672.CSV
+[10:59:25] 		 station : Pression[cmH2O]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  berambadi abw
+[10:59:25] 		                                  et sensor  :  
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\berambadi abw_210210151902_V5672.CSV
+[10:59:25] 		 station : Charge hydraulique[cm]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  berambadi abw
+[10:59:25] 		                                  et sensor  :  CHARGE
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\Maddur Outlet_210210151925_BM517.CSV
+[10:59:25] 		 station : Charge hydraulique[cm]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  Maddur Outlet
+[10:59:25] 		                                  et sensor  :  CHARGE
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\Maddur Outlet_210210151935_BM517.CSV
+[10:59:25] 		 station : Pression[cmH2O]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  Maddur Outlet
+[10:59:25] 		                                  et sensor  :  
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p1 mh_210210152008_BV868.CSV
+[10:59:25] 		 station : Pression[cmH2O]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  p1 mh
+[10:59:25] 		                                  et sensor  :  
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p1 mh_210210152016_BV868.CSV
+[10:59:25] 		 station : Charge hydraulique[cm]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  p1 mh
+[10:59:25] 		                                  et sensor  :  CHARGE
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p10_mh_210210152030_AM211.CSV
+[10:59:25] 		 station : Charge hydraulique[cm]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  p10
+[10:59:25] 		                                  et sensor  :  CHARGE
+[10:59:25] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p10_mh_210210152040_AM211.CSV
+[10:59:25] 		 station : Pression[cmH2O]
+[10:59:25] 		 Erreur : Pas de correspondance pour station :  p10
+[10:59:25] 		                                  et sensor  :  
+[10:59:25] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [12-02-2021-10-59-25].zip
+[10:59:25] 	 Archive basedir \
+[10:59:25] 	 Fermeture du fichier ZIP
+[10:59:55]  Sortie de programme
