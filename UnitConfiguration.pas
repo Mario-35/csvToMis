@@ -714,7 +714,7 @@ end;
 
 function TFormConfiguration.testFormat(input: string): string;
 const 
-  Char_Accents      = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ';
+  Char_Accents      = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ,."!@#$%^&*(){}[]-_\|/?=+;:`~';
 
 var
   position, i: integer;

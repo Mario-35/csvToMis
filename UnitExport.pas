@@ -296,7 +296,7 @@ function TExport.exportToMis(Filename: String): boolean;
       operation : char;
       _FILEIN, _FILEOUT, _TEMP, _ENTETE : TStringList;
       i,j, k, trouve, position : integer;
-      ligne, station, test, _DATE, _HEURE, _VALEUR, pipo : String;
+      ligne, station, test, _DATE, _HEURE, _VALEUR : String;
 
   const
       _OUTLINE = '%s;%s;%s';
@@ -347,23 +347,12 @@ function TExport.exportToMis(Filename: String): boolean;
     For i := 1 to _ENTETE.Count - 1 Do
     Begin
       LogLine(2 , 'station : ' + _ENTETE[i]);
-            showmessage(_ENTETE[i]);
-      pipo := FormConfiguration.testFormat(_ENTETE[i]);
-      showmessage(pipo);
       test := trim(AnsiUpperCase(FormConfiguration.testFormat(_ENTETE[i])));
       // cherche la colonne de correspondance
       trouve := -1;
       k := 0;
       while trouve = -1 Do
       begin
-      LogLine(2 , 'one : ' + AnsiUpperCase(FormConfiguration.StringGridCsv.Cells[1,k]));
-      LogLine(2 , 'two : ' + AnsiUpperCase(station));
-
-           LogLine(2 , 'three : ' + FormConfiguration.StringGridCsv.Cells[2,k]);
-      LogLine(2 , 'four : ' + test);
-       LogLine(2 , 'five : ' + _ENTETE[i]);
-
-
         if AnsiUpperCase(FormConfiguration.StringGridCsv.Cells[1,k]) = AnsiUpperCase(station) Then
           if AnsiContainsText(test, FormConfiguration.StringGridCsv.Cells[2,k]) Then
             begin
@@ -405,7 +394,7 @@ function TExport.exportToMis(Filename: String): boolean;
           Begin
             _DATE := trim(AnsiReplaceText(copy(_TEMP[0],0,position),'/',''));
             _HEURE := trim(AnsiReplaceText(copy(_TEMP[0], position, 10),':',''));
-            if (_TEMP[i] <> '') Then
+            if (trim(_TEMP[i]) <> '') Then
             begin
               _VALEUR := AnsiReplaceText(_TEMP[i],',','.');
               if  operation = '!' Then _VALEUR := _VALEUR
