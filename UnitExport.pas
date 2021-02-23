@@ -296,7 +296,7 @@ function TExport.exportToMis(Filename: String): boolean;
       operation : char;
       _FILEIN, _FILEOUT, _TEMP, _ENTETE : TStringList;
       i,j, k, trouve, position : integer;
-      ligne, station, test, _DATE, _HEURE, _VALEUR : String;
+      ligne, station, test, _DATE, _HEURE, _VALEUR, pipo : String;
 
   const
       _OUTLINE = '%s;%s;%s';
@@ -347,14 +347,25 @@ function TExport.exportToMis(Filename: String): boolean;
     For i := 1 to _ENTETE.Count - 1 Do
     Begin
       LogLine(2 , 'station : ' + _ENTETE[i]);
+            showmessage(_ENTETE[i]);
+      pipo := FormConfiguration.testFormat(_ENTETE[i]);
+      showmessage(pipo);
       test := trim(AnsiUpperCase(FormConfiguration.testFormat(_ENTETE[i])));
       // cherche la colonne de correspondance
       trouve := -1;
       k := 0;
       while trouve = -1 Do
       begin
+      LogLine(2 , 'one : ' + AnsiUpperCase(FormConfiguration.StringGridCsv.Cells[1,k]));
+      LogLine(2 , 'two : ' + AnsiUpperCase(station));
+
+           LogLine(2 , 'three : ' + FormConfiguration.StringGridCsv.Cells[2,k]);
+      LogLine(2 , 'four : ' + test);
+       LogLine(2 , 'five : ' + _ENTETE[i]);
+
+
         if AnsiUpperCase(FormConfiguration.StringGridCsv.Cells[1,k]) = AnsiUpperCase(station) Then
-          if AnsiContainsText(FormConfiguration.StringGridCsv.Cells[2,k], test) Then
+          if AnsiContainsText(test, FormConfiguration.StringGridCsv.Cells[2,k]) Then
             begin
               trouve := k;
               LogLine(2 , 'station: ' + FormConfiguration.StringGridCsv.Cells[3,trouve]);
