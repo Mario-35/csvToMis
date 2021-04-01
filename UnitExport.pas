@@ -296,7 +296,7 @@ function TExport.exportToMis(Filename: String): boolean;
       operation : char;
       _FILEIN, _FILEOUT, _TEMP, _ENTETE : TStringList;
       i,j, k, trouve, position : integer;
-      ligne, station, test, _DATE, _HEURE, _VALEUR : String;
+      ligne, station, test, _DATE, _HEURE, _VALEUR, _SEPARATEUR : String;
 
   const
       _OUTLINE = '%s;%s;%s';
@@ -340,7 +340,16 @@ function TExport.exportToMis(Filename: String): boolean;
     End;
 
     // creation d'un tableau avec l'entete
-    _ENTETE.Text := AnsiReplaceText(_FILEIN[0], ';', #13+#10);
+    if  ansiPos(';',_FILEIN[0]) > 1
+     Then _SEPARATEUR := ';'
+      Else If  ansiPos(',',_FILEIN[0]) > 1
+      Then _SEPARATEUR := ','
+        Else Begin
+          LogLine(2 , 'Seperateur non correct non correct (; ou ,)');
+          exit;
+        End;
+
+    _ENTETE.Text := AnsiReplaceText(_FILEIN[0], _SEPARATEUR, #13+#10);
 
     // boucle sur les colonnes sauf la date de la premiere colone
 
@@ -386,14 +395,23 @@ function TExport.exportToMis(Filename: String): boolean;
         
       For j := 1 to _FILEIN.Count - 1 Do
       Begin
-        _TEMP.Text := AnsiReplaceText(_FILEIN[j], ';', #13+#10);
-        if (_TEMP.count - 1 >= i)  Then 
+        _TEMP.Text := AnsiReplaceText(_FILEIN[j], _SEPARATEUR, #13+#10);
+        if (_TEMP.count - 1 >= i)  Then
         Begin
+        showmessage(_TEMP.text);
           position := ansiPos(' ',_TEMP[0]);
           if position > 1 Then
           Begin
-            _DATE := trim(AnsiReplaceText(copy(_TEMP[0],0,position),'/',''));
+            if  copy(_TEMP[0],0,position)[2] = '/'
+              Then _DATE := trim(AnsiReplaceText(copy(_TEMP[0],0,position),'/',''))
+            else if copy(_TEMP[0],0,position)[3] = '/' Then Begin
+            showmessage('uhbeotuhdtnoedhutheod');
+            End;
             _HEURE := trim(AnsiReplaceText(copy(_TEMP[0], position, 10),':',''));
+
+            showmessage(_DATE);
+            showmessage(_HEURE);
+
             if (trim(_TEMP[i]) <> '') Then
             begin
               _VALEUR := AnsiReplaceText(_TEMP[i],',','.');

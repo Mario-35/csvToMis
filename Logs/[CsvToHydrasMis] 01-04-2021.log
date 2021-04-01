@@ -1,0 +1,184 @@
+[07:47:12]  Demmarrage version : 1.0.0.0
+[07:47:12]  lecture de la configuration
+[07:47:12]  Rafraichissement de la configuration
+[07:47:16] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[07:47:16] 	 Traitement du fichier fini
+[07:47:16] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-04-2021-07-47-16].zip
+[07:47:16] 	 Archive basedir \
+[07:47:16] 		 Deplacement du fichier C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[07:47:16] 	 Fermeture du fichier ZIP
+[07:47:25]  Sortie de programme
+[07:55:17]  Demmarrage version : 1.0.0.0
+[07:55:17]  lecture de la configuration
+[07:55:17]  Rafraichissement de la configuration
+[07:55:40] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[07:55:40] 	 Traitement du fichier fini
+[07:55:40] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-04-2021-07-55-40].zip
+[07:55:40] 	 Archive basedir \
+[07:55:40] 		 Deplacement du fichier C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[07:55:40] 	 Fermeture du fichier ZIP
+[08:02:43]  Sortie de programme
+[08:02:59]  Demmarrage version : 1.0.0.0
+[08:02:59]  lecture de la configuration
+[08:02:59]  Rafraichissement de la configuration
+[08:03:08] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:03:23]  Demmarrage version : 1.0.0.0
+[08:03:23]  lecture de la configuration
+[08:03:23]  Rafraichissement de la configuration
+[08:03:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:03:29] 	 Traitement du fichier fini
+[08:03:29] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-04-2021-08-03-29].zip
+[08:03:29] 	 Archive basedir \
+[08:03:29] 		 Deplacement du fichier C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:03:29] 	 Fermeture du fichier ZIP
+[08:06:47]  Demmarrage version : 1.0.0.0
+[08:06:47]  lecture de la configuration
+[08:06:47]  Rafraichissement de la configuration
+[08:06:52] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:08:03]  Demmarrage version : 1.0.0.0
+[08:08:03]  lecture de la configuration
+[08:08:03]  Rafraichissement de la configuration
+[08:08:06] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:08:54]  Demmarrage version : 1.0.0.0
+[08:08:54]  lecture de la configuration
+[08:08:54]  Rafraichissement de la configuration
+[08:09:03] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:18:52]  Demmarrage version : 1.0.0.0
+[08:18:52]  lecture de la configuration
+[08:18:52]  Rafraichissement de la configuration
+[08:18:59] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:18:59] 		 station : Water head[m]
+[08:18:59] 		 Erreur : Pas de correspondance pour station :  210330101008
+[08:18:59] 		                                  et sensor  :  WATER HEAD
+[08:18:59] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-04-2021-08-18-59].zip
+[08:18:59] 	 Archive basedir \
+[08:18:59] 	 Fermeture du fichier ZIP
+[08:19:38]  Sortie de programme
+[08:20:07]  Demmarrage version : 1.0.0.0
+[08:20:07]  lecture de la configuration
+[08:20:07]  Rafraichissement de la configuration
+[08:20:33]  Rafraichissement de la configuration
+[08:23:30]  Demmarrage version : 1.0.0.0
+[08:23:30]  lecture de la configuration
+[08:23:30]  Rafraichissement de la configuration
+[08:23:39] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\210330101008_berambadi abw_compensated.CSV
+[08:23:39] 		 station : Charge hydraulique[cm]
+[08:23:39] 		 Erreur : Pas de correspondance pour station :  210330101008
+[08:23:39] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[08:23:39] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-04-2021-08-23-39].zip
+[08:23:39] 	 Archive basedir \
+[08:23:39] 	 Fermeture du fichier ZIP
+[08:23:54]  Sortie de programme
+[08:27:01]  Demmarrage version : 1.0.0.0
+[08:27:01]  lecture de la configuration
+[08:27:01]  Rafraichissement de la configuration
+[08:27:06] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\e3_201119143917_P4492.CSV
+[08:27:07] 		 station : Charge hydraulique[cm]
+[08:27:07] 		 Erreur : Pas de correspondance pour station :  e3
+[08:27:07] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[08:27:07] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-04-2021-08-27-07].zip
+[08:27:07] 	 Archive basedir \
+[08:27:07] 	 Fermeture du fichier ZIP
+[08:29:53]  Rafraichissement de la configuration
+[08:29:57]  Sortie de programme
+[08:30:54]  Demmarrage version : 1.0.0.0
+[08:30:54]  lecture de la configuration
+[08:30:54]  Rafraichissement de la configuration
+[08:31:00] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:31:00] 		 station : Charge hydraulique[cm]
+[08:31:00] 		 station: BERAM_R_AB
+[08:31:00] 		 sensor: 0001
+[08:31:44]  Demmarrage version : 1.0.0.0
+[08:31:44]  lecture de la configuration
+[08:31:44]  Rafraichissement de la configuration
+[08:32:26] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:32:26] 		 station : Charge hydraulique[cm]
+[08:32:26] 		 station: BERAM_R_AB
+[08:32:26] 		 sensor: 0001
+[08:38:36]  Demmarrage version : 1.0.0.0
+[08:38:36]  lecture de la configuration
+[08:38:36]  Rafraichissement de la configuration
+[08:38:44] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:38:44] 		 station : Charge hydraulique[cm]
+[08:38:44] 		 station: BERAM_R_AB
+[08:38:44] 		 sensor: 0001
+[08:40:36]  Demmarrage version : 1.0.0.0
+[08:40:36]  lecture de la configuration
+[08:40:36]  Rafraichissement de la configuration
+[08:40:40] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:40:40] 		 station : Charge hydraulique[cm]
+[08:40:40] 		 station: BERAM_R_AB
+[08:40:40] 		 sensor: 0001
+[08:41:57]  Demmarrage version : 1.0.0.0
+[08:41:57]  lecture de la configuration
+[08:41:57]  Rafraichissement de la configuration
+[08:42:01] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:42:01] 		 station : Charge hydraulique[cm]
+[08:42:01] 		 station: BERAM_R_AB
+[08:42:01] 		 sensor: 0001
+[08:43:04]  Demmarrage version : 1.0.0.0
+[08:43:04]  lecture de la configuration
+[08:43:04]  Rafraichissement de la configuration
+[08:43:08] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:43:08] 		 station : Charge hydraulique[cm]
+[08:43:08] 		 station: BERAM_R_AB
+[08:43:08] 		 sensor: 0001
+[08:44:20]  Demmarrage version : 1.0.0.0
+[08:44:20]  lecture de la configuration
+[08:44:20]  Rafraichissement de la configuration
+[08:44:34]  Demmarrage version : 1.0.0.0
+[08:44:34]  lecture de la configuration
+[08:44:34]  Rafraichissement de la configuration
+[08:44:39] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:44:39] 		 station : Charge hydraulique[cm]
+[08:44:39] 		 station: BERAM_R_AB
+[08:44:39] 		 sensor: 0001
+[08:48:09]  Demmarrage version : 1.0.0.0
+[08:48:09]  lecture de la configuration
+[08:48:09]  Rafraichissement de la configuration
+[08:48:14] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:48:14] 		 station : Charge hydraulique[cm]
+[08:48:14] 		 station: BERAM_R_AB
+[08:48:14] 		 sensor: 0001
+[08:49:24]  Demmarrage version : 1.0.0.0
+[08:49:24]  lecture de la configuration
+[08:49:24]  Rafraichissement de la configuration
+[08:49:28] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:49:28] 		 station : Charge hydraulique[cm]
+[08:49:28] 		 station: BERAM_R_AB
+[08:49:28] 		 sensor: 0001
+[08:51:17]  Demmarrage version : 1.0.0.0
+[08:51:17]  lecture de la configuration
+[08:51:17]  Rafraichissement de la configuration
+[08:51:22] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:51:22] 		 station : Charge hydraulique[cm]
+[08:51:22] 		 station: BERAM_R_AB
+[08:51:22] 		 sensor: 0001
+[08:51:38]  Demmarrage version : 1.0.0.0
+[08:51:38]  lecture de la configuration
+[08:51:38]  Rafraichissement de la configuration
+[08:51:43] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\abw_compensated.CSV
+[08:51:43] 		 station : Charge hydraulique[cm]
+[08:51:43] 		 station: BERAM_R_AB
+[08:51:43] 		 sensor: 0001
+[08:51:43] 		 station : Temperature[�C]
+[08:51:43] 		 station: BERAM_R_AB
+[08:51:43] 		 sensor: 0003
+[08:51:43] 		 station : 2:Spec.cond.[mS/cm]
+[08:51:43] 		 Erreur : Pas de correspondance pour station :  abw
+[08:51:43] 		                                  et sensor  :  2:SPEC
+[08:51:43] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [01-04-2021-08-51-43].zip
+[08:51:43] 	 Archive basedir \
+[08:51:43] 	 Fermeture du fichier ZIP
+[08:54:26]  Demmarrage version : 1.0.0.0
+[08:54:26]  lecture de la configuration
+[08:54:26]  Rafraichissement de la configuration
+[08:54:27]  Sortie de programme
+[08:56:00]  Demmarrage version : 1.0.0.0
+[08:56:00]  lecture de la configuration
+[08:56:00]  Rafraichissement de la configuration
+[08:56:03]  Sortie de programme
+[08:56:10]  Demmarrage version : 1.0.0.0
+[08:56:10]  lecture de la configuration
+[08:56:10]  Rafraichissement de la configuration
+[08:56:14]  Sortie de programme

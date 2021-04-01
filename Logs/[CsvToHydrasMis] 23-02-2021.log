@@ -9392,3 +9392,65 @@
 [10:24:29] 		 Deplacement du fichier C:\csvToMis\tests\csv\Maddur Outlet_210210151935_BM517.CSV
 [10:24:29] 	 Fermeture du fichier ZIP
 [10:24:33]  Sortie de programme
+[10:45:14]  Demmarrage version : 1.0.0.0
+[10:45:14]  lecture de la configuration
+[10:45:14]  Rafraichissement de la configuration
+[10:45:18] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\berambadi abw_210210151853_V5672.CSV
+[10:45:18] 		 station : Pression[cmH2O]
+[10:45:19] 		 Erreur : Pas de correspondance pour station :  berambadi abw
+[10:45:19] 		                                  et sensor  :  PRESSION
+[10:45:19] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\berambadi abw_210210151902_V5672.CSV
+[10:45:19] 		 station : Charge hydraulique[cm]
+[10:45:19] 		 Erreur : Pas de correspondance pour station :  berambadi abw
+[10:45:19] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[10:45:19] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p1 mh_210210152008_BV868.CSV
+[10:45:19] 		 station : Pression[cmH2O]
+[10:45:19] 		 Erreur : Pas de correspondance pour station :  p1 mh
+[10:45:19] 		                                  et sensor  :  PRESSION
+[10:45:19] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p1 mh_210210152016_BV868.CSV
+[10:45:19] 		 station : Charge hydraulique[cm]
+[10:45:19] 		 Erreur : Pas de correspondance pour station :  p1 mh
+[10:45:19] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[10:45:19] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p10_mh_210210152030_AM211.CSV
+[10:45:19] 		 station : Charge hydraulique[cm]
+[10:45:19] 		 Erreur : Pas de correspondance pour station :  p10
+[10:45:19] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[10:45:19] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p10_mh_210210152040_AM211.CSV
+[10:45:19] 		 station : Pression[cmH2O]
+[10:45:19] 		 Erreur : Pas de correspondance pour station :  p10
+[10:45:19] 		                                  et sensor  :  PRESSION
+[10:45:19] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [23-02-2021-10-45-19].zip
+[10:45:19] 	 Archive basedir \
+[10:45:19] 	 Fermeture du fichier ZIP
+[10:47:38]  Rafraichissement de la configuration
+[10:49:26]  Sortie de programme
+[10:56:25]  Demmarrage version : 1.0.0.0
+[10:56:25]  lecture de la configuration
+[10:56:25]  Rafraichissement de la configuration
+[10:56:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\berambadi abw_210210151853_V5672.CSV
+[10:56:29] 		 station : Pression[cmH2O]
+[10:56:29] 		 Erreur : Pas de correspondance pour station :  berambadi abw
+[10:56:29] 		                                  et sensor  :  PRESSION
+[10:56:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\berambadi abw_210210151902_V5672.CSV
+[10:56:29] 		 station : Charge hydraulique[cm]
+[10:56:29] 		 Erreur : Pas de correspondance pour station :  berambadi abw
+[10:56:29] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[10:56:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p1 mh_210210152008_BV868.CSV
+[10:56:29] 		 station : Pression[cmH2O]
+[10:56:29] 		 Erreur : Pas de correspondance pour station :  p1 mh
+[10:56:29] 		                                  et sensor  :  PRESSION
+[10:56:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p1 mh_210210152016_BV868.CSV
+[10:56:29] 		 station : Charge hydraulique[cm]
+[10:56:29] 		 Erreur : Pas de correspondance pour station :  p1 mh
+[10:56:29] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[10:56:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p10_mh_210210152030_AM211.CSV
+[10:56:29] 		 station : Charge hydraulique[cm]
+[10:56:29] 		 Erreur : Pas de correspondance pour station :  p10
+[10:56:29] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[10:56:29] 	 Traitement du fichier csv : C:\csvToMis\tests\csv\p10_mh_210210152040_AM211.CSV
+[10:56:29] 		 station : Pression[cmH2O]
+[10:56:29] 		 Erreur : Pas de correspondance pour station :  p10
+[10:56:29] 		                                  et sensor  :  PRESSION
+[10:56:29] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [23-02-2021-10-56-29].zip
+[10:56:29] 	 Archive basedir \
+[10:56:29] 	 Fermeture du fichier ZIP
