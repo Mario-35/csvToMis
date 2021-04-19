@@ -1,0 +1,912 @@
+[13:03:11]  Demmarrage version : 1.0.0.0
+[13:03:11]  lecture de la configuration
+[13:03:11]  Rafraichissement de la configuration
+[13:03:52]  sauvegarde de la configuration
+[13:03:52]  Rafraichissement de la configuration
+[13:04:07]  Sortie de programme
+[13:11:15]  Demmarrage version : 1.0.0.0
+[13:11:15]  lecture de la configuration
+[13:11:15]  Rafraichissement de la configuration
+[13:11:17]  Sortie de programme
+[13:11:37]  Demmarrage version : 1.0.0.0
+[13:11:37]  lecture de la configuration
+[13:11:37]  Rafraichissement de la configuration
+[13:11:49]  Sortie de programme
+[13:14:40]  Demmarrage version : 1.0.0.0
+[13:14:40]  lecture de la configuration
+[13:14:40]  Rafraichissement de la configuration
+[13:14:45] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[13:14:45] 		 station : Charge hydraulique[cm]
+[13:14:45] 		 station: KERV_B_AVA
+[13:14:45] 		 sensor: 101
+[13:14:45] 		 station : Température[°C]
+[13:14:45] 		 station: KERV_B_AVA
+[13:14:45] 		 sensor: 201
+[13:14:45] 	 Traitement du fichier fini
+[13:15:02] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:15:24] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[13:15:24] 		 station : Charge hydraulique[cm]
+[13:15:24] 		 station: KERV_B_BRG
+[13:15:24] 		 sensor: 101
+[13:15:24] 		 Erreur : Pas de correspondance pour station :  brgm
+[13:15:24] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[13:15:40] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:16:48]  Sortie de programme
+[13:18:58]  Demmarrage version : 1.0.0.0
+[13:18:58]  lecture de la configuration
+[13:18:58]  Rafraichissement de la configuration
+[13:19:01] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:19:23]  Sortie de programme
+[13:22:40]  Demmarrage version : 1.0.0.0
+[13:22:41]  lecture de la configuration
+[13:22:41]  Rafraichissement de la configuration
+[13:22:45] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:26:13]  Demmarrage version : 1.0.0.0
+[13:26:13]  lecture de la configuration
+[13:26:13]  Rafraichissement de la configuration
+[13:26:47] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:29:52]  Demmarrage version : 1.0.0.0
+[13:29:52]  lecture de la configuration
+[13:29:52]  Rafraichissement de la configuration
+[13:29:55] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:30:28]  Demmarrage version : 1.0.0.0
+[13:30:28]  lecture de la configuration
+[13:30:28]  Rafraichissement de la configuration
+[13:30:29] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:32:05]  Demmarrage version : 1.0.0.0
+[13:32:05]  lecture de la configuration
+[13:32:05]  Rafraichissement de la configuration
+[13:32:07] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:32:07] 		 7
+[13:32:07] 		 6
+[13:32:07] 		 5
+[13:32:07] 		 4
+[13:32:07] 		 3
+[13:32:07] 		 2
+[13:32:07] 		 1
+[13:32:22]  Sortie de programme
+[13:32:42]  Demmarrage version : 1.0.0.0
+[13:32:42]  lecture de la configuration
+[13:32:42]  Rafraichissement de la configuration
+[13:32:45] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:32:45] 		 7
+[13:32:45] 		 6
+[13:32:45] 		 5
+[13:32:45] 		 4
+[13:32:45] 		 3
+[13:32:45] 		 2
+[13:32:45] 		 1
+[13:33:14]  Demmarrage version : 1.0.0.0
+[13:33:14]  lecture de la configuration
+[13:33:14]  Rafraichissement de la configuration
+[13:33:18] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:33:18] 		 7
+[13:33:18] 		 6
+[13:33:18] 		 5
+[13:33:18] 		 4
+[13:33:18] 		 3
+[13:33:18] 		 2
+[13:33:18] 		 1
+[13:33:18] 		 Fichier csv non correct
+[13:33:22]  Sortie de programme
+[13:33:53]  Demmarrage version : 1.0.0.0
+[13:33:53]  lecture de la configuration
+[13:33:53]  Rafraichissement de la configuration
+[13:33:56] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[13:33:56] 		 Fichier csv non correct
+[13:34:06] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[13:34:06] 		 station : Charge hydraulique[cm]
+[13:34:06] 		 station: KERV_B_AVA
+[13:34:06] 		 sensor: 101
+[13:34:06] 		 station : Température[°C]
+[13:34:06] 		 station: KERV_B_AVA
+[13:34:06] 		 sensor: 201
+[13:34:06] 	 Traitement du fichier fini
+[13:34:31] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[13:34:31] 		 station : Charge hydraulique[cm]
+[13:34:31] 		 station: KERV_B_BRG
+[13:34:31] 		 sensor: 101
+[13:34:31] 		 Erreur : Pas de correspondance pour station :  brgm
+[13:34:31] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:12:32]  Demmarrage version : 1.0.0.0
+[14:12:32]  lecture de la configuration
+[14:12:32]  Rafraichissement de la configuration
+[14:12:41] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:12:41] 		 station : Charge hydraulique[cm]
+[14:12:41] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:12:41] 		 Test 2: BRGM
+[14:12:41] 		 Test 1: BARO KERVIDY
+[14:12:41] 		 Test 2: BRGM
+[14:12:41] 		 Test 1: BARO KERVIDY
+[14:12:41] 		 Test 2: BRGM
+[14:12:41] 		 Test 1: PZ AVAL RU KERVIDY
+[14:12:41] 		 Test 2: BRGM
+[14:12:41] 		 Test 1: PZ AVAL RU KERVIDY
+[14:12:41] 		 Test 2: BRGM
+[14:12:41] 		 Test 1: BRGM
+[14:12:41] 		 Test 2: BRGM
+[14:12:41] 		 station: KERV_B_BRG
+[14:12:41] 		 sensor: 101
+[14:12:41] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:12:41] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:14:59]  Demmarrage version : 1.0.0.0
+[14:14:59]  lecture de la configuration
+[14:14:59]  Rafraichissement de la configuration
+[14:15:00] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:15:00] 		 station : Charge hydraulique[cm]
+[14:15:00] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:15:00] 		 Test 2: BRGM
+[14:15:00] 		 Test : CHARGE HYDRAULIQUE
+[14:15:00] 		 Test 4: Nom_col_csv
+[14:15:00] 		 Test 1: BARO KERVIDY
+[14:15:00] 		 Test 2: BRGM
+[14:15:00] 		 Test : CHARGE HYDRAULIQUE
+[14:15:00] 		 Test 4: PRESS
+[14:15:00] 		 Test 1: BARO KERVIDY
+[14:15:00] 		 Test 2: BRGM
+[14:15:00] 		 Test : CHARGE HYDRAULIQUE
+[14:15:00] 		 Test 4: TEMP
+[14:15:00] 		 Test 1: PZ AVAL RU KERVIDY
+[14:15:00] 		 Test 2: BRGM
+[14:15:00] 		 Test : CHARGE HYDRAULIQUE
+[14:15:00] 		 Test 4: CHARG
+[14:15:00] 		 Test 1: PZ AVAL RU KERVIDY
+[14:15:00] 		 Test 2: BRGM
+[14:15:00] 		 Test : CHARGE HYDRAULIQUE
+[14:15:00] 		 Test 4: TEMP
+[14:15:00] 		 Test 1: BRGM
+[14:15:00] 		 Test 2: BRGM
+[14:15:00] 		 Test : CHARGE HYDRAULIQUE
+[14:15:00] 		 Test 4: CHARG
+[14:15:00] 		 station: KERV_B_BRG
+[14:15:00] 		 sensor: 101
+[14:15:00] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:15:00] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:17:55]  Demmarrage version : 1.0.0.0
+[14:17:55]  lecture de la configuration
+[14:17:55]  Rafraichissement de la configuration
+[14:18:01] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:18:01] 		 station : Charge hydraulique[cm]
+[14:18:01] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:18:01] 		 Test 2: BRGM
+[14:18:01] 		 Test : CHARGE HYDRAULIQUE
+[14:18:01] 		 Test 4: Nom_col_csv
+[14:18:01] 		 Test 1: BARO KERVIDY
+[14:18:01] 		 Test 2: BRGM
+[14:18:01] 		 Test : CHARGE HYDRAULIQUE
+[14:18:01] 		 Test 4: PRESS
+[14:18:01] 		 Test 1: BARO KERVIDY
+[14:18:01] 		 Test 2: BRGM
+[14:18:01] 		 Test : CHARGE HYDRAULIQUE
+[14:18:01] 		 Test 4: TEMP
+[14:18:01] 		 Test 1: PZ AVAL RU KERVIDY
+[14:18:01] 		 Test 2: BRGM
+[14:18:01] 		 Test : CHARGE HYDRAULIQUE
+[14:18:01] 		 Test 4: CHARG
+[14:18:01] 		 Test 1: PZ AVAL RU KERVIDY
+[14:18:01] 		 Test 2: BRGM
+[14:18:01] 		 Test : CHARGE HYDRAULIQUE
+[14:18:01] 		 Test 4: TEMP
+[14:18:01] 		 Test 1: BRGM
+[14:18:01] 		 Test 2: BRGM
+[14:18:01] 		 Test : CHARGE HYDRAULIQUE
+[14:18:01] 		 Test 4: CHARG
+[14:18:01] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:18:01] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:19:11]  Demmarrage version : 1.0.0.0
+[14:19:11]  lecture de la configuration
+[14:19:11]  Rafraichissement de la configuration
+[14:19:15] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:19:15] 		 station : Charge hydraulique[cm]
+[14:19:15] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:19:15] 		 Test 2: BRGM
+[14:19:15] 		 Test : CHARGE HYDRAULIQUE
+[14:19:15] 		 Test : CHARGE HYD
+[14:19:15] 		 Test 4: Nom_col_csv
+[14:19:15] 		 Test 1: BARO KERVIDY
+[14:19:15] 		 Test 2: BRGM
+[14:19:15] 		 Test : CHARGE HYDRAULIQUE
+[14:19:15] 		 Test : CHAR
+[14:19:15] 		 Test 4: PRESS
+[14:19:15] 		 Test 1: BARO KERVIDY
+[14:19:15] 		 Test 2: BRGM
+[14:19:15] 		 Test : CHARGE HYDRAULIQUE
+[14:19:15] 		 Test : CHA
+[14:19:15] 		 Test 4: TEMP
+[14:19:15] 		 Test 1: PZ AVAL RU KERVIDY
+[14:19:15] 		 Test 2: BRGM
+[14:19:15] 		 Test : CHARGE HYDRAULIQUE
+[14:19:15] 		 Test : CHAR
+[14:19:15] 		 Test 4: CHARG
+[14:19:15] 		 Test 1: PZ AVAL RU KERVIDY
+[14:19:15] 		 Test 2: BRGM
+[14:19:15] 		 Test : CHARGE HYDRAULIQUE
+[14:19:15] 		 Test : CHA
+[14:19:15] 		 Test 4: TEMP
+[14:19:15] 		 Test 1: BRGM
+[14:19:15] 		 Test 2: BRGM
+[14:19:15] 		 Test : CHARGE HYDRAULIQUE
+[14:19:15] 		 Test : CHAR
+[14:19:15] 		 Test 4: CHARG
+[14:19:15] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:19:15] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:19:49]  Demmarrage version : 1.0.0.0
+[14:19:49]  lecture de la configuration
+[14:19:49]  Rafraichissement de la configuration
+[14:19:50] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:19:50] 		 station : Charge hydraulique[cm]
+[14:19:50] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:19:50] 		 Test 2: BRGM
+[14:19:50] 		 Test : CHARGE HYDRAULIQUE
+[14:19:50] 		 Test : CHARGE HYDR
+[14:19:50] 		 Test 4: Nom_col_csv
+[14:19:50] 		 Test 1: BARO KERVIDY
+[14:19:50] 		 Test 2: BRGM
+[14:19:50] 		 Test : CHARGE HYDRAULIQUE
+[14:19:50] 		 Test : CHARG
+[14:19:50] 		 Test 4: PRESS
+[14:19:50] 		 Test 1: BARO KERVIDY
+[14:19:50] 		 Test 2: BRGM
+[14:19:50] 		 Test : CHARGE HYDRAULIQUE
+[14:19:50] 		 Test : CHAR
+[14:19:50] 		 Test 4: TEMP
+[14:19:50] 		 Test 1: PZ AVAL RU KERVIDY
+[14:19:50] 		 Test 2: BRGM
+[14:19:50] 		 Test : CHARGE HYDRAULIQUE
+[14:19:50] 		 Test : CHARG
+[14:19:50] 		 Test 4: CHARG
+[14:19:50] 		 Test 1: PZ AVAL RU KERVIDY
+[14:19:50] 		 Test 2: BRGM
+[14:19:50] 		 Test : CHARGE HYDRAULIQUE
+[14:19:50] 		 Test : CHAR
+[14:19:50] 		 Test 4: TEMP
+[14:19:50] 		 Test 1: BRGM
+[14:19:50] 		 Test 2: BRGM
+[14:19:50] 		 Test : CHARGE HYDRAULIQUE
+[14:19:50] 		 Test : CHARG
+[14:19:50] 		 Test 4: CHARG
+[14:19:50] 		 station: KERV_B_BRG
+[14:19:50] 		 sensor: 101
+[14:19:50] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:19:50] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:25:53]  Demmarrage version : 1.0.0.0
+[14:25:53]  lecture de la configuration
+[14:25:53]  Rafraichissement de la configuration
+[14:25:55] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:25:55] 		 station : Charge hydraulique[cm]
+[14:25:55] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:25:55] 		 Test 2: BRGM
+[14:25:55] 		 Test : CHARGE HYDRAULIQUE
+[14:25:55] 		 Test : CHARGE HYDR
+[14:25:55] 		 Test 4: Nom_col_csv
+[14:25:55] 		 Test 1: BARO KERVIDY
+[14:25:55] 		 Test 2: BRGM
+[14:25:55] 		 Test : CHARGE HYDRAULIQUE
+[14:25:55] 		 Test : CHARG
+[14:25:55] 		 Test 4: PRESS
+[14:25:55] 		 Test 1: BARO KERVIDY
+[14:25:55] 		 Test 2: BRGM
+[14:25:55] 		 Test : CHARGE HYDRAULIQUE
+[14:25:55] 		 Test : CHAR
+[14:25:55] 		 Test 4: TEMP
+[14:25:55] 		 Test 1: PZ AVAL RU KERVIDY
+[14:25:55] 		 Test 2: BRGM
+[14:25:55] 		 Test : CHARGE HYDRAULIQUE
+[14:25:55] 		 Test : CHARG
+[14:25:55] 		 Test 4: CHARG
+[14:25:55] 		 Test 1: PZ AVAL RU KERVIDY
+[14:25:55] 		 Test 2: BRGM
+[14:25:55] 		 Test : CHARGE HYDRAULIQUE
+[14:25:55] 		 Test : CHAR
+[14:25:55] 		 Test 4: TEMP
+[14:25:55] 		 Test 1: BRGM
+[14:25:55] 		 Test 2: BRGM
+[14:25:55] 		 Test : CHARGE HYDRAULIQUE
+[14:25:55] 		 Test : CHARG
+[14:25:55] 		 Test 4: CHARG
+[14:25:55] 		 station: KERV_B_BRG
+[14:25:55] 		 sensor: 101
+[14:25:55] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:25:55] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:29:30]  Demmarrage version : 1.0.0.0
+[14:29:30]  lecture de la configuration
+[14:29:30]  Rafraichissement de la configuration
+[14:29:32] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:29:32] 		 station : Charge hydraulique[cm]
+[14:29:32] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:29:32] 		 Test 2: BRGM
+[14:29:32] 		 Test : CHARGE HYDRAULIQUE
+[14:29:32] 		 Test : CHARGE HYDR
+[14:29:32] 		 Test 4: Nom_col_csv
+[14:29:32] 		 Test 1: BARO KERVIDY
+[14:29:32] 		 Test 2: BRGM
+[14:29:32] 		 Test : CHARGE HYDRAULIQUE
+[14:29:32] 		 Test : CHARG
+[14:29:32] 		 Test 4: PRESS
+[14:29:32] 		 Test 1: BARO KERVIDY
+[14:29:32] 		 Test 2: BRGM
+[14:29:32] 		 Test : CHARGE HYDRAULIQUE
+[14:29:32] 		 Test : CHAR
+[14:29:32] 		 Test 4: TEMP
+[14:29:32] 		 Test 1: PZ AVAL RU KERVIDY
+[14:29:32] 		 Test 2: BRGM
+[14:29:32] 		 Test : CHARGE HYDRAULIQUE
+[14:29:32] 		 Test : CHARG
+[14:29:32] 		 Test 4: CHARG
+[14:29:32] 		 Test 1: PZ AVAL RU KERVIDY
+[14:29:32] 		 Test 2: BRGM
+[14:29:32] 		 Test : CHARGE HYDRAULIQUE
+[14:29:32] 		 Test : CHAR
+[14:29:32] 		 Test 4: TEMP
+[14:29:32] 		 Test 1: BRGM
+[14:29:32] 		 Test 2: BRGM
+[14:29:32] 		 Test : CHARGE HYDRAULIQUE
+[14:29:32] 		 Test : CHARG
+[14:29:32] 		 Test 4: CHARG
+[14:29:32] 		 station: KERV_B_BRG
+[14:29:32] 		 sensor: 101
+[14:29:32] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:29:32] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:30:07]  Demmarrage version : 1.0.0.0
+[14:30:07]  lecture de la configuration
+[14:30:07]  Rafraichissement de la configuration
+[14:30:10] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:30:10] 		 station : Charge hydraulique[cm]
+[14:30:10] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:30:10] 		 Test 2: BRGM
+[14:30:10] 		 Test : CHARGE HYDRAULIQUE
+[14:30:10] 		 Test : CHARGE HYDR
+[14:30:10] 		 Test 4: Nom_col_csv
+[14:30:10] 		 Test 1: BARO KERVIDY
+[14:30:10] 		 Test 2: BRGM
+[14:30:10] 		 Test : CHARGE HYDRAULIQUE
+[14:30:10] 		 Test : CHARG
+[14:30:10] 		 Test 4: PRESS
+[14:30:10] 		 Test 1: BARO KERVIDY
+[14:30:10] 		 Test 2: BRGM
+[14:30:10] 		 Test : CHARGE HYDRAULIQUE
+[14:30:10] 		 Test : CHAR
+[14:30:10] 		 Test 4: TEMP
+[14:30:10] 		 Test 1: PZ AVAL RU KERVIDY
+[14:30:10] 		 Test 2: BRGM
+[14:30:10] 		 Test : CHARGE HYDRAULIQUE
+[14:30:10] 		 Test : CHARG
+[14:30:10] 		 Test 4: CHARG
+[14:30:10] 		 Test 1: PZ AVAL RU KERVIDY
+[14:30:10] 		 Test 2: BRGM
+[14:30:10] 		 Test : CHARGE HYDRAULIQUE
+[14:30:10] 		 Test : CHAR
+[14:30:10] 		 Test 4: TEMP
+[14:30:10] 		 Test 1: BRGM
+[14:30:10] 		 Test 2: BRGM
+[14:30:10] 		 Test : CHARGE HYDRAULIQUE
+[14:30:10] 		 Test : CHARG
+[14:30:10] 		 Test 4: CHARG
+[14:30:10] 		 station: KERV_B_BRG
+[14:30:10] 		 sensor: 101
+[14:30:10] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:30:10] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:42:06]  Demmarrage version : 1.0.0.0
+[14:42:06]  lecture de la configuration
+[14:42:06]  Rafraichissement de la configuration
+[14:42:11] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:42:11] 		 Recherche Station : Charge hydraulique[cm]
+[14:42:11] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:42:11] 		 Test 2: BRGM
+[14:42:11] 		 Test : CHARGE HYDRAULIQUE
+[14:42:11] 		 Test : CHARGE HYDR
+[14:42:11] 		 Test 4: Nom_col_csv
+[14:42:11] 		 Test 1: BARO KERVIDY
+[14:42:11] 		 Test 2: BRGM
+[14:42:11] 		 Test : CHARGE HYDRAULIQUE
+[14:42:11] 		 Test : CHARG
+[14:42:11] 		 Test 4: PRESS
+[14:42:11] 		 Test 1: BARO KERVIDY
+[14:42:11] 		 Test 2: BRGM
+[14:42:11] 		 Test : CHARGE HYDRAULIQUE
+[14:42:11] 		 Test : CHAR
+[14:42:11] 		 Test 4: TEMP
+[14:42:11] 		 Test 1: PZ AVAL RU KERVIDY
+[14:42:11] 		 Test 2: BRGM
+[14:42:11] 		 Test : CHARGE HYDRAULIQUE
+[14:42:11] 		 Test : CHARG
+[14:42:11] 		 Test 4: CHARG
+[14:42:11] 		 Test 1: PZ AVAL RU KERVIDY
+[14:42:11] 		 Test 2: BRGM
+[14:42:11] 		 Test : CHARGE HYDRAULIQUE
+[14:42:11] 		 Test : CHAR
+[14:42:11] 		 Test 4: TEMP
+[14:42:11] 		 Test 1: BRGM
+[14:42:11] 		 Test 2: BRGM
+[14:42:11] 		 Test : CHARGE HYDRAULIQUE
+[14:42:11] 		 Test : CHARG
+[14:42:11] 		 Test 4: CHARG
+[14:42:11] 		 station: KERV_B_BRG
+[14:42:11] 		 sensor: 101
+[14:42:11] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:42:11] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:42:54]  Demmarrage version : 1.0.0.0
+[14:42:54]  lecture de la configuration
+[14:42:54]  Rafraichissement de la configuration
+[14:42:57] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:42:57] 		 Recherche Station : Charge hydraulique[cm]
+[14:42:57] 		 Test : CHARGE HYDRAULIQUE
+[14:42:57] 		 Test : CHARGE HYDR
+[14:42:57] 		 Test 4: Nom_col_csv
+[14:42:57] 		 Test : CHARGE HYDRAULIQUE
+[14:42:57] 		 Test : CHARG
+[14:42:57] 		 Test 4: PRESS
+[14:42:57] 		 Test : CHARGE HYDRAULIQUE
+[14:42:57] 		 Test : CHAR
+[14:42:57] 		 Test 4: TEMP
+[14:42:57] 		 Test : CHARGE HYDRAULIQUE
+[14:42:57] 		 Test : CHARG
+[14:42:57] 		 Test 4: CHARG
+[14:42:57] 		 Test : CHARGE HYDRAULIQUE
+[14:42:57] 		 Test : CHAR
+[14:42:57] 		 Test 4: TEMP
+[14:42:57] 		 Test : CHARGE HYDRAULIQUE
+[14:42:57] 		 Test : CHARG
+[14:42:57] 		 Test 4: CHARG
+[14:42:57] 		 station: KERV_B_BRG
+[14:42:57] 		 sensor: 101
+[14:42:57] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:42:57] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:46:06]  Demmarrage version : 1.0.0.0
+[14:46:06]  lecture de la configuration
+[14:46:06]  Rafraichissement de la configuration
+[14:46:10] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:46:10] 		 Recherche Station : Charge hydraulique[cm]
+[14:46:10] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:46:10] 		 Test 2: BRGM
+[14:46:10] 		 Test : CHARGE HYDRAULIQUE
+[14:46:10] 		 Test : CHARGE HYDR
+[14:46:10] 		 Test 4: Nom_col_csv
+[14:46:10] 		 Test 1: BARO KERVIDY
+[14:46:10] 		 Test 2: BRGM
+[14:46:10] 		 Test : CHARGE HYDRAULIQUE
+[14:46:10] 		 Test : CHARG
+[14:46:10] 		 Test 4: PRESS
+[14:46:10] 		 Test 1: BARO KERVIDY
+[14:46:10] 		 Test 2: BRGM
+[14:46:10] 		 Test : CHARGE HYDRAULIQUE
+[14:46:10] 		 Test : CHAR
+[14:46:10] 		 Test 4: TEMP
+[14:46:10] 		 Test 1: PZ AVAL RU KERVIDY
+[14:46:10] 		 Test 2: BRGM
+[14:46:10] 		 Test : CHARGE HYDRAULIQUE
+[14:46:10] 		 Test : CHARG
+[14:46:10] 		 Test 4: CHARG
+[14:46:10] 		 Test 1: PZ AVAL RU KERVIDY
+[14:46:10] 		 Test 2: BRGM
+[14:46:10] 		 Test : CHARGE HYDRAULIQUE
+[14:46:10] 		 Test : CHAR
+[14:46:10] 		 Test 4: TEMP
+[14:46:10] 		 Test 1: BRGM
+[14:46:10] 		 Test 2: BRGM
+[14:46:10] 		 Test : CHARGE HYDRAULIQUE
+[14:46:10] 		 Test : CHARG
+[14:46:10] 		 Test 4: CHARG
+[14:46:10] 		 station: KERV_B_BRG
+[14:46:10] 		 sensor: 101
+[14:46:10] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:46:10] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:48:54]  Demmarrage version : 1.0.0.0
+[14:48:54]  lecture de la configuration
+[14:48:54]  Rafraichissement de la configuration
+[14:48:55] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:48:55] 		 Recherche Station : Charge hydraulique[cm]
+[14:48:55] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:48:56] 		 Test 2: BRGM
+[14:48:56] 		 Test : CHARGE HYDRAULIQUE
+[14:48:56] 		 Test : CHARGE HYDR
+[14:48:56] 		 Test 4: Nom_col_csv
+[14:48:56] 		 Test 1: BARO KERVIDY
+[14:48:56] 		 Test 2: BRGM
+[14:48:56] 		 Test : CHARGE HYDRAULIQUE
+[14:48:56] 		 Test : CHARG
+[14:48:56] 		 Test 4: PRESS
+[14:48:56] 		 Test 1: BARO KERVIDY
+[14:48:56] 		 Test 2: BRGM
+[14:48:56] 		 Test : CHARGE HYDRAULIQUE
+[14:48:56] 		 Test : CHAR
+[14:48:56] 		 Test 4: TEMP
+[14:48:56] 		 Test 1: PZ AVAL RU KERVIDY
+[14:48:56] 		 Test 2: BRGM
+[14:48:56] 		 Test : CHARGE HYDRAULIQUE
+[14:48:56] 		 Test : CHARG
+[14:48:56] 		 Test 4: CHARG
+[14:48:56] 		 Test 1: PZ AVAL RU KERVIDY
+[14:48:56] 		 Test 2: BRGM
+[14:48:56] 		 Test : CHARGE HYDRAULIQUE
+[14:48:56] 		 Test : CHAR
+[14:48:56] 		 Test 4: TEMP
+[14:48:56] 		 Test 1: BRGM
+[14:48:56] 		 Test 2: BRGM
+[14:48:56] 		 Test : CHARGE HYDRAULIQUE
+[14:48:56] 		 Test : CHARG
+[14:48:56] 		 Test 4: CHARG
+[14:48:56] 			 =========================== Trouve ===========================
+[14:48:56] 			 station: KERV_B_BRG
+[14:48:56] 			 sensor: 101
+[14:48:56] 		 Erreur : Pas de correspondance pour station :  brgm
+[14:48:56] 		                                  et sensor  :  CHARGE HYDRAULIQUE
+[14:52:43]  Demmarrage version : 1.0.0.0
+[14:52:43]  lecture de la configuration
+[14:52:43]  Rafraichissement de la configuration
+[14:53:24] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:53:24] 		 Recherche Station : Charge hydraulique[cm]
+[14:53:24] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : CHARGE HYDRAULIQUE
+[14:53:24] 		 Test : CHARGE HYDR
+[14:53:24] 		 Test 4: Nom_col_csv
+[14:53:24] 		 Test 1: BARO KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : CHARGE HYDRAULIQUE
+[14:53:24] 		 Test : CHARG
+[14:53:24] 		 Test 4: PRESS
+[14:53:24] 		 Test 1: BARO KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : CHARGE HYDRAULIQUE
+[14:53:24] 		 Test : CHAR
+[14:53:24] 		 Test 4: TEMP
+[14:53:24] 		 Test 1: PZ AVAL RU KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : CHARGE HYDRAULIQUE
+[14:53:24] 		 Test : CHARG
+[14:53:24] 		 Test 4: CHARG
+[14:53:24] 		 Test 1: PZ AVAL RU KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : CHARGE HYDRAULIQUE
+[14:53:24] 		 Test : CHAR
+[14:53:24] 		 Test 4: TEMP
+[14:53:24] 		 Test 1: BRGM
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : CHARGE HYDRAULIQUE
+[14:53:24] 		 Test : CHARG
+[14:53:24] 		 Test 4: CHARG
+[14:53:24] 			 =========================== Trouve ===========================
+[14:53:24] 			 station: KERV_B_BRG
+[14:53:24] 			 sensor: 101
+[14:53:24] 		 Recherche Station : Température[°C]
+[14:53:24] 		 Test 1: NOM_PT_MESURE_DIVER_OFFICE
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test 4: Nom_col_csv
+[14:53:24] 		 Test 1: BARO KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test 4: PRESS
+[14:53:24] 		 Test 1: BARO KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test 4: TEMP
+[14:53:24] 		 Test 1: PZ AVAL RU KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test 4: CHARG
+[14:53:24] 		 Test 1: PZ AVAL RU KERVIDY
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test 4: TEMP
+[14:53:24] 		 Test 1: BRGM
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test 4: CHARG
+[14:53:24] 		 Test 1: BRGM
+[14:53:24] 		 Test 2: BRGM
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test : TEMP
+[14:53:24] 		 Test 4: TEMP
+[14:53:24] 			 =========================== Trouve ===========================
+[14:53:24] 			 station: KERV_B_BRG
+[14:53:24] 			 sensor: 201
+[14:53:24] 	 Traitement du fichier fini
+[14:56:23]  Demmarrage version : 1.0.0.0
+[14:56:23]  lecture de la configuration
+[14:56:23]  Rafraichissement de la configuration
+[14:56:29] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[14:56:29] 		 Recherche Station : Charge hydraulique[cm]
+[14:56:29] 			 =========================== Trouve ===========================
+[14:56:29] 			 station: KERV_B_BRG
+[14:56:29] 			 sensor: 101
+[14:56:29] 		 Recherche Station : Température[°C]
+[14:56:29] 			 =========================== Trouve ===========================
+[14:56:29] 			 station: KERV_B_BRG
+[14:56:29] 			 sensor: 201
+[14:56:29] 	 Traitement du fichier fini
+[15:01:43]  Sortie de programme
+[15:01:47]  Demmarrage version : 1.0.0.0
+[15:01:47]  lecture de la configuration
+[15:01:47]  Rafraichissement de la configuration
+[15:01:52]  Demmarrage version : 1.0.0.0
+[15:01:52]  lecture de la configuration
+[15:01:52]  Rafraichissement de la configuration
+[15:02:09]  Sortie de programme
+[15:02:19]  Demmarrage version : 1.0.0.0
+[15:02:19]  lecture de la configuration
+[15:02:19]  Rafraichissement de la configuration
+[15:02:41]  Rafraichissement de la configuration
+[15:02:46] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[15:02:46] 		 Recherche Station : Charge hydraulique[cm]
+[15:02:46] 			 =========================== Trouve ===========================
+[15:02:46] 			 station: KERV_B_BRG
+[15:02:46] 			 sensor: 101
+[15:02:46] 		 Recherche Station : Température[°C]
+[15:02:46] 			 =========================== Trouve ===========================
+[15:02:46] 			 station: KERV_B_BRG
+[15:02:46] 			 sensor: 201
+[15:02:46] 	 Traitement du fichier fini
+[15:03:46]  lecture de la configuration
+[15:03:46]  Rafraichissement de la configuration
+[15:03:55] 	 Creation du fichier ZIP : C:\csvToMis\tests\archive\import [19-04-2021-15-03-55].zip
+[15:03:55] 	 Archive basedir \
+[15:03:55] 	 Fermeture du fichier ZIP
+[15:04:03] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[15:04:03] 		 Fichier csv non correct
+[15:05:03]  Sortie de programme
+[15:09:39]  Demmarrage version : 1.0.0.0
+[15:09:39]  lecture de la configuration
+[15:09:39]  Rafraichissement de la configuration
+[15:09:42] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[15:09:42] 		 Fichier csv non correct
+[15:09:50]  Demmarrage version : 1.0.0.0
+[15:09:50]  lecture de la configuration
+[15:09:50]  Rafraichissement de la configuration
+[15:09:52] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[15:09:52] 		 Fichier csv non correct
+[15:10:00] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[15:10:00] 		 Recherche Station : Charge hydraulique[cm]
+[15:10:00] 			 =========================== Trouve ===========================
+[15:10:00] 			 station: KERV_B_BRG
+[15:10:00] 			 sensor: 101
+[15:10:00] 		 Recherche Station : Température[°C]
+[15:10:00] 			 =========================== Trouve ===========================
+[15:10:00] 			 station: KERV_B_BRG
+[15:10:00] 			 sensor: 201
+[15:10:00] 	 Traitement du fichier fini
+[15:11:27]  lecture de la configuration
+[15:11:27]  Rafraichissement de la configuration
+[15:27:29]  Demmarrage version : 1.0.0.0
+[15:27:29]  lecture de la configuration
+[15:27:29]  Rafraichissement de la configuration
+[15:28:22]  lecture de la configuration
+[15:28:22]  Rafraichissement de la configuration
+[15:28:24]  Sortie de programme
+[15:31:50]  Demmarrage version : 1.0.0.0
+[15:31:50]  lecture de la configuration
+[15:31:50]  Rafraichissement de la configuration
+[15:32:13]  lecture de la configuration
+[15:32:13]  Rafraichissement de la configuration
+[15:44:31]  Demmarrage version : 1.0.0.0
+[15:44:31]  lecture de la configuration
+[15:44:31]  Rafraichissement de la configuration
+[15:47:10]  Demmarrage version : 1.0.0.0
+[15:47:10]  lecture de la configuration
+[15:47:10]  Rafraichissement de la configuration
+[15:57:38]  Demmarrage version : 1.0.0.0
+[15:57:38]  lecture de la configuration
+[15:57:38]  Rafraichissement de la configuration
+[15:58:08]  Rafraichissement de la configuration
+[15:58:11]  Sortie de programme
+[16:00:06]  Demmarrage version : 1.0.0.0
+[16:00:06]  lecture de la configuration
+[16:00:14]  Rafraichissement de la configuration
+[16:00:33]  Rafraichissement de la configuration
+[16:00:34]  Sortie de programme
+[16:02:09]  Demmarrage version : 1.0.0.0
+[16:02:09]  lecture de la configuration
+[16:02:09]  Rafraichissement de la configuration
+[16:02:53]  lecture de la configuration
+[16:02:53]  Rafraichissement de la configuration
+[16:02:55]  Sortie de programme
+[16:03:26]  Demmarrage version : 1.0.0.0
+[16:03:26]  lecture de la configuration
+[16:03:26]  Rafraichissement de la configuration
+[16:03:55]  Rafraichissement de la configuration
+[16:03:56]  Sortie de programme
+[16:06:20]  Demmarrage version : 1.0.0.0
+[16:06:20]  lecture de la configuration
+[16:06:20]  Rafraichissement de la configuration
+[16:06:23]  Sortie de programme
+[16:08:43]  Demmarrage version : 1.0.0.0
+[16:08:43]  lecture de la configuration
+[16:08:43]  Rafraichissement de la configuration
+[16:09:17]  Rafraichissement de la configuration
+[16:09:17]  Sortie de programme
+[16:09:45]  Demmarrage version : 1.0.0.0
+[16:09:45]  lecture de la configuration
+[16:09:45]  Rafraichissement de la configuration
+[16:11:06]  Demmarrage version : 1.0.0.0
+[16:11:07]  lecture de la configuration
+[16:11:07]  Rafraichissement de la configuration
+[16:11:09]  Sortie de programme
+[16:13:52]  Demmarrage version : 1.0.0.0
+[16:13:52]  lecture de la configuration
+[16:13:52]  Rafraichissement de la configuration
+[16:13:55]  Sortie de programme
+[16:24:20]  Demmarrage version : 1.0.0.0
+[16:24:20]  lecture de la configuration
+[16:24:20]  Rafraichissement de la configuration
+[16:25:01]  Demmarrage version : 1.0.0.0
+[16:25:01]  lecture de la configuration
+[16:25:01]  Rafraichissement de la configuration
+[16:27:17]  Demmarrage version : 1.0.0.0
+[16:27:17]  lecture de la configuration
+[16:27:17]  Rafraichissement de la configuration
+[16:27:20]  Sortie de programme
+[16:28:16]  Demmarrage version : 1.0.0.0
+[16:28:16]  lecture de la configuration
+[16:28:16]  Rafraichissement de la configuration
+[16:28:24] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:28:24] 		 Recherche Station : Charge hydraulique[cm]
+[16:28:39]  Demmarrage version : 1.0.0.0
+[16:28:39]  lecture de la configuration
+[16:28:39]  Rafraichissement de la configuration
+[16:28:45] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:28:45] 		 Recherche Station : Charge hydraulique[cm]
+[16:29:46]  Demmarrage version : 1.0.0.0
+[16:29:46]  lecture de la configuration
+[16:29:46]  Rafraichissement de la configuration
+[16:29:51] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:29:51] 		 Recherche Station : Charge hydraulique[cm]
+[16:30:20]  Demmarrage version : 1.0.0.0
+[16:30:20]  lecture de la configuration
+[16:30:20]  Rafraichissement de la configuration
+[16:30:32]  sauvegarde de la configuration
+[16:30:32]  Rafraichissement de la configuration
+[16:30:46]  Rafraichissement de la configuration
+[16:30:47]  Sortie de programme
+[16:30:48]  Demmarrage version : 1.0.0.0
+[16:30:48]  lecture de la configuration
+[16:30:48]  Rafraichissement de la configuration
+[16:30:54] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:30:54] 		 Recherche Station : Charge hydraulique[cm]
+[16:30:54] 			 =========================== Trouve ===========================
+[16:30:54] 			 station: KERV_B_BRG
+[16:30:54] 			 sensor: 101
+[16:30:54] 		 Recherche Station : Température[°C]
+[16:30:54] 			 =========================== Trouve ===========================
+[16:30:54] 			 station: KERV_B_BRG
+[16:30:54] 			 sensor: 201
+[16:30:54] 	 Traitement du fichier fini
+[16:30:59] 	 Traitement du fichier csv : C:\csvToMis\mikabug\baro kervidy_210414145339_BR027.CSV
+[16:30:59] 		 Recherche Station : Pression[cmH2O]
+[16:31:27]  Demmarrage version : 1.0.0.0
+[16:31:27]  lecture de la configuration
+[16:31:27]  Rafraichissement de la configuration
+[16:33:56]  Demmarrage version : 1.0.0.0
+[16:33:56]  lecture de la configuration
+[16:33:56]  Rafraichissement de la configuration
+[16:34:07] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:34:07] 		 Recherche Station : Charge hydraulique[cm]
+[16:34:43]  Demmarrage version : 1.0.0.0
+[16:34:43]  lecture de la configuration
+[16:34:43]  Rafraichissement de la configuration
+[16:34:45] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:34:45] 		 Recherche Station : Charge hydraulique[cm]
+[16:34:45] 		 Erreur : Pas de correspondance pour station :  pz aval ru kervidy
+[16:34:45] 		                                  et sensor  :  CHARGEHYDRAULIQUECM
+[16:34:52] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:34:52] 		 Recherche Station : Charge hydraulique[cm]
+[16:34:52] 			 =========================== Trouve ===========================
+[16:34:52] 			 station: KERV_B_BRG
+[16:34:52] 			 sensor: 101
+[16:34:52] 		 Erreur : Pas de correspondance pour station :  brgm
+[16:34:52] 		                                  et sensor  :  CHARGEHYDRAULIQUECM
+[16:35:29]  Demmarrage version : 1.0.0.0
+[16:35:29]  lecture de la configuration
+[16:35:29]  Rafraichissement de la configuration
+[16:35:31] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:35:31] 		 Recherche Station : Charge hydraulique[cm]
+[16:35:31] 			 =========================== Trouve ===========================
+[16:35:31] 			 station: KERV_B_BRG
+[16:35:32] 			 sensor: 101
+[16:35:32] 		 Recherche Station : Température[°C]
+[16:35:32] 			 =========================== Trouve ===========================
+[16:35:32] 			 station: KERV_B_BRG
+[16:35:32] 			 sensor: 201
+[16:35:32] 	 Traitement du fichier fini
+[16:35:35] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:35:35] 		 Recherche Station : Charge hydraulique[cm]
+[16:35:55]  Demmarrage version : 1.0.0.0
+[16:35:55]  lecture de la configuration
+[16:35:55]  Rafraichissement de la configuration
+[16:35:57] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:35:57] 		 Recherche Station : Charge hydraulique[cm]
+[16:45:05]  Demmarrage version : 1.0.0.0
+[16:45:05]  lecture de la configuration
+[16:45:05]  Rafraichissement de la configuration
+[16:45:14] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:45:14] 		 Recherche Station : Charge hydraulique[cm]
+[16:45:14] 			 =========================== Trouve ===========================
+[16:45:14] 			 station: KERV_B_BRG
+[16:45:14] 			 sensor: 101
+[16:45:14] 		 Recherche Station : Température[°C]
+[16:45:14] 			 =========================== Trouve ===========================
+[16:45:14] 			 station: KERV_B_BRG
+[16:45:14] 			 sensor: 201
+[16:45:14] 		 Erreur : Pas de correspondance pour station :  brgm
+[16:45:14] 		                                  et sensor  :  TEMPRATUREC
+[16:47:13]  Demmarrage version : 1.0.0.0
+[16:47:14]  lecture de la configuration
+[16:47:14]  Rafraichissement de la configuration
+[16:47:18] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:47:18] 		 Recherche Station : Charge hydraulique[cm]
+[16:47:18] 			 =========================== Trouve ===========================
+[16:47:18] 			 station: KERV_B_BRG
+[16:47:18] 			 sensor: 101
+[16:47:21] 		 Recherche Station : Température[°C]
+[16:47:21] 			 =========================== Trouve ===========================
+[16:47:21] 			 station: KERV_B_BRG
+[16:47:21] 			 sensor: 201
+[16:47:24] 	 Traitement du fichier fini
+[16:47:42]  Demmarrage version : 1.0.0.0
+[16:47:42]  lecture de la configuration
+[16:47:42]  Rafraichissement de la configuration
+[16:47:46] 	 Traitement du fichier csv : C:\csvToMis\mikabug\Codes_ Hydras_Diver_Office_naizin.csv
+[16:47:46] 		 Fichier csv non correct
+[16:47:53] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:47:53] 		 Recherche Station : Charge hydraulique[cm]
+[16:49:13]  Demmarrage version : 1.0.0.0
+[16:49:13]  lecture de la configuration
+[16:49:13]  Rafraichissement de la configuration
+[16:49:16] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:49:16] 		 Recherche Station : Charge hydraulique[cm]
+[16:49:39]  Demmarrage version : 1.0.0.0
+[16:49:39]  lecture de la configuration
+[16:49:39]  Rafraichissement de la configuration
+[16:49:50] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:49:51] 		 Recherche Station : Charge hydraulique[cm]
+[16:50:53]  Demmarrage version : 1.0.0.0
+[16:50:53]  lecture de la configuration
+[16:50:53]  Rafraichissement de la configuration
+[16:50:56] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:50:56] 		 Recherche Station : Charge hydraulique[cm]
+[16:50:58] 		 Erreur : Pas de correspondance pour station :  pz aval ru kervidy
+[16:50:58] 		                                  et sensor  :  CHARGEHYDRAULIQUECM
+[16:51:11] 	 Traitement du fichier csv : C:\csvToMis\mikabug\brgm_210416214334_BN668.CSV
+[16:51:11] 		 Recherche Station : Charge hydraulique[cm]
+[16:51:11] 			 =========================== Trouve ===========================
+[16:51:11] 			 station: KERV_B_BRG
+[16:51:11] 			 sensor: 101
+[16:51:13] 		 Recherche Station : Température[°C]
+[16:51:13] 			 =========================== Trouve ===========================
+[16:51:13] 			 station: KERV_B_BRG
+[16:51:13] 			 sensor: 201
+[16:51:21] 	 Traitement du fichier fini
+[16:51:25]  Sortie de programme
+[16:53:55]  Demmarrage version : 1.0.0.0
+[16:53:55]  lecture de la configuration
+[16:53:55]  Rafraichissement de la configuration
+[16:53:59]  Demmarrage version : 1.0.0.0
+[16:53:59]  lecture de la configuration
+[16:53:59]  Rafraichissement de la configuration
+[16:54:16] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:54:16] 		 Recherche Station : Charge hydraulique[cm]
+[16:54:16] 		 Erreur : Pas de correspondance pour station :  pz aval ru kervidy
+[16:54:16] 		                                  et sensor  :  CHARGEHYDRAULIQUECM
+[16:56:54]  sauvegarde de la configuration
+[16:56:54]  Rafraichissement de la configuration
+[16:57:01] 	 Traitement du fichier csv : C:\csvToMis\mikabug\pz aval ru kervidy_210414145929_F6033.CSV
+[16:57:01] 		 Recherche Station : Charge hydraulique[cm]
+[16:57:01] 			 =========================== Trouve ===========================
+[16:57:01] 			 station: KERV_B_AVA
+[16:57:01] 			 sensor: 101
+[16:57:01] 		 Recherche Station : Température[°C]
+[16:57:01] 			 =========================== Trouve ===========================
+[16:57:01] 			 station: KERV_B_AVA
+[16:57:01] 			 sensor: 201
+[16:57:01] 	 Traitement du fichier fini
+[16:57:39]  Sortie de programme
+[16:58:26]  Demmarrage version : 1.0.0.0
+[16:58:26]  lecture de la configuration
+[16:58:26]  Rafraichissement de la configuration
+[16:58:40]  Sortie de programme

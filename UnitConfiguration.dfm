@@ -1,6 +1,6 @@
 object FormConfiguration: TFormConfiguration
-  Left = 740
-  Top = 227
+  Left = 1153
+  Top = 257
   BorderStyle = bsToolWindow
   Caption = 'Configuration'
   ClientHeight = 514
@@ -150,7 +150,7 @@ object FormConfiguration: TFormConfiguration
         Width = 400
         Height = 113
         Hint = 'ArchiveFolder'
-        ActivePage = TabSheet1
+        ActivePage = TabSheet3
         TabOrder = 1
         object TabSheet1: TTabSheet
           Caption = 'Source Csv'

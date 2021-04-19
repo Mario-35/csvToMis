@@ -88,6 +88,7 @@ type
     procedure SaveStringGrid;
     procedure LoadStringGrid;
     procedure resizeCsv;
+    function testFormat(input: string): string;
 
 // ********************************************************************************************************************
 // *                                            Actions et traitements                                                *
@@ -96,7 +97,6 @@ type
     procedure SpeedButton2Click(Sender: TObject);
     procedure SpeedButton3Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
-    function testFormat(input: string): string;
   private
     procedure LogLine(Indent: Integer; AMessage: string);
     function readEnTry(Entry: string; DefaultValue: string): string; Overload;
@@ -614,6 +614,12 @@ begin
     StringGridCsv.Cells[StringGridCsv.ColCount - 1,0] := 'Calcul';
     StringGridCsv.Cells[StringGridCsv.ColCount - 2,0] := 'Test';
   End;
+
+
+        for i := 0 to StringGridCsv.RowCount - 1 do Begin
+        StringGridCsv.Cells[2, i] := testFormat(StringGridCsv.Cells[2, i]);
+      End;
+
   resizeCsv();
 
 
@@ -624,7 +630,18 @@ begin
 
 end;
 
-
+ function TFormConfiguration.testFormat(input: string): string;
+const
+  CHARS = ['0'..'9', 'A'..'Z'];
+var
+  i: Integer;
+begin
+result := '';
+  input := trim(uppercase(input));
+  for i := 1 to Length(input) do
+    If (input[i] in CHARS) then
+      result := result + input[i];
+end;
 
 procedure TFormConfiguration.resizeCsv;
 var
@@ -706,34 +723,21 @@ begin
         Cells[i, k] := data[index];
         inc(index);
       End;
+
+
+
   end;
   Data.Free;
+
+
   resizeCsv();
-end;
 
 
-function TFormConfiguration.testFormat(input: string): string;
-const 
-  Char_Accents      = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ,."!@#$%^&*(){}[]-_\|/?=+;:`~';
-
-var
-  position, i: integer;
-
-Begin
- For i := 1 to Length(Char_Accents) do
- begin
-  position := AnsiPos(Char_Accents[i], input);
-  if position > 0
-    Then begin
-      result := Copy(input, 0, position-1);
-      exit;
-    end;
- end;
-  position := AnsiPos(' ', input);
-  if position > 0
-    Then result := Copy(input, 0, position-1);
 
 end;
+
+
+
 
 procedure TFormConfiguration.BitBtn1Click(Sender: TObject);
 var i,k : integer;

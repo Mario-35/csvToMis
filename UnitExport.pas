@@ -45,6 +45,8 @@ type
     RichEditLogs: TRichEdit;
     Actuel1: TMenuItem;
 
+    procedure WMDropFiles(var Msg: TWMDropFiles); message WM_DROPFILES;
+
     procedure RefreshStatus(newState: TProcessType);
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -61,7 +63,6 @@ type
 
     procedure Actuel1Click(Sender: TObject);
   private
-    TrayIconData: TNotifyIconData;
     ligne: string;
   public
     procedure LogLine(Indent: Integer; AMessage: string);
@@ -100,17 +101,7 @@ procedure TExport.FormCreate(Sender: TObject);
         LabelMonitoring.Width := Export.Width - ToolBarExport.Width;
         LabelMonitoring.Height := ToolBarExport.Height;
         Mnu.OwnerDraw:=True;
-        With TrayIconData
-          Do Begin
-            cbSize := SizeOf(TrayIconData);
-            Wnd := Handle;
-            uID := 0;
-            uFlags := NIF_MESSAGE + NIF_ICON + NIF_TIP;
-            uCallbackMessage := WM_ICONTRAY;
-            hIcon := Application.Icon.Handle;
-            StrPCopy(szTip, Application.Title);
-          End;
-        Shell_NotifyIcon(NIM_ADD, @TrayIconData);
+
 
         StatusBarMain.Panels[0].Text := 'ver : ' + APP_VERSION;
 
@@ -137,7 +128,53 @@ procedure TExport.FormCreate(Sender: TObject);
           End;
         Self.PopupMenu := PopupMenuLogs;
 
+        DragAcceptFiles(Self.Handle, True);
+
     End;
+
+
+
+
+
+procedure TExport.WMDropFiles(var Msg: TWMDropFiles);
+var
+  DropH: HDROP;               // drop handle
+  DroppedFileCount: Integer;  // number of files dropped
+  FileNameLength: Integer;    // length of a dropped file name
+  FileName: string;           // a dropped file name
+
+  DropPoint: TPoint;          // point where files dropped
+
+begin
+  inherited;
+  // Store drop handle from the message
+  DropH := Msg.Drop;
+  try
+    // Get count of files dropped
+    DroppedFileCount := DragQueryFile(DropH, $FFFFFFFF, nil, 0);
+    // Get name of each file dropped and process it
+    if (DroppedFileCount = 1) Then
+    begin
+      // get length of file name
+      FileNameLength := DragQueryFile(DropH, 0, nil, 0);
+      // create string large enough to store file
+      SetLength(FileName, FileNameLength);
+      // get the file name
+      DragQueryFile(DropH, 0, PChar(FileName), FileNameLength + 1);
+      // process file name (application specific)
+      exportToMis(PChar(FileName));
+    end;
+    // Optional: Get point at which files were dropped
+    DragQueryPoint(DropH, DropPoint);
+    // ... do something with drop point here
+  finally
+    // Tidy up - release the drop handle
+    // don't use DropH again after this
+    DragFinish(DropH);
+  end;
+  // Note we handled message
+  Msg.Result := 0;
+end;
 
 procedure TExport.QuitterClick(Sender: TObject);
     Begin
@@ -147,7 +184,6 @@ procedure TExport.QuitterClick(Sender: TObject);
 procedure TExport.FormDestroy(Sender: TObject);
   Begin
     LogLine(0, 'Sortie de programme');
-    Shell_NotifyIcon(NIM_DELETE, @TrayIconData);
   End;
 
 procedure TExport.LogLine(Indent: Integer; AMessage: string);
@@ -330,7 +366,12 @@ function TExport.exportToMis(Filename: String): boolean;
 
     // supprime entete indesirable
     While Not AnsiStartsStr(_TEST, AnsiLowerCase(_FILEIN[0]))
-      Do _FILEIN.Delete(0);
+      Do If _FILEIN.Count -1 >= 1
+        Then _FILEIN.Delete(0)
+        Else Begin
+          LogLine(2 , 'Fichier csv non correct');
+          exit;
+        End;
 
     // verifie (si fin de fichier ...)
     If Not AnsiStartsStr(_TEST, AnsiLowerCase(_FILEIN[0])) Then
@@ -355,7 +396,7 @@ function TExport.exportToMis(Filename: String): boolean;
 
     For i := 1 to _ENTETE.Count - 1 Do
     Begin
-      LogLine(2 , 'station : ' + _ENTETE[i]);
+      LogLine(2 , 'Recherche Station : ' + _ENTETE[i]);
       test := trim(AnsiUpperCase(FormConfiguration.testFormat(_ENTETE[i])));
       // cherche la colonne de correspondance
       trouve := -1;
@@ -363,17 +404,16 @@ function TExport.exportToMis(Filename: String): boolean;
       while trouve = -1 Do
       begin
         if AnsiUpperCase(FormConfiguration.StringGridCsv.Cells[1,k]) = AnsiUpperCase(station) Then
-          if AnsiContainsText(test, FormConfiguration.StringGridCsv.Cells[2,k]) Then
+          if test = FormConfiguration.StringGridCsv.Cells[2,k] Then
             begin
               trouve := k;
-              LogLine(2 , 'station: ' + FormConfiguration.StringGridCsv.Cells[3,trouve]);
-              LogLine(2 , 'sensor: ' + FormConfiguration.StringGridCsv.Cells[4,trouve]);
+              LogLine(3 , '=========================== Trouve ===========================');
+              LogLine(3 , 'station: ' + FormConfiguration.StringGridCsv.Cells[3,trouve]);
+              LogLine(3 , 'sensor: ' + FormConfiguration.StringGridCsv.Cells[4,trouve]);
             end;
         inc(k);
-        if (k >= FormConfiguration.StringGridCsv.RowCount - 1) Then trouve := -2;
+         if k > FormConfiguration.StringGridCsv.RowCount Then trouve := -2;
       end;
-
-
       if trouve > 0 Then
       Begin
         if Length(FormConfiguration.StringGridCsv.Cells[6,trouve]) > 0 Then
@@ -398,19 +438,17 @@ function TExport.exportToMis(Filename: String): boolean;
         _TEMP.Text := AnsiReplaceText(_FILEIN[j], _SEPARATEUR, #13+#10);
         if (_TEMP.count - 1 >= i)  Then
         Begin
-        showmessage(_TEMP.text);
           position := ansiPos(' ',_TEMP[0]);
           if position > 1 Then
           Begin
-            if  copy(_TEMP[0],0,position)[2] = '/'
+            // DD/MM/YYYY
+            if  copy(_TEMP[0],0,position)[3] = '/'
               Then _DATE := trim(AnsiReplaceText(copy(_TEMP[0],0,position),'/',''))
-            else if copy(_TEMP[0],0,position)[3] = '/' Then Begin
-            showmessage('uhbeotuhdtnoedhutheod');
+              // YYYY/MM/DD
+            else if copy(_TEMP[0],0,position)[5] = '/' Then Begin
+            _DATE := copy(_TEMP[0],9,2) + copy(_TEMP[0],6,2) + copy(_TEMP[0],0,4);
             End;
             _HEURE := trim(AnsiReplaceText(copy(_TEMP[0], position, 10),':',''));
-
-            showmessage(_DATE);
-            showmessage(_HEURE);
 
             if (trim(_TEMP[i]) <> '') Then
             begin
