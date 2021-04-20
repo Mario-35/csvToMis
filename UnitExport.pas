@@ -442,14 +442,13 @@ function TExport.exportToMis(Filename: String): boolean;
           if position > 1 Then
           Begin
             // DD/MM/YYYY
-            if  copy(_TEMP[0],0,position)[3] = '/'
+            if  copy(_TEMP[0],0,position)[5] = '/'
               Then _DATE := trim(AnsiReplaceText(copy(_TEMP[0],0,position),'/',''))
               // YYYY/MM/DD
-            else if copy(_TEMP[0],0,position)[5] = '/' Then Begin
-            _DATE := copy(_TEMP[0],9,2) + copy(_TEMP[0],6,2) + copy(_TEMP[0],0,4);
-            End;
-            _HEURE := trim(AnsiReplaceText(copy(_TEMP[0], position, 10),':',''));
+            else if copy(_TEMP[0],0,position)[3] = '/'
+              Then _DATE := copy(_TEMP[0],9,2) + copy(_TEMP[0],6,2) + copy(_TEMP[0],0,4);
 
+            _HEURE := trim(AnsiReplaceText(copy(_TEMP[0], position, 10),':',''));
             if (trim(_TEMP[i]) <> '') Then
             begin
               _VALEUR := AnsiReplaceText(_TEMP[i],',','.');
